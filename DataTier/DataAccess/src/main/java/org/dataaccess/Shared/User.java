@@ -22,11 +22,13 @@ public class User implements Serializable
 
     private String type;
 
+    private String phone = "";
+
     @OneToOne(mappedBy = "user")
     private Cart cart;
 
     @OneToOne(cascade = CascadeType.MERGE)
-    @JoinColumn(name = "address")
+    @JoinColumn(name = "address_id")
     private Address address;
 
     public User() {
@@ -37,6 +39,19 @@ public class User implements Serializable
         this.password = password;
         this.f_name = f_name;
         this.l_name = l_name;
+    }
+
+    public User(String username, String password, String f_name, String l_name, Address address) {
+        this.username = username;
+        this.password = password;
+        this.f_name = f_name;
+        this.l_name = l_name;
+        this.address = address;
+    }
+
+    public User(String username, Address address) {
+        this.username = username;
+        this.address = address;
     }
 
     public String getUsername() {
@@ -87,12 +102,28 @@ public class User implements Serializable
         this.type = type;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
     public Cart getCart() {
         return cart;
     }
 
     public void setCart(Cart cart) {
         this.cart = cart;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }
 

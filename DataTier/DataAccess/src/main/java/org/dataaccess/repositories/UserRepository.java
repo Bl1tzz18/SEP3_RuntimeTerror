@@ -18,4 +18,8 @@ public interface UserRepository extends JpaRepository<User, String>
     @Modifying(clearAutomatically = true)
     @Query("UPDATE User SET credits = ?1 WHERE username = ?2")
     void changeCredits(int credits, String userName);
+
+    @Modifying
+    @Query("UPDATE User SET f_name = ?2, l_name = ?3, phone = ?4 WHERE username = ?1")
+    void updateUserInformation(String username, String f_name, String l_name, String phone);
 }

@@ -73,3 +73,18 @@ D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Application\obj\Debug\net6.0
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\refint\Application.dll
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.pdb
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\ref\Application.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\bin\Debug\net6.0\Application.deps.json
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\bin\Debug\net6.0\Application.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\bin\Debug\net6.0\Application.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\bin\Debug\net6.0\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\bin\Debug\net6.0\Shared.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\refint\Application.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\Application.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Application\obj\Debug\net6.0\ref\Application.dll

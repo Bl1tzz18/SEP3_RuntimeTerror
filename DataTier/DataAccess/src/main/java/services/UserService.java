@@ -3,6 +3,7 @@ package services;
 import io.grpc.stub.StreamObserver;
 import org.dataaccess.DAOInterfaces.CartDAO;
 import org.dataaccess.DAOInterfaces.UserDAO;
+import org.dataaccess.mappers.AddressMapper;
 import org.dataaccess.mappers.UserMapper;
 import org.dataaccess.protobuf.*;
 import org.dataaccess.protobuf.Void;
@@ -49,6 +50,10 @@ public class UserService extends UserServiceGrpc.UserServiceImplBase
                 request.getFName(),
                 request.getLName());
 
+        org.dataaccess.Shared.Address address = new org.dataaccess.Shared.Address();
+
+        user.setAddress(address);
+
         org.dataaccess.Shared.User registerUser = userDAO.registerUser(user);
 
         responseObserver.onNext(UserMapper.mapProto(registerUser));
@@ -87,6 +92,42 @@ public class UserService extends UserServiceGrpc.UserServiceImplBase
     public void removeCredits(CreditsUser request, StreamObserver<Void> responseObserver)
     {
         userDAO.removeCredits(request.getCredits(), request.getUsername());
+
+        responseObserver.onNext(Void.newBuilder().build());
+        responseObserver.onCompleted();
+    }
+
+//    @Transactional
+//    @Override
+//    public void updateUserAddress(UserAddress request, StreamObserver<Void> responseObserver)
+//    {
+//        org.dataaccess.Shared.User user = new org.dataaccess.Shared.User(
+//                request.getUsername(),
+//                AddressMapper.mapToShared(request.getAddress())
+//        );
+//
+//        userDAO.updateUserAddress(user);
+//
+//        responseObserver.onNext(Void.newBuilder().build());
+//        responseObserver.onCompleted();
+//    }
+
+    @Transactional
+    @Override
+    public void updateUserInformation(UserInfo request, StreamObserver<Void> responseObserver)
+    {
+        org.dataaccess.Shared.User user = new org.dataaccess.Shared.User();
+
+        user.setUsername(request.getUsername());
+        user.setF_name(request.getFName());
+        user.setL_name(request.getLName());
+        user.setPhone(request.getPhone());
+
+        org.dataaccess.Shared.Address address = AddressMapper.mapToShared(request.getAddress());
+
+        user.setAddress(address);
+
+        userDAO.updateUserInformation(user);
 
         responseObserver.onNext(Void.newBuilder().build());
         responseObserver.onCompleted();

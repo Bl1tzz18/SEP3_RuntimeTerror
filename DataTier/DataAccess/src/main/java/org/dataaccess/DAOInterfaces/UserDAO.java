@@ -13,4 +13,6 @@ public interface UserDAO
     void addCredits(int credits, String userName);
 
     void removeCredits(int credits, String userName);
+
+    void updateUserInformation(User user);
 }

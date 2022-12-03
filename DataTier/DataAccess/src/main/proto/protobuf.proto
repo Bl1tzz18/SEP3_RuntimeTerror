@@ -9,6 +9,7 @@ service UserService{
   rpc FindUser(SearchField) returns (User);
   rpc AddCredits(CreditsUser) returns (Void);
   rpc RemoveCredits(CreditsUser) returns(Void);
+  rpc UpdateUserInformation(UserInfo) returns (Void);
 }
 
 service ProductService{
@@ -63,6 +64,14 @@ message LoginUser{
 message CreditsUser{
   int32 credits = 1;
   string username = 2;
+}
+
+message UserInfo{
+  string username = 1;
+  string f_name = 2;
+  string l_name = 3;
+  string phone = 4;
+  Address address = 5;
 }
 
 

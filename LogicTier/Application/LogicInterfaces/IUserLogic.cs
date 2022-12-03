@@ -12,4 +12,6 @@ public interface IUserLogic
      Task AddCreditsAsync(int credits, string username);
 
      Task RemoveCreditsAsync(int credits, string username);
+
+     Task UpdateUserAddressAsync(UserInfoCreationDTO dto);
 }

@@ -13,6 +13,8 @@ public abstract class UserMapper
                 .setLName(user.getL_name())
                 .setCredits(user.getCredits())
                 .setType(user.getType())
+                .setPhone(user.getPhone())
+                .setAddress(AddressMapper.mapToProto(user.getAddress()))
                 .build();
     }
 }

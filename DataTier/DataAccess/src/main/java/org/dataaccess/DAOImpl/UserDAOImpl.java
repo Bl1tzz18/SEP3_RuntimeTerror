@@ -2,6 +2,7 @@ package org.dataaccess.DAOImpl;
 
 import org.dataaccess.DAOInterfaces.UserDAO;
 import org.dataaccess.Shared.User;
+import org.dataaccess.repositories.AddressRepository;
 import org.dataaccess.repositories.CartRepository;
 import org.dataaccess.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ public class UserDAOImpl implements UserDAO
     private UserRepository userRepository;
 
     @Autowired
-    private CartRepository cartRepository;
+    private AddressRepository addressRepository;
 
     public UserDAOImpl()
     {
@@ -66,5 +67,13 @@ public class UserDAOImpl implements UserDAO
         User findUser = userRepository.findUser(userName);
         if (findUser!= null)
             userRepository.changeCredits(findUser.getCredits()-credits, findUser.getUsername());
+    }
+
+    @Override
+    public void updateUserInformation(User user) {
+        addressRepository.updateUserAddress(user.getUsername(), user.getAddress().getCountry(), user.getAddress().getCity()
+                , user.getAddress().getZip(), user.getAddress().getStreet());
+
+        userRepository.updateUserInformation(user.getUsername(), user.getF_name(), user.getL_name(), user.getPhone());
     }
 }

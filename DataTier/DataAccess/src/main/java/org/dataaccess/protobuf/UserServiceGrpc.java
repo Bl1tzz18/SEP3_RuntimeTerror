@@ -169,6 +169,37 @@ public final class UserServiceGrpc {
     return getRemoveCreditsMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<org.dataaccess.protobuf.UserInfo,
+      org.dataaccess.protobuf.Void> getUpdateUserInformationMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "UpdateUserInformation",
+      requestType = org.dataaccess.protobuf.UserInfo.class,
+      responseType = org.dataaccess.protobuf.Void.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<org.dataaccess.protobuf.UserInfo,
+      org.dataaccess.protobuf.Void> getUpdateUserInformationMethod() {
+    io.grpc.MethodDescriptor<org.dataaccess.protobuf.UserInfo, org.dataaccess.protobuf.Void> getUpdateUserInformationMethod;
+    if ((getUpdateUserInformationMethod = UserServiceGrpc.getUpdateUserInformationMethod) == null) {
+      synchronized (UserServiceGrpc.class) {
+        if ((getUpdateUserInformationMethod = UserServiceGrpc.getUpdateUserInformationMethod) == null) {
+          UserServiceGrpc.getUpdateUserInformationMethod = getUpdateUserInformationMethod =
+              io.grpc.MethodDescriptor.<org.dataaccess.protobuf.UserInfo, org.dataaccess.protobuf.Void>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "UpdateUserInformation"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  org.dataaccess.protobuf.UserInfo.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  org.dataaccess.protobuf.Void.getDefaultInstance()))
+              .setSchemaDescriptor(new UserServiceMethodDescriptorSupplier("UpdateUserInformation"))
+              .build();
+        }
+      }
+    }
+    return getUpdateUserInformationMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -252,6 +283,13 @@ public final class UserServiceGrpc {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getRemoveCreditsMethod(), responseObserver);
     }
 
+    /**
+     */
+    public void updateUserInformation(org.dataaccess.protobuf.UserInfo request,
+        io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Void> responseObserver) {
+      io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getUpdateUserInformationMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -289,6 +327,13 @@ public final class UserServiceGrpc {
                 org.dataaccess.protobuf.CreditsUser,
                 org.dataaccess.protobuf.Void>(
                   this, METHODID_REMOVE_CREDITS)))
+          .addMethod(
+            getUpdateUserInformationMethod(),
+            io.grpc.stub.ServerCalls.asyncUnaryCall(
+              new MethodHandlers<
+                org.dataaccess.protobuf.UserInfo,
+                org.dataaccess.protobuf.Void>(
+                  this, METHODID_UPDATE_USER_INFORMATION)))
           .build();
     }
   }
@@ -346,6 +391,14 @@ public final class UserServiceGrpc {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getRemoveCreditsMethod(), getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void updateUserInformation(org.dataaccess.protobuf.UserInfo request,
+        io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Void> responseObserver) {
+      io.grpc.stub.ClientCalls.asyncUnaryCall(
+          getChannel().newCall(getUpdateUserInformationMethod(), getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -395,6 +448,13 @@ public final class UserServiceGrpc {
     public org.dataaccess.protobuf.Void removeCredits(org.dataaccess.protobuf.CreditsUser request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getRemoveCreditsMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public org.dataaccess.protobuf.Void updateUserInformation(org.dataaccess.protobuf.UserInfo request) {
+      return io.grpc.stub.ClientCalls.blockingUnaryCall(
+          getChannel(), getUpdateUserInformationMethod(), getCallOptions(), request);
     }
   }
 
@@ -451,6 +511,14 @@ public final class UserServiceGrpc {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getRemoveCreditsMethod(), getCallOptions()), request);
     }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<org.dataaccess.protobuf.Void> updateUserInformation(
+        org.dataaccess.protobuf.UserInfo request) {
+      return io.grpc.stub.ClientCalls.futureUnaryCall(
+          getChannel().newCall(getUpdateUserInformationMethod(), getCallOptions()), request);
+    }
   }
 
   private static final int METHODID_CREATE_USER = 0;
@@ -458,6 +526,7 @@ public final class UserServiceGrpc {
   private static final int METHODID_FIND_USER = 2;
   private static final int METHODID_ADD_CREDITS = 3;
   private static final int METHODID_REMOVE_CREDITS = 4;
+  private static final int METHODID_UPDATE_USER_INFORMATION = 5;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -494,6 +563,10 @@ public final class UserServiceGrpc {
           break;
         case METHODID_REMOVE_CREDITS:
           serviceImpl.removeCredits((org.dataaccess.protobuf.CreditsUser) request,
+              (io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Void>) responseObserver);
+          break;
+        case METHODID_UPDATE_USER_INFORMATION:
+          serviceImpl.updateUserInformation((org.dataaccess.protobuf.UserInfo) request,
               (io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Void>) responseObserver);
           break;
         default:
@@ -562,6 +635,7 @@ public final class UserServiceGrpc {
               .addMethod(getFindUserMethod())
               .addMethod(getAddCreditsMethod())
               .addMethod(getRemoveCreditsMethod())
+              .addMethod(getUpdateUserInformationMethod())
               .build();
         }
       }

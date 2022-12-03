@@ -88,6 +88,21 @@ public class UserController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpPut("changeUserInfo")]
+    public async Task<IActionResult> ChangeAddressAsync(UserInfoCreationDTO dto)
+    {
+        try
+        {
+            await UserLogic.UpdateUserAddressAsync(dto);
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
     
     
     // JWT - Auth

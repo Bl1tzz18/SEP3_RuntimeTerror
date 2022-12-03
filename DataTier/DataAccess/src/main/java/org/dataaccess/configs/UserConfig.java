@@ -1,16 +1,5 @@
 package org.dataaccess.configs;
 
-import org.dataaccess.Shared.Product;
-import org.dataaccess.Shared.User;
-import org.dataaccess.repositories.ProductRepository;
-import org.dataaccess.repositories.UserRepository;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-import java.util.ArrayList;
-import java.util.List;
-
 //@Configuration
 public class UserConfig
 {

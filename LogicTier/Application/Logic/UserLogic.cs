@@ -86,6 +86,16 @@ public class UserLogic : IUserLogic
         await userDao.RemoveCreditsAsync(credits, username);
     }
 
+    public async Task UpdateUserAddressAsync(UserInfoCreationDTO dto)
+    {
+        if (userDao.FindUserAsync(dto.username).Equals(null))
+        {
+            throw new Exception($"The user {dto.username} does not exits");
+        }
+
+        await userDao.UpdateUserAddressAsync(dto);
+    }
+
     private static void ValidateData(UserCreationDTO user)
     {
         string username = user.userName;

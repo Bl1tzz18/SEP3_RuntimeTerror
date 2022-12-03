@@ -285,19 +285,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\catal\\.nuget\\packages\\": {}
+    "C:\\Users\\Robchik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIA\\Semester_3\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "D:\\VIA\\Semester_3\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
-      "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
-      "outputPath": "D:\\VIA\\Semester_3\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\obj\\",
+      "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
+      "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
+      "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -342,7 +342,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

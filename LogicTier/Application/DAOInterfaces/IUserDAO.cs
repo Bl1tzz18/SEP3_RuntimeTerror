@@ -1,4 +1,5 @@
-﻿using Shared.Models;
+﻿using Shared.DTOs;
+using Shared.Models;
 
 namespace Application.DAOInterfaces;
 
@@ -14,5 +15,5 @@ public interface IUserDAO
 
     Task RemoveCreditsAsync(int credits, string username);
 
-
+    Task UpdateUserAddressAsync(UserInfoCreationDTO dto);
 }

@@ -83,3 +83,20 @@ D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll

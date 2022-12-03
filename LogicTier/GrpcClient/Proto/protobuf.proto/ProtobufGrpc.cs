@@ -56,6 +56,8 @@ public static partial class UserService
   static readonly grpc::Marshaller<global::CreditsUser> __Marshaller_CreditsUser = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::CreditsUser.Parser));
   [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
   static readonly grpc::Marshaller<global::Void> __Marshaller_Void = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Void.Parser));
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Marshaller<global::UserInfo> __Marshaller_UserInfo = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::UserInfo.Parser));
 
   [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
   static readonly grpc::Method<global::RegisterUser, global::User> __Method_CreateUser = new grpc::Method<global::RegisterUser, global::User>(
@@ -95,6 +97,14 @@ public static partial class UserService
       __ServiceName,
       "RemoveCredits",
       __Marshaller_CreditsUser,
+      __Marshaller_Void);
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::UserInfo, global::Void> __Method_UpdateUserInformation = new grpc::Method<global::UserInfo, global::Void>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "UpdateUserInformation",
+      __Marshaller_UserInfo,
       __Marshaller_Void);
 
   /// <summary>Service descriptor</summary>
@@ -229,6 +239,26 @@ public static partial class UserService
     public virtual grpc::AsyncUnaryCall<global::Void> RemoveCreditsAsync(global::CreditsUser request, grpc::CallOptions options)
     {
       return CallInvoker.AsyncUnaryCall(__Method_RemoveCredits, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void UpdateUserInformation(global::UserInfo request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return UpdateUserInformation(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void UpdateUserInformation(global::UserInfo request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_UpdateUserInformation, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> UpdateUserInformationAsync(global::UserInfo request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return UpdateUserInformationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> UpdateUserInformationAsync(global::UserInfo request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_UpdateUserInformation, null, options, request);
     }
     /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

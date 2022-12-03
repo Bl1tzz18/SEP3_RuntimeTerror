@@ -70,3 +70,15 @@ D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shar
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\refint\Shared.dll
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.pdb
 D:\VIA\Semester_3\SEP3\SEP3_RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\ref\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\bin\Debug\net6.0\Shared.deps.json
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\bin\Debug\net6.0\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\bin\Debug\net6.0\Shared.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\refint\Shared.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\Shared.pdb
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\LogicTier\Shared\obj\Debug\net6.0\ref\Shared.dll

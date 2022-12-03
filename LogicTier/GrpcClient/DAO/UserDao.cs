@@ -1,5 +1,6 @@
 using System.Runtime.CompilerServices;
 using Application.DAOInterfaces;
+using Shared.DTOs;
 
 namespace GrpcClient.DAO;
 
@@ -81,6 +82,20 @@ public class UserDao : IUserDAO
         await userServiceClient.RemoveCreditsAsync(creditsUser);
     }
 
+    public async Task UpdateUserAddressAsync(UserInfoCreationDTO dto)
+    {
+        var userInfo = new UserInfo
+        {
+            Username = dto.username,
+            FName = dto.FirstName,
+            LName = dto.LastName,
+            Phone = dto.phone,
+            Address = ConvertSharedAddressToGrpcAddress(dto.Address)
+        };
+
+        await userServiceClient.UpdateUserInformationAsync(userInfo);
+    }
+
     private Shared.Models.User ConvertGrpcUserToSharedUser(User grpcUser)
     {
         var sharedUser = new Shared.Models.User
@@ -90,9 +105,21 @@ public class UserDao : IUserDAO
             FirstName = grpcUser.FName,
             LastName = grpcUser.LName,
             Credits = grpcUser.Credits,
-            type = grpcUser.Type
+            type = grpcUser.Type,
+            phone = grpcUser.Phone
         };
         
         return sharedUser;
+    }
+
+    private Address ConvertSharedAddressToGrpcAddress(Shared.Models.Address address)
+    {
+        return new Address
+        {
+            Country = address.Country,
+            City = address.City,
+            Zip = address.Zip,
+            Street = address.Street
+        };
     }
 }
