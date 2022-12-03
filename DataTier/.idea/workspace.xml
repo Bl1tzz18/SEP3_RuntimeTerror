@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafd07b0-8a5d-47a9-8ed9-0ce1ba3448be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/reverso_sep.i-g_Ww.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/src/main/java/org/dataaccess/repositories/CartItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/src/main/java/org/dataaccess/repositories/CartItemsRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="eafd07b0-8a5d-47a9-8ed9-0ce1ba3448be" name="Changes" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,8 +105,23 @@
       <workItem from="1669574291822" duration="238000" />
       <workItem from="1669675624230" duration="2015000" />
       <workItem from="1669920763550" duration="6398000" />
-      <workItem from="1670034432421" duration="145000" />
+      <workItem from="1670034432421" duration="240000" />
     </task>
+    <task id="LOCAL-00001" summary="ss">
+      <created>1670034608171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670034608171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ss">
+      <created>1670034654650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670034654650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss" />
   </component>
 </project>

@@ -32,12 +32,11 @@ public class User implements Serializable
     public User() {
     }
 
-    public User(String username, String password, String f_name, String l_name, Address address) {
+    public User(String username, String password, String f_name, String l_name) {
         this.username = username;
         this.password = password;
         this.f_name = f_name;
         this.l_name = l_name;
-        this.address = address;
     }
 
     public String getUsername() {
