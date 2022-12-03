@@ -1,0 +1,91 @@
+﻿@page "/Cart"
+@using System.Security.Claims
+@using global::Shared.Models
+@using HttpClients.ClientInterfaces
+@inject IProductService productService;
+
+
+@if (products == null)
+{
+}
+else if (!products.Any())
+{
+    <p>No Products to display</p>
+}
+else
+{
+    <div class="shell">
+        <div class="container">
+            <div class="row">
+                @foreach (var product in products)
+                {
+                    <div class="col-md-3">
+                        <div class="wsk-cp-product">
+                            <div class="wsk-cp-img">
+                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                            </div>
+                            <div class="wsk-cp-text">
+                                <div class="category">
+                                    <span>@product.Category.Name</span>
+                                </div>
+                                <div class="title-product">
+                                    <h3>@product.Name</h3>
+                                </div>
+                                <div class="description-prod">
+                                    <p>@product.Description</p>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+@code {
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+
+
+    private string errormsg = "";
+    private ICollection<Product> products = new List<Product>();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            AuthenticationState authState = await AuthState;
+            ClaimsPrincipal user = authState.User;
+            isLoggedIn = user.Identity != null;
+
+            if (!isLoggedIn) return;
+
+            userClaims = user.Claims;
+            name = user.Identity!.Name!;
+            
+            products = await productService.GetProductsInCartByUserAsync(name);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+
+}
+}

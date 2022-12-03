@@ -1,0 +1,45 @@
+body[b-x3lxt1hyuu]{
+    background: #fff;
+}
+h2[b-x3lxt1hyuu]{
+    padding-top: 1.5rem;
+}
+a[b-x3lxt1hyuu]{
+    color: #333;
+}
+a:hover[b-x3lxt1hyuu]{
+    color: #3d074b;
+    text-decoration: none;
+}
+.card[b-x3lxt1hyuu]{
+    border: 0.40rem solid #f8f9fa;
+    top: 10%;
+}
+.form-control[b-x3lxt1hyuu]{
+    background-color: #f8f9fa;
+    padding: 20px;
+    padding: 25px 15px;
+    margin-bottom: 1.3rem;
+}
+
+.form-control:focus[b-x3lxt1hyuu] {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #ae18e1;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn[b-x3lxt1hyuu]{
+    padding: 0.6rem 1.2rem;
+    background: #4b095b;
+    border: 2px solid #660d7e;
+}
+.btn-primary:hover[b-x3lxt1hyuu] {
+    background-color: #690486;
+    border-color: #690486;
+    transition: .3s;
+
+}

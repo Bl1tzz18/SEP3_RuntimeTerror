@@ -1,0 +1,39 @@
+﻿@using BlazorApp.Services
+@inherits LayoutComponentBase
+@inject IAuthService _authService
+@inject NavigationManager NavManager
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+
+    <main>
+        <AuthorizeView>
+            <Authorized>
+                <div class="top-row px-4">
+                    <button class="btn btn-primary" type="button" @onclick="LogOut">Log Out</button>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="top-row px-4">
+                    <a href="/Login" class="navButton">Log In</a>
+                    <a href="/Register" class="navButton">Register</a>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code
+{
+    private async Task LogOut()
+    {
+        await _authService.LogoutAsync();
+        NavManager.NavigateTo("/");
+    }
+}

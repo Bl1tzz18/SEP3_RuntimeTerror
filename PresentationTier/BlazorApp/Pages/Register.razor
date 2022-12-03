@@ -1,0 +1,78 @@
+﻿@page "/Register"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@using BlazorApp.Services
+@inject IAuthService _authService
+@inject NavigationManager NavManager
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card">
+                <h2 class="card-title text-center">Register</h2>
+                <div class="card-body py-md-4">
+                    <form _lpchecked="1">
+                        <div class="form-group">
+                            <input type="text" class="form-control" @bind="fName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" @bind="lName" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" @bind="userName" placeholder="Username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" @bind="password" placeholder="Password" required>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <a href="/Login">Login</a>
+                            <button class="btn btn-primary" type="button" @onclick="Create">Create Account</button>
+                        </div>
+                        <div>
+                        <span style="color: red">@msg</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    string userName = "";
+    string password = "";
+    string fName = "";
+    string lName = "";
+    string msg = "";
+
+    private async Task Create()
+    {
+        msg = "";
+
+        if (userName == "" || password == "" || fName == "" || lName == "")
+        {
+            msg = "All fields are required";
+            return;
+        }
+
+        try
+        {
+            var dto = new UserCreationDTO
+            {
+                userName = userName,
+                password = password,
+                FirstName = fName,
+                LastName = lName
+            };
+                
+            await _authService.RegisterAsync(dto);
+            NavManager.NavigateTo("/Login");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

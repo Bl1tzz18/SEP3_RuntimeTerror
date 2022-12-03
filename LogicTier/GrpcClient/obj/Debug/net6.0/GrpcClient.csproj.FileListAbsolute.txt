@@ -1,0 +1,68 @@
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+D:\VIA\Semester_3\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+D:\VIA\Semester Projects\Semester Project 3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+C:\Users\diana\SEP3\SEP3-RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll

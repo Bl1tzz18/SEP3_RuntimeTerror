@@ -1,0 +1,2 @@
+Proto/protobuf.proto/Protobuf.cs \
+Proto/protobuf.proto/ProtobufGrpc.cs: ../../DataTier/DataAccess/src/main/proto/protobuf.proto

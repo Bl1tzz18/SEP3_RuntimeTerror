@@ -1,0 +1,70 @@
+﻿@page "/Login"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@using BlazorApp.Services
+@inject IUserService UserService
+@inject IAuthService _authService;
+@inject NavigationManager NavManager
+
+
+<AuthorizeView>
+    <NotAuthorized>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="card">
+                        <h2 class="card-title text-center">Log In</h2>
+                        <div class="card-body py-md-4">
+                            <form _lpchecked="1">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" @bind="userName" placeholder="Username" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" @bind="password" placeholder="Password" required>
+                                </div>
+                                <div class="d-flex flex-row align-items-center justify-content-between">
+                                    <a href="/Register">Register</a>
+                                    <button class="btn btn-primary" type="button" @onclick="LoginUser">Log In</button>
+                                </div>
+                                <div>
+                                    <span style="color: red">@msg</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <h3>Hello, @context.User.Identity.Name</h3>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    string userName = "";
+    string password = "";
+    string msg = "";
+
+    private async Task LoginUser()
+    {
+        msg = "";
+
+        if (userName == "" || password == "")
+        {
+            msg = "All fields are required";
+            return;
+        }
+
+        try
+        {
+            await _authService.LoginAsync(userName, password);
+            NavManager.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

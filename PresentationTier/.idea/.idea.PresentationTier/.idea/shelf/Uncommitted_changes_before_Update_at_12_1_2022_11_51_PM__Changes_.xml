@@ -1,0 +1,289 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]" date="1669935161649" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/1/2022 11:51 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar.original" />
+    <option name="AFTER_PATH" value="../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar.original" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/DataAccess-0.0.1-SNAPSHOT.jar.original" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar" />
+    <option name="AFTER_PATH" value="../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/DataAccess-0.0.1-SNAPSHOT.jar" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/project.nuget3.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Application3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/project.nuget4.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/HttpClients.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/Shared5.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/WebAPI1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_1_2022_11_51_PM_[Changes]/GrpcClient2.dll" />
+  </binary>
+</changelist>

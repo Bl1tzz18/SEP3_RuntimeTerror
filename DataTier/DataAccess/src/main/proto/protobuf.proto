@@ -1,0 +1,107 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.dataaccess.protobuf";
+
+service UserService{
+  rpc CreateUser(RegisterUser) returns (User);
+  rpc LoginUsers(LoginUser) returns (User);
+  rpc FindUser(SearchField) returns (User);
+  rpc AddCredits(CreditsUser) returns (Void);
+  rpc RemoveCredits(CreditsUser) returns(Void);
+}
+
+service ProductService{
+  rpc RegisterProduct(Product) returns (Product);
+  rpc GetProducts(Void) returns (ProductItems);
+  rpc GetProductsInCartByUser(SearchField) returns (ProductItems);
+  rpc FindProduct(SearchField) returns (Product);
+  rpc UpdateProduct(Product) returns (Void);
+  rpc DeleteProduct(SearchField) returns (Void);
+}
+
+service CartService{
+  rpc RegisterCart(Cart) returns (Void);
+  rpc RegisterCartItem(CartItem) returns (Void);
+  rpc FindCart(SearchField) returns (Cart);
+  rpc GetAllFromCart(SearchField) returns (CartItems);
+  rpc DeleteAllFromCart(SearchField) returns (Void);
+  rpc UpdateCartTotal(SearchField) returns (Void);
+  rpc DeleteFromCart(CartItem) returns (Void);
+}
+
+message User{
+  string username = 1;
+  string password = 2;
+  string f_name = 3;
+  string l_name = 4;
+  int32 credits = 5;
+  string type = 6;
+  string phone = 7;
+  Address address = 8;
+}
+
+message Address{
+  string country = 1;
+  string city = 2;
+  string zip = 3;
+  string street = 4;
+}
+
+message RegisterUser{
+  string username = 1;
+  string password = 2;
+  string f_name = 3;
+  string l_name = 4;
+}
+
+message LoginUser{
+  string username = 1;
+  string password = 2;
+}
+
+message CreditsUser{
+  int32 credits = 1;
+  string username = 2;
+}
+
+
+message Product{
+  int32 id = 1;
+  string name = 2;
+  string imgPath = 3;
+  int32 price = 4;
+  string description = 5;
+  Category category = 6;
+  bool inStock = 7;
+}
+
+message ProductItems{
+  repeated Product product = 1;
+}
+
+message Category{
+  string category_name = 1;
+}
+
+message Cart{
+  int32 id = 1;
+  string username = 2;
+  int32 total = 3;
+}
+
+message CartItem{
+  int32 id = 1;
+  int32 cartId = 2;
+  int32 productId = 3;
+}
+
+message CartItems{
+  repeated CartItem cartItems = 1;
+}
+
+message SearchField{
+  string search = 1;
+}
+
+message Void{}
