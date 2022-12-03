@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eafd07b0-8a5d-47a9-8ed9-0ce1ba3448be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/.idea/.idea.PresentationTier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/.idea/.idea.PresentationTier/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Pages/Profile.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Pages/Profile.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/HttpClients.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/HttpClients.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/HttpClients.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/HttpClients.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/385f97bb-dca8-4a7d-b96d-d118bc9c09b0/storage_v2/_src_/database/sep3_db.aP0Idg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff4aab69-a02f-4d2f-a30c-25c1276111d3/storage_v2/_src_/database/postgres.edMnLQ/schema/reverso_sep.i-g_Ww.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/src/main/java/org/dataaccess/repositories/CartItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/src/main/java/org/dataaccess/repositories/CartItemsRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VIA/Semester Projects/Semester Project 3/SEP3-RuntimeTerror/DataTier&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ecef4e1421e9950c84f3fbd46c0935d4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/VIA/Semester_3/SEP3/SEP3_RuntimeTerror/DataTier",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ecef4e1421e9950c84f3fbd46c0935d4"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Spring Boot.DataAccessApp">
     <configuration name="GrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrpcServer" />
@@ -124,6 +119,7 @@
       <workItem from="1669574291822" duration="238000" />
       <workItem from="1669675624230" duration="2015000" />
       <workItem from="1669920763550" duration="6398000" />
+      <workItem from="1670034432421" duration="145000" />
     </task>
     <servers />
   </component>
