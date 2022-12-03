@@ -16,7 +16,7 @@ public interface CartItemsRepository extends JpaRepository<CartItem, Integer>
     Collection<CartItem> findAllByCart_User(User user);
 
     @Modifying
-    @Query("DELETE FROM CartItem ci WHERE ci.cart.id = (SELECT ci.product.id FROM Cart c WHERE c.user.username = ?1)")
+    @Query("DELETE FROM CartItem ci WHERE ci.cart.id = (SELECT c.id FROM Cart c WHERE c.user.username = ?1)")
     void deleteFromCartItemsByUsername(String userName);
 
     void deleteCartItemByProduct_IdAndCart_User_Username(int productId, String username);
