@@ -1,0 +1,123 @@
+Index: BlazorApp/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\BlazorApp\\\\BlazorApp.csproj\",\"projectName\":\"BlazorApp\",\"projectPath\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\BlazorApp\\\\BlazorApp.csproj\",\"outputPath\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\BlazorApp\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net6.0\"],\"sources\":{\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net6.0\":{\"targetAlias\":\"net6.0\",\"projectReferences\":{\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\HttpClients\\\\HttpClients.csproj\":{\"projectPath\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\HttpClients\\\\HttpClients.csproj\"}}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net6.0\":{\"targetAlias\":\"net6.0\",\"dependencies\":{\"Microsoft.AspNetCore.Components.WebAssembly\":{\"target\":\"Package\",\"version\":\"[6.0.8, )\"},\"Microsoft.AspNetCore.Components.WebAssembly.DevServer\":{\"suppressParent\":\"All\",\"target\":\"Package\",\"version\":\"[6.0.8, )\"},\"MudBlazor\":{\"target\":\"Package\",\"version\":\"[6.0.17, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"downloadDependencies\":[{\"name\":\"Microsoft.NETCore.App.Runtime.Mono.browser-wasm\",\"version\":\"[6.0.8, 6.0.8]\"}],\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.400\\\\RuntimeIdentifierGraph.json\"}}\"runtimes\":{\"browser-wasm\":{\"#import\":[]}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/BlazorApp/obj/project.packagespec.json b/BlazorApp/obj/project.packagespec.json
+--- a/BlazorApp/obj/project.packagespec.json	(revision c444c6240dff7b3f6394a94c73cf54fb1b924d51)
++++ b/BlazorApp/obj/project.packagespec.json	(date 1670034850288)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\BlazorApp\\BlazorApp.csproj","projectName":"BlazorApp","projectPath":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\BlazorApp\\BlazorApp.csproj","outputPath":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\BlazorApp\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj":{"projectPath":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Components.WebAssembly":{"target":"Package","version":"[6.0.8, )"},"Microsoft.AspNetCore.Components.WebAssembly.DevServer":{"suppressParent":"All","target":"Package","version":"[6.0.8, )"},"MudBlazor":{"target":"Package","version":"[6.0.17, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"downloadDependencies":[{"name":"Microsoft.NETCore.App.Runtime.Mono.browser-wasm","version":"[6.0.8, 6.0.8]"}],"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}"runtimes":{"browser-wasm":{"#import":[]}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\BlazorApp\\BlazorApp.csproj","projectName":"BlazorApp","projectPath":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\BlazorApp\\BlazorApp.csproj","outputPath":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\BlazorApp\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj":{"projectPath":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Components.WebAssembly":{"target":"Package","version":"[6.0.8, )"},"Microsoft.AspNetCore.Components.WebAssembly.DevServer":{"suppressParent":"All","target":"Package","version":"[6.0.8, )"},"MudBlazor":{"target":"Package","version":"[6.0.17, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"downloadDependencies":[{"name":"Microsoft.NETCore.App.Runtime.Mono.browser-wasm","version":"[6.0.8, 6.0.8]"}],"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}"runtimes":{"browser-wasm":{"#import":[]}}
+\ No newline at end of file
+Index: HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.TargetFramework = net6.0\r\nbuild_property.TargetPlatformMinVersion = \r\nbuild_property.UsingMicrosoftNETSdkWeb = \r\nbuild_property.ProjectTypeGuids = \r\nbuild_property.InvariantGlobalization = \r\nbuild_property.PlatformNeutralAssembly = \r\nbuild_property._SupportedPlatformList = Linux,macOS,Windows\r\nbuild_property.RootNamespace = HttpClients\r\nbuild_property.ProjectDir = C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig b/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+--- a/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig	(revision c444c6240dff7b3f6394a94c73cf54fb1b924d51)
++++ b/HttpClients/obj/Debug/net6.0/HttpClients.GeneratedMSBuildEditorConfig.editorconfig	(date 1670034850147)
+@@ -7,4 +7,4 @@
+ build_property.PlatformNeutralAssembly = 
+ build_property._SupportedPlatformList = Linux,macOS,Windows
+ build_property.RootNamespace = HttpClients
+-build_property.ProjectDir = C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\PresentationTier\HttpClients\
++build_property.ProjectDir = D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\HttpClients\
+Index: BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.TargetFramework = net6.0\r\nbuild_property.TargetPlatformMinVersion = \r\nbuild_property.UsingMicrosoftNETSdkWeb = \r\nbuild_property.ProjectTypeGuids = \r\nbuild_property.InvariantGlobalization = false\r\nbuild_property.PlatformNeutralAssembly = \r\nbuild_property._SupportedPlatformList = browser\r\nbuild_property.EnableSingleFileAnalyzer = \r\nbuild_property.EnableTrimAnalyzer = true\r\nbuild_property.IncludeAllContentForSelfExtract = \r\nbuild_property.RootNamespace = BlazorApp\r\nbuild_property.RootNamespace = BlazorApp\r\nbuild_property.ProjectDir = C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\BlazorApp\\\r\nbuild_property.RazorLangVersion = 6.0\r\nbuild_property.SupportLocalizedComponentNames = \r\nbuild_property.GenerateRazorMetadataSourceChecksumAttributes = \r\nbuild_property.MSBuildProjectDirectory = C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\BlazorApp\r\nbuild_property._RazorSourceGeneratorDebug = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/App.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Index.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Profile.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/SurveyPrompt.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/_Imports.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = \r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Cart.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==\r\nbuild_metadata.AdditionalFiles.CssScope = b-9m8xy3xw11\r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Login.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = b-c956fem5qt\r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Products.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = b-n1rrc73ki8\r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Register.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = b-x3lxt1hyuu\r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/MainLayout.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec\r\n\r\n[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/NavMenu.razor]\r\nbuild_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=\r\nbuild_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig b/BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+--- a/BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig	(revision c444c6240dff7b3f6394a94c73cf54fb1b924d51)
++++ b/BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig	(date 1670034849597)
+@@ -11,53 +11,53 @@
+ build_property.IncludeAllContentForSelfExtract = 
+ build_property.RootNamespace = BlazorApp
+ build_property.RootNamespace = BlazorApp
+-build_property.ProjectDir = C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\PresentationTier\BlazorApp\
++build_property.ProjectDir = D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\
+ build_property.RazorLangVersion = 6.0
+ build_property.SupportLocalizedComponentNames = 
+ build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+-build_property.MSBuildProjectDirectory = C:\VIA_SEP\SEP3\SEP3-RuntimeTerror\PresentationTier\BlazorApp
++build_property.MSBuildProjectDirectory = D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp
+ build_property._RazorSourceGeneratorDebug = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/App.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/App.razor]
+ build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Index.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Index.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Profile.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Profile.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/SurveyPrompt.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/SurveyPrompt.razor]
+ build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/_Imports.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/_Imports.razor]
+ build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = 
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Cart.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Cart.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+ build_metadata.AdditionalFiles.CssScope = b-9m8xy3xw11
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Login.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Login.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = b-c956fem5qt
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Products.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Products.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = b-n1rrc73ki8
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Register.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Register.razor]
+ build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = b-x3lxt1hyuu
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/MainLayout.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/MainLayout.razor]
+ build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
+ 
+-[C:/VIA_SEP/SEP3/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/NavMenu.razor]
++[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/NavMenu.razor]
+ build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+ build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl
+Index: HttpClients/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\HttpClients\\\\HttpClients.csproj\",\"projectName\":\"HttpClients\",\"projectPath\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\HttpClients\\\\HttpClients.csproj\",\"outputPath\":\"C:\\\\VIA_SEP\\\\SEP3\\\\SEP3-RuntimeTerror\\\\PresentationTier\\\\HttpClients\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"originalTargetFrameworks\":[\"net6.0\"],\"sources\":{\"https://api.nuget.org/v3/index.json\":{}},\"frameworks\":{\"net6.0\":{\"targetAlias\":\"net6.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"net6.0\":{\"targetAlias\":\"net6.0\",\"dependencies\":{\"Microsoft.AspNetCore.Components.Authorization\":{\"target\":\"Package\",\"version\":\"[6.0.11, )\"},\"Microsoft.AspNetCore.Components.Web\":{\"target\":\"Package\",\"version\":\"[6.0.9, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"frameworkReferences\":{\"Microsoft.NETCore.App\":{\"privateAssets\":\"all\"}},\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.400\\\\RuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HttpClients/obj/project.packagespec.json b/HttpClients/obj/project.packagespec.json
+--- a/HttpClients/obj/project.packagespec.json	(revision c444c6240dff7b3f6394a94c73cf54fb1b924d51)
++++ b/HttpClients/obj/project.packagespec.json	(date 1670034850310)
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj","projectName":"HttpClients","projectPath":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj","outputPath":"C:\\VIA_SEP\\SEP3\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Components.Authorization":{"target":"Package","version":"[6.0.11, )"},"Microsoft.AspNetCore.Components.Web":{"target":"Package","version":"[6.0.9, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj","projectName":"HttpClients","projectPath":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj","outputPath":"D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\obj\\","projectStyle":"PackageReference","originalTargetFrameworks":["net6.0"],"sources":{"https://api.nuget.org/v3/index.json":{}},"frameworks":{"net6.0":{"targetAlias":"net6.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net6.0":{"targetAlias":"net6.0","dependencies":{"Microsoft.AspNetCore.Components.Authorization":{"target":"Package","version":"[6.0.11, )"},"Microsoft.AspNetCore.Components.Web":{"target":"Package","version":"[6.0.9, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
