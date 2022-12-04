@@ -119,6 +119,7 @@
   private bool isDisable { get; set; } = true;
   private string? name;
   private IEnumerable<Claim>? userClaims;
+  private bool isLoggedIn;
 
   private String FirstName;
   private String LastName;
@@ -128,8 +129,8 @@
   private String city;
   private String zip;
   private String street;
-  
-    [CascadingParameter]
+
+  [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
   
   protected override async Task OnInitializedAsync()
@@ -137,7 +138,10 @@
     FirstName = GetClaimValue(AuthState.Result.User, "FirstName");
     LastName = GetClaimValue(AuthState.Result.User, "LastName");
     phoneNumber = GetClaimValue(AuthState.Result.User, "PhoneNumber");
-    
+    country = GetClaimValue(AuthState.Result.User, "Country");
+    city = GetClaimValue(AuthState.Result.User, "City");
+    zip = GetClaimValue(AuthState.Result.User, "Zip");
+    street = GetClaimValue(AuthState.Result.User, "Street");
   }
 
   private async Task click()

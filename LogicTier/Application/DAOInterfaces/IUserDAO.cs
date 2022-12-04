@@ -15,5 +15,5 @@ public interface IUserDAO
 
     Task RemoveCreditsAsync(int credits, string username);
 
-    Task UpdateUserAddressAsync(UserInfoCreationDTO dto);
+    Task UpdateUserInfoAsync(UserInfoCreationDTO dto);
 }

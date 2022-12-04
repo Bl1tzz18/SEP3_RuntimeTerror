@@ -49,11 +49,6 @@ public class User implements Serializable
         this.address = address;
     }
 
-    public User(String username, Address address) {
-        this.username = username;
-        this.address = address;
-    }
-
     public String getUsername() {
         return username;
     }

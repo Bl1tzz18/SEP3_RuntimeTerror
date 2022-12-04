@@ -95,23 +95,8 @@ public class UserController : ControllerBase
     {
         try
         {
-            await UserLogic.UpdateUserAddressAsync(dto);
+            await UserLogic.UpdateUserInfoAsync(dto);
             return Ok();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return StatusCode(500, e.Message);
-        }
-    }
-
-    [HttpGet("findUser")]
-    public async Task<IActionResult> FindUserAsync([FromQuery] string userName)
-    {
-        try
-        {
-            var user = await UserLogic.FindUserAsync(userName);
-            return Created("/findUser", user);
         }
         catch (Exception e)
         {
@@ -134,7 +119,11 @@ public class UserController : ControllerBase
             new Claim("FirstName", user.FirstName),
             new Claim("LastName", user.LastName),
             new Claim("Credits", user.Credits.ToString()),
-            new Claim("PhoneNumber", user.phone)
+            new Claim("PhoneNumber", user.phone),
+            new Claim("Country", user.Address.Country),
+            new Claim("City", user.Address.City),
+            new Claim("Zip", user.Address.Zip),
+            new Claim("Street", user.Address.Street)
         };
         return claims.ToList();
     }

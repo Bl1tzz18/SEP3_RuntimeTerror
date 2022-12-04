@@ -82,7 +82,7 @@ public class UserDao : IUserDAO
         await userServiceClient.RemoveCreditsAsync(creditsUser);
     }
 
-    public async Task UpdateUserAddressAsync(UserInfoCreationDTO dto)
+    public async Task UpdateUserInfoAsync(UserInfoCreationDTO dto)
     {
         var userInfo = new UserInfo
         {
@@ -106,7 +106,8 @@ public class UserDao : IUserDAO
             LastName = grpcUser.LName,
             Credits = grpcUser.Credits,
             type = grpcUser.Type,
-            phone = grpcUser.Phone
+            phone = grpcUser.Phone,
+            Address = ConvertGrpcAddressToSharedAddress(grpcUser.Address)
         };
         
         return sharedUser;
@@ -115,6 +116,17 @@ public class UserDao : IUserDAO
     private Address ConvertSharedAddressToGrpcAddress(Shared.Models.Address address)
     {
         return new Address
+        {
+            Country = address.Country,
+            City = address.City,
+            Zip = address.Zip,
+            Street = address.Street
+        };
+    }
+    
+    private Shared.Models.Address ConvertGrpcAddressToSharedAddress(Address address)
+    {
+        return new Shared.Models.Address
         {
             Country = address.Country,
             City = address.City,
