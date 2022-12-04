@@ -3,6 +3,7 @@
 @using BlazorApp.Services
 @using global::Shared.DTOs
 @using global::Shared.Models
+@using System.ComponentModel.DataAnnotations
 @inject NavigationManager NavManager
 @inject IAuthService AuthService
 
@@ -133,6 +134,10 @@
   
   protected override async Task OnInitializedAsync()
   {
+    FirstName = GetClaimValue(AuthState.Result.User, "FirstName");
+    LastName = GetClaimValue(AuthState.Result.User, "LastName");
+    phoneNumber = GetClaimValue(AuthState.Result.User, "PhoneNumber");
+    
   }
 
   private async Task click()
@@ -180,14 +185,11 @@
     static string GetClaimValue(ClaimsPrincipal claimsPrincipal, string type)
         => claimsPrincipal.FindFirst(type)?.Value ?? string.Empty;
 
-  //Method for enabling <input>
+  //Methods for enabling/disabling <input>
   private void onDisable()
   {
     this.isDisable = false;
   }
-  
- 
-
   async Task onEditNuttonClick()
   {
     this.isDisable = true;
