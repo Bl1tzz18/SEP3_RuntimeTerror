@@ -1,0 +1,134 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1" date="1670107093504" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/3/2022 11:37 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/GrpcClient.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Shared.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Shared.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/WebAPI.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/GrpcClient.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/BlazorApp.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Shared.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Application.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Shared.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/WebAPI.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/HttpClients.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_11_37_PM_[Changes]1/Shared.pdb" />
+  </binary>
+</changelist>

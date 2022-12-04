@@ -96,6 +96,11 @@ public class UserLogic : IUserLogic
         await userDao.UpdateUserAddressAsync(dto);
     }
 
+    public async Task<User> FindUserAsync(string userName)
+    {
+         return await userDao.FindUserAsync(userName);
+    }
+
     private static void ValidateData(UserCreationDTO user)
     {
         string username = user.userName;

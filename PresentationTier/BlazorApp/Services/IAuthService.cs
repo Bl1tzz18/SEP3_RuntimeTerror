@@ -10,6 +10,7 @@ public interface IAuthService
     public Task LogoutAsync();
     public Task RegisterAsync(UserCreationDTO user);
     public Task<ClaimsPrincipal> GetAuthAsync();
-
+    Task EditProfileData(UserInfoCreationDTO dto);
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; }
+    
 }

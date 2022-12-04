@@ -1,7 +1,11 @@
 ﻿@page "/Profile"
 @using System.Security.Claims
+@using BlazorApp.Services
+@using global::Shared.DTOs
+@using global::Shared.Models
 @inject NavigationManager NavManager
-@inject IJSRuntime js
+@inject IAuthService AuthService
+
 
 <AuthorizeView>
     <Authorized>
@@ -32,7 +36,7 @@
             <p class="mb-0">First Name</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" disabled="@isDisable" value="@GetClaimValue(AuthState.Result.User, "FirstName")">
+            <input class="mb-0" disabled="@isDisable" @bind="FirstName">
           </div>
         </div>
 
@@ -42,7 +46,7 @@
             <p class="mb-0">Last Name</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="@GetClaimValue(AuthState.Result.User, "LastName")"disabled="@isDisable">
+            <input class="mb-0" @bind="LastName" disabled="@isDisable">
           </div>
         </div>
 
@@ -52,7 +56,7 @@
             <p class="mb-0">Phone Number</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="321 769 321"disabled="@isDisable">
+            <input class="mb-0" @bind="phoneNumber" disabled="@isDisable">
           </div>
         </div>
 
@@ -62,7 +66,7 @@
             <p class="mb-0">Country</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="Denmark"disabled="@isDisable">
+            <input class="mb-0" @bind="country" disabled="@isDisable">
           </div>
         </div>
               
@@ -72,7 +76,7 @@
             <p class="mb-0"> City</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="Horsens"disabled="@isDisable">
+            <input class="mb-0" @bind="city" disabled="@isDisable">
           </div>
         </div>
 
@@ -82,7 +86,7 @@
             <p class="mb-0"> Address</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="Borgergade 3"disabled="@isDisable">
+            <input class="mb-0" @bind="street" disabled="@isDisable">
           </div>
         </div>
 
@@ -92,12 +96,12 @@
             <p class="mb-0"> Zip-Code</p>
           </div>
           <div class="col-sm-9">
-            <input class="mb-0" value="8700"disabled="@isDisable">
+            <input class="mb-0" @bind="zip" disabled="@isDisable">
           </div>
         </div>
         
         <hr>
-        <button type="button" class="btn btn-primary" disabled="@isDisable" @onclick="onEditNuttonClick">Save Changes</button>
+        <button type="button" class="btn btn-primary" disabled="@isDisable" @onclick="click">Save Changes</button>
       </div>
     </div>
   </div>
@@ -112,11 +116,66 @@
 @code
 {
   private bool isDisable { get; set; } = true;
-  
+  private string? name;
+  private IEnumerable<Claim>? userClaims;
+
+  private String FirstName;
+  private String LastName;
+  private String phoneNumber;
+
+  private String country;
+  private String city;
+  private String zip;
+  private String street;
   
     [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
-    
+  
+  protected override async Task OnInitializedAsync()
+  {
+  }
+
+  private async Task click()
+  {
+    onEditProfile();
+    onEditNuttonClick();
+  }
+  
+  private async Task onEditProfile()
+  {
+    try
+    {
+      AuthenticationState authState = await AuthState;
+      ClaimsPrincipal user = authState.User;
+      userClaims = user.Claims;
+      name = user.Identity!.Name!;
+
+      var address = new Address
+      {
+        Country = country,
+        City = city,
+        Zip = zip,
+        Street = street
+      };
+
+      var dto = new UserInfoCreationDTO
+      {
+        username = name,
+        FirstName = FirstName,
+        LastName = LastName,
+        phone = phoneNumber,
+        Address = address
+      };
+
+      await AuthService.EditProfileData(dto);
+    }
+    catch (Exception e)
+    {
+      Console.WriteLine(e);
+      throw;
+    }
+  }
+
   //Method for getting current authenticated user
     static string GetClaimValue(ClaimsPrincipal claimsPrincipal, string type)
         => claimsPrincipal.FindFirst(type)?.Value ?? string.Empty;
@@ -127,9 +186,7 @@
     this.isDisable = false;
   }
   
-  protected override async Task OnInitializedAsync()
-  {
-  }
+ 
 
   async Task onEditNuttonClick()
   {

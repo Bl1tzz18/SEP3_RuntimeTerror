@@ -3,6 +3,7 @@ using Application.LogicInterfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using Grpc.Core;
 using Microsoft.IdentityModel.Tokens;
 using Shared.DTOs;
 
@@ -90,7 +91,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPut("changeUserInfo")]
-    public async Task<IActionResult> ChangeAddressAsync(UserInfoCreationDTO dto)
+    public async Task<IActionResult> ChangeUserInfoAsync(UserInfoCreationDTO dto)
     {
         try
         {
@@ -103,8 +104,23 @@ public class UserController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    
-    
+
+    [HttpGet("findUser")]
+    public async Task<IActionResult> FindUserAsync([FromQuery] string userName)
+    {
+        try
+        {
+            var user = await UserLogic.FindUserAsync(userName);
+            return Created("/findUser", user);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+
+
     // JWT - Auth
     private List<Claim> GenerateClaims(Shared.Models.User user)
     {
@@ -115,9 +131,10 @@ public class UserController : ControllerBase
             new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
             new Claim(ClaimTypes.Name, user.userName),
             new Claim(ClaimTypes.Role, user.type),
-            new Claim("First Name", user.FirstName),
-            new Claim("Last Name", user.LastName),
-            new Claim("Credits", user.Credits.ToString())
+            new Claim("FirstName", user.FirstName),
+            new Claim("LastName", user.LastName),
+            new Claim("Credits", user.Credits.ToString()),
+            new Claim("PhoneNumber", user.phone)
         };
         return claims.ToList();
     }

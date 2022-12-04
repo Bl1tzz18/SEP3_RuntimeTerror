@@ -63,15 +63,50 @@ public class JwtAuthService : IAuthService
         }
     }
 
+    // public async  Task ChangeUserInfoAsync(UserInfoCreationDTO infoCreationDto)
+    // {
+    //     
+    //     String userAsJson = JsonSerializer.Serialize(infoCreationDto);
+    //     StringContent content = new StringContent(userAsJson, Encoding.UTF8, "application/json");
+    //
+    //     HttpResponseMessage response = await client.PutAsync("https://localhost:7129/User/changeUserInfo", content);
+    //     String responseContent = await response.Content.ReadAsStringAsync();
+    //     
+    //     if (!response.IsSuccessStatusCode)
+    //     {
+    //         Console.WriteLine(responseContent);
+    //         throw new Exception(responseContent);
+    //     }
+    // }
+
     public Task<ClaimsPrincipal> GetAuthAsync()
     {
         ClaimsPrincipal principal = CreateClaimsPrincipal();
         return Task.FromResult(principal);
     }
 
+    public async Task EditProfileData(UserInfoCreationDTO dto)
+    {
+        String userAsJson = JsonSerializer.Serialize(dto);
+        StringContent content = new StringContent(userAsJson, Encoding.UTF8, "application/json");
+
+        HttpResponseMessage responseMessage =
+            await client.PutAsync("https://localhost:7129/User/changeUserInfo", content);
+        
+        String responseContent = await responseMessage.Content.ReadAsStringAsync();
+        
+        if (!responseMessage.IsSuccessStatusCode)
+        {
+            Console.WriteLine(responseContent);
+            throw new Exception(responseContent);
+        }
+    }
+    
+
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; } = null!;
     
-    
+
+
     // JWT - Auth - Required methods
     private static IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
     {

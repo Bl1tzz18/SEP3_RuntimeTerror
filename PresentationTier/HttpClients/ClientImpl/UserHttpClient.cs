@@ -57,5 +57,4 @@ public class UserHttpClient : IUserService
     {
         throw new NotImplementedException();
     }
-    
 }

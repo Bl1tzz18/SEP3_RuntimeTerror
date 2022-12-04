@@ -14,4 +14,5 @@ public interface IUserLogic
      Task RemoveCreditsAsync(int credits, string username);
 
      Task UpdateUserAddressAsync(UserInfoCreationDTO dto);
+     Task<Shared.Models.User> FindUserAsync(string userName);
 }
