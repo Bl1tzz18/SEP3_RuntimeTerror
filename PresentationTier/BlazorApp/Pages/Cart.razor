@@ -3,6 +3,7 @@
 @using global::Shared.Models
 @using HttpClients.ClientInterfaces
 @inject IProductService productService;
+@inject ICartService cartService;
 
 
 @if (products == null)
@@ -36,6 +37,7 @@ else
                                 </div>
                                 <div class="card-footer">
                                     <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                    <div class="wcf-right"><a href="/Cart" @onclick="() => RemoveItemFromCartAsync()" class="buy-btn" style="background: url('https://api.iconify.design/zmdi/delete.svg') no-repeat center center / contain;"></a></div>
                                 </div>
                             </div>
                         </div>
@@ -79,6 +81,21 @@ else
             name = user.Identity!.Name!;
             
             products = await productService.GetProductsInCartByUserAsync(name);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+    
+    private async Task RemoveItemFromCartAsync()
+    {
+        try
+        {
+            
+
+            await cartService.RemoveItemFromCartAsync(name);
         }
         catch (Exception e)
         {

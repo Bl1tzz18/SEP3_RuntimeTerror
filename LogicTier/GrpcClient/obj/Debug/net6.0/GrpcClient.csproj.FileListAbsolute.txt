@@ -117,3 +117,20 @@ D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\LogicTier\GrpcCli
 D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
 D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
 D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.deps.json
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\GrpcClient.pdb
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Application.pdb
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\bin\Debug\net6.0\Shared.pdb
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.AssemblyReference.cache
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfoInputs.cache
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.AssemblyInfo.cs
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CoreCompileInputs.cache
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.csproj.CopyComplete
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\refint\GrpcClient.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\GrpcClient.pdb
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\LogicTier\GrpcClient\obj\Debug\net6.0\ref\GrpcClient.dll
