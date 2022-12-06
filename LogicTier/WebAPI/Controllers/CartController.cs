@@ -91,10 +91,15 @@ public class CartController : ControllerBase
     }
 
     [HttpDelete("DeleteFromCartAsync")]
-    public async Task<ActionResult> DeleteItemAsync(CartItemCreationDTO dto)
+    public async Task<ActionResult> DeleteItemAsync([FromQuery] string username, [FromQuery] int productId)
     {
         try
         {
+            var dto = new CartItemCreationDTO
+            {
+                ProductId = productId,
+                UserName = username
+            };
             await cartLogic.DeleteFromCartAsync(dto);
             return Ok();
         }
