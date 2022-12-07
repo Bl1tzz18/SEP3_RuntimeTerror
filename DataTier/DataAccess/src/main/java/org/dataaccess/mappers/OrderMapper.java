@@ -8,8 +8,17 @@ public abstract class OrderMapper
     {
         return Order.newBuilder()
                 .setId(order.getId())
-                .setUsername(order.getUser().getUsername())
+                .setUser(UserMapper.mapProto(order.getUser()))
                 .setTotal(order.getTotal())
                 .build();
+    }
+
+    public static org.dataaccess.Shared.Order mapToShared(Order order)
+    {
+        return new org.dataaccess.Shared.Order(
+                order.getId(),
+                UserMapper.mapToShared(order.getUser()),
+                order.getTotal()
+        );
     }
 }

@@ -21,6 +21,12 @@ public class Order implements Serializable
     public Order() {
     }
 
+    public Order(int id, User user, int total) {
+        this.id = id;
+        this.user = user;
+        this.total = total;
+    }
+
     public int getId() {
         return id;
     }

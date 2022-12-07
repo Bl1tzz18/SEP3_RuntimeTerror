@@ -34,6 +34,7 @@ service CartService{
 service OrderService{
   rpc RegisterOrder(Order) returns (Void);
   rpc RegisterOrderItem(OrderItems) returns (Void);
+  rpc FindOrder(SearchField) returns (Order);
 }
 
 message User{
@@ -116,14 +117,14 @@ message CartItems{
 
 message Order{
   int32 id = 1;
-  string username = 2;
+  User user = 2;
   int32 total = 3;
 }
 
 message OrderItem{
   int32 id = 1;
-  int32 orderId = 2;
-  int32 productId = 3;
+  Order order = 2;
+  Product product = 3;
 }
 
 message OrderItems{

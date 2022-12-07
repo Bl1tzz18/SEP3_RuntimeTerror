@@ -16,7 +16,6 @@ private static final long serialVersionUID = 0L;
     super(builder);
   }
   private Order() {
-    username_ = "";
   }
 
   @java.lang.Override
@@ -55,9 +54,16 @@ private static final long serialVersionUID = 0L;
             break;
           }
           case 18: {
-            java.lang.String s = input.readStringRequireUtf8();
+            org.dataaccess.protobuf.User.Builder subBuilder = null;
+            if (user_ != null) {
+              subBuilder = user_.toBuilder();
+            }
+            user_ = input.readMessage(org.dataaccess.protobuf.User.parser(), extensionRegistry);
+            if (subBuilder != null) {
+              subBuilder.mergeFrom(user_);
+              user_ = subBuilder.buildPartial();
+            }
 
-            username_ = s;
             break;
           }
           case 24: {
@@ -110,42 +116,30 @@ private static final long serialVersionUID = 0L;
     return id_;
   }
 
-  public static final int USERNAME_FIELD_NUMBER = 2;
-  private volatile java.lang.Object username_;
+  public static final int USER_FIELD_NUMBER = 2;
+  private org.dataaccess.protobuf.User user_;
   /**
-   * <code>string username = 2;</code>
-   * @return The username.
+   * <code>.User user = 2;</code>
+   * @return Whether the user field is set.
    */
   @java.lang.Override
-  public java.lang.String getUsername() {
-    java.lang.Object ref = username_;
-    if (ref instanceof java.lang.String) {
-      return (java.lang.String) ref;
-    } else {
-      com.google.protobuf.ByteString bs = 
-          (com.google.protobuf.ByteString) ref;
-      java.lang.String s = bs.toStringUtf8();
-      username_ = s;
-      return s;
-    }
+  public boolean hasUser() {
+    return user_ != null;
   }
   /**
-   * <code>string username = 2;</code>
-   * @return The bytes for username.
+   * <code>.User user = 2;</code>
+   * @return The user.
    */
   @java.lang.Override
-  public com.google.protobuf.ByteString
-      getUsernameBytes() {
-    java.lang.Object ref = username_;
-    if (ref instanceof java.lang.String) {
-      com.google.protobuf.ByteString b = 
-          com.google.protobuf.ByteString.copyFromUtf8(
-              (java.lang.String) ref);
-      username_ = b;
-      return b;
-    } else {
-      return (com.google.protobuf.ByteString) ref;
-    }
+  public org.dataaccess.protobuf.User getUser() {
+    return user_ == null ? org.dataaccess.protobuf.User.getDefaultInstance() : user_;
+  }
+  /**
+   * <code>.User user = 2;</code>
+   */
+  @java.lang.Override
+  public org.dataaccess.protobuf.UserOrBuilder getUserOrBuilder() {
+    return getUser();
   }
 
   public static final int TOTAL_FIELD_NUMBER = 3;
@@ -176,8 +170,8 @@ private static final long serialVersionUID = 0L;
     if (id_ != 0) {
       output.writeInt32(1, id_);
     }
-    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(username_)) {
-      com.google.protobuf.GeneratedMessageV3.writeString(output, 2, username_);
+    if (user_ != null) {
+      output.writeMessage(2, getUser());
     }
     if (total_ != 0) {
       output.writeInt32(3, total_);
@@ -195,8 +189,9 @@ private static final long serialVersionUID = 0L;
       size += com.google.protobuf.CodedOutputStream
         .computeInt32Size(1, id_);
     }
-    if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(username_)) {
-      size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, username_);
+    if (user_ != null) {
+      size += com.google.protobuf.CodedOutputStream
+        .computeMessageSize(2, getUser());
     }
     if (total_ != 0) {
       size += com.google.protobuf.CodedOutputStream
@@ -219,8 +214,11 @@ private static final long serialVersionUID = 0L;
 
     if (getId()
         != other.getId()) return false;
-    if (!getUsername()
-        .equals(other.getUsername())) return false;
+    if (hasUser() != other.hasUser()) return false;
+    if (hasUser()) {
+      if (!getUser()
+          .equals(other.getUser())) return false;
+    }
     if (getTotal()
         != other.getTotal()) return false;
     if (!unknownFields.equals(other.unknownFields)) return false;
@@ -236,8 +234,10 @@ private static final long serialVersionUID = 0L;
     hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + ID_FIELD_NUMBER;
     hash = (53 * hash) + getId();
-    hash = (37 * hash) + USERNAME_FIELD_NUMBER;
-    hash = (53 * hash) + getUsername().hashCode();
+    if (hasUser()) {
+      hash = (37 * hash) + USER_FIELD_NUMBER;
+      hash = (53 * hash) + getUser().hashCode();
+    }
     hash = (37 * hash) + TOTAL_FIELD_NUMBER;
     hash = (53 * hash) + getTotal();
     hash = (29 * hash) + unknownFields.hashCode();
@@ -375,8 +375,12 @@ private static final long serialVersionUID = 0L;
       super.clear();
       id_ = 0;
 
-      username_ = "";
-
+      if (userBuilder_ == null) {
+        user_ = null;
+      } else {
+        user_ = null;
+        userBuilder_ = null;
+      }
       total_ = 0;
 
       return this;
@@ -406,7 +410,11 @@ private static final long serialVersionUID = 0L;
     public org.dataaccess.protobuf.Order buildPartial() {
       org.dataaccess.protobuf.Order result = new org.dataaccess.protobuf.Order(this);
       result.id_ = id_;
-      result.username_ = username_;
+      if (userBuilder_ == null) {
+        result.user_ = user_;
+      } else {
+        result.user_ = userBuilder_.build();
+      }
       result.total_ = total_;
       onBuilt();
       return result;
@@ -459,9 +467,8 @@ private static final long serialVersionUID = 0L;
       if (other.getId() != 0) {
         setId(other.getId());
       }
-      if (!other.getUsername().isEmpty()) {
-        username_ = other.username_;
-        onChanged();
+      if (other.hasUser()) {
+        mergeUser(other.getUser());
       }
       if (other.getTotal() != 0) {
         setTotal(other.getTotal());
@@ -526,80 +533,123 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    private java.lang.Object username_ = "";
+    private org.dataaccess.protobuf.User user_;
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.User, org.dataaccess.protobuf.User.Builder, org.dataaccess.protobuf.UserOrBuilder> userBuilder_;
     /**
-     * <code>string username = 2;</code>
-     * @return The username.
+     * <code>.User user = 2;</code>
+     * @return Whether the user field is set.
      */
-    public java.lang.String getUsername() {
-      java.lang.Object ref = username_;
-      if (!(ref instanceof java.lang.String)) {
-        com.google.protobuf.ByteString bs =
-            (com.google.protobuf.ByteString) ref;
-        java.lang.String s = bs.toStringUtf8();
-        username_ = s;
-        return s;
+    public boolean hasUser() {
+      return userBuilder_ != null || user_ != null;
+    }
+    /**
+     * <code>.User user = 2;</code>
+     * @return The user.
+     */
+    public org.dataaccess.protobuf.User getUser() {
+      if (userBuilder_ == null) {
+        return user_ == null ? org.dataaccess.protobuf.User.getDefaultInstance() : user_;
       } else {
-        return (java.lang.String) ref;
+        return userBuilder_.getMessage();
       }
     }
     /**
-     * <code>string username = 2;</code>
-     * @return The bytes for username.
+     * <code>.User user = 2;</code>
      */
-    public com.google.protobuf.ByteString
-        getUsernameBytes() {
-      java.lang.Object ref = username_;
-      if (ref instanceof String) {
-        com.google.protobuf.ByteString b = 
-            com.google.protobuf.ByteString.copyFromUtf8(
-                (java.lang.String) ref);
-        username_ = b;
-        return b;
+    public Builder setUser(org.dataaccess.protobuf.User value) {
+      if (userBuilder_ == null) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        user_ = value;
+        onChanged();
       } else {
-        return (com.google.protobuf.ByteString) ref;
+        userBuilder_.setMessage(value);
+      }
+
+      return this;
+    }
+    /**
+     * <code>.User user = 2;</code>
+     */
+    public Builder setUser(
+        org.dataaccess.protobuf.User.Builder builderForValue) {
+      if (userBuilder_ == null) {
+        user_ = builderForValue.build();
+        onChanged();
+      } else {
+        userBuilder_.setMessage(builderForValue.build());
+      }
+
+      return this;
+    }
+    /**
+     * <code>.User user = 2;</code>
+     */
+    public Builder mergeUser(org.dataaccess.protobuf.User value) {
+      if (userBuilder_ == null) {
+        if (user_ != null) {
+          user_ =
+            org.dataaccess.protobuf.User.newBuilder(user_).mergeFrom(value).buildPartial();
+        } else {
+          user_ = value;
+        }
+        onChanged();
+      } else {
+        userBuilder_.mergeFrom(value);
+      }
+
+      return this;
+    }
+    /**
+     * <code>.User user = 2;</code>
+     */
+    public Builder clearUser() {
+      if (userBuilder_ == null) {
+        user_ = null;
+        onChanged();
+      } else {
+        user_ = null;
+        userBuilder_ = null;
+      }
+
+      return this;
+    }
+    /**
+     * <code>.User user = 2;</code>
+     */
+    public org.dataaccess.protobuf.User.Builder getUserBuilder() {
+      
+      onChanged();
+      return getUserFieldBuilder().getBuilder();
+    }
+    /**
+     * <code>.User user = 2;</code>
+     */
+    public org.dataaccess.protobuf.UserOrBuilder getUserOrBuilder() {
+      if (userBuilder_ != null) {
+        return userBuilder_.getMessageOrBuilder();
+      } else {
+        return user_ == null ?
+            org.dataaccess.protobuf.User.getDefaultInstance() : user_;
       }
     }
     /**
-     * <code>string username = 2;</code>
-     * @param value The username to set.
-     * @return This builder for chaining.
+     * <code>.User user = 2;</code>
      */
-    public Builder setUsername(
-        java.lang.String value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  
-      username_ = value;
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string username = 2;</code>
-     * @return This builder for chaining.
-     */
-    public Builder clearUsername() {
-      
-      username_ = getDefaultInstance().getUsername();
-      onChanged();
-      return this;
-    }
-    /**
-     * <code>string username = 2;</code>
-     * @param value The bytes for username to set.
-     * @return This builder for chaining.
-     */
-    public Builder setUsernameBytes(
-        com.google.protobuf.ByteString value) {
-      if (value == null) {
-    throw new NullPointerException();
-  }
-  checkByteStringIsUtf8(value);
-      
-      username_ = value;
-      onChanged();
-      return this;
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.User, org.dataaccess.protobuf.User.Builder, org.dataaccess.protobuf.UserOrBuilder> 
+        getUserFieldBuilder() {
+      if (userBuilder_ == null) {
+        userBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+            org.dataaccess.protobuf.User, org.dataaccess.protobuf.User.Builder, org.dataaccess.protobuf.UserOrBuilder>(
+                getUser(),
+                getParentForChildren(),
+                isClean());
+        user_ = null;
+      }
+      return userBuilder_;
     }
 
     private int total_ ;

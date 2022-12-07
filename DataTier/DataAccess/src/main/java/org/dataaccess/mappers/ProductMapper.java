@@ -16,4 +16,17 @@ public abstract class ProductMapper
                 .setInStock(product.isInStock())
                 .build();
     }
+
+    public static org.dataaccess.Shared.Product mapToShared(Product product)
+    {
+        return new org.dataaccess.Shared.Product(
+                product.getId(),
+                product.getName(),
+                product.getImgPath(),
+                product.getPrice(),
+                product.getDescription(),
+                product.getInStock(),
+                CategoryMapper.mapToShared(product.getCategory())
+        );
+    }
 }

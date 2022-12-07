@@ -14,14 +14,32 @@ public interface OrderItemOrBuilder extends
   int getId();
 
   /**
-   * <code>int32 cartId = 2;</code>
-   * @return The cartId.
+   * <code>.Order order = 2;</code>
+   * @return Whether the order field is set.
    */
-  int getCartId();
+  boolean hasOrder();
+  /**
+   * <code>.Order order = 2;</code>
+   * @return The order.
+   */
+  org.dataaccess.protobuf.Order getOrder();
+  /**
+   * <code>.Order order = 2;</code>
+   */
+  org.dataaccess.protobuf.OrderOrBuilder getOrderOrBuilder();
 
   /**
-   * <code>int32 productId = 3;</code>
-   * @return The productId.
+   * <code>.Product product = 3;</code>
+   * @return Whether the product field is set.
    */
-  int getProductId();
+  boolean hasProduct();
+  /**
+   * <code>.Product product = 3;</code>
+   * @return The product.
+   */
+  org.dataaccess.protobuf.Product getProduct();
+  /**
+   * <code>.Product product = 3;</code>
+   */
+  org.dataaccess.protobuf.ProductOrBuilder getProductOrBuilder();
 }

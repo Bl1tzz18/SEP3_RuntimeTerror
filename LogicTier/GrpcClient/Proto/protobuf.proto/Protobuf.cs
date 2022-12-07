@@ -41,32 +41,33 @@ public static partial class ProtobufReflection {
           "Y2F0ZWdvcnlfbmFtZRgBIAEoCSIzCgRDYXJ0EgoKAmlkGAEgASgFEhAKCHVz",
           "ZXJuYW1lGAIgASgJEg0KBXRvdGFsGAMgASgFIjkKCENhcnRJdGVtEgoKAmlk",
           "GAEgASgFEg4KBmNhcnRJZBgCIAEoBRIRCglwcm9kdWN0SWQYAyABKAUiKQoJ",
-          "Q2FydEl0ZW1zEhwKCWNhcnRJdGVtcxgBIAMoCzIJLkNhcnRJdGVtIjQKBU9y",
-          "ZGVyEgoKAmlkGAEgASgFEhAKCHVzZXJuYW1lGAIgASgJEg0KBXRvdGFsGAMg",
-          "ASgFIjsKCU9yZGVySXRlbRIKCgJpZBgBIAEoBRIPCgdvcmRlcklkGAIgASgF",
-          "EhEKCXByb2R1Y3RJZBgDIAEoBSIsCgpPcmRlckl0ZW1zEh4KCm9yZGVySXRl",
-          "bXMYASADKAsyCi5PcmRlckl0ZW0iHQoLU2VhcmNoRmllbGQSDgoGc2VhcmNo",
-          "GAEgASgJIgYKBFZvaWQy5wEKC1VzZXJTZXJ2aWNlEiIKCkNyZWF0ZVVzZXIS",
-          "DS5SZWdpc3RlclVzZXIaBS5Vc2VyEh8KCkxvZ2luVXNlcnMSCi5Mb2dpblVz",
-          "ZXIaBS5Vc2VyEh8KCEZpbmRVc2VyEgwuU2VhcmNoRmllbGQaBS5Vc2VyEiEK",
-          "CkFkZENyZWRpdHMSDC5DcmVkaXRzVXNlchoFLlZvaWQSJAoNUmVtb3ZlQ3Jl",
-          "ZGl0cxIMLkNyZWRpdHNVc2VyGgUuVm9pZBIpChVVcGRhdGVVc2VySW5mb3Jt",
-          "YXRpb24SCS5Vc2VySW5mbxoFLlZvaWQygwIKDlByb2R1Y3RTZXJ2aWNlEiUK",
-          "D1JlZ2lzdGVyUHJvZHVjdBIILlByb2R1Y3QaCC5Qcm9kdWN0EiMKC0dldFBy",
-          "b2R1Y3RzEgUuVm9pZBoNLlByb2R1Y3RJdGVtcxI2ChdHZXRQcm9kdWN0c0lu",
-          "Q2FydEJ5VXNlchIMLlNlYXJjaEZpZWxkGg0uUHJvZHVjdEl0ZW1zEiUKC0Zp",
-          "bmRQcm9kdWN0EgwuU2VhcmNoRmllbGQaCC5Qcm9kdWN0EiAKDVVwZGF0ZVBy",
-          "b2R1Y3QSCC5Qcm9kdWN0GgUuVm9pZBIkCg1EZWxldGVQcm9kdWN0EgwuU2Vh",
-          "cmNoRmllbGQaBS5Wb2lkMpQCCgtDYXJ0U2VydmljZRIcCgxSZWdpc3RlckNh",
-          "cnQSBS5DYXJ0GgUuVm9pZBIkChBSZWdpc3RlckNhcnRJdGVtEgkuQ2FydEl0",
-          "ZW0aBS5Wb2lkEh8KCEZpbmRDYXJ0EgwuU2VhcmNoRmllbGQaBS5DYXJ0EioK",
-          "DkdldEFsbEZyb21DYXJ0EgwuU2VhcmNoRmllbGQaCi5DYXJ0SXRlbXMSKAoR",
-          "RGVsZXRlQWxsRnJvbUNhcnQSDC5TZWFyY2hGaWVsZBoFLlZvaWQSJgoPVXBk",
-          "YXRlQ2FydFRvdGFsEgwuU2VhcmNoRmllbGQaBS5Wb2lkEiIKDkRlbGV0ZUZy",
-          "b21DYXJ0EgkuQ2FydEl0ZW0aBS5Wb2lkMlcKDE9yZGVyU2VydmljZRIeCg1S",
-          "ZWdpc3Rlck9yZGVyEgYuT3JkZXIaBS5Wb2lkEicKEVJlZ2lzdGVyT3JkZXJJ",
-          "dGVtEgsuT3JkZXJJdGVtcxoFLlZvaWRCGwoXb3JnLmRhdGFhY2Nlc3MucHJv",
-          "dG9idWZQAWIGcHJvdG8z"));
+          "Q2FydEl0ZW1zEhwKCWNhcnRJdGVtcxgBIAMoCzIJLkNhcnRJdGVtIjcKBU9y",
+          "ZGVyEgoKAmlkGAEgASgFEhMKBHVzZXIYAiABKAsyBS5Vc2VyEg0KBXRvdGFs",
+          "GAMgASgFIkkKCU9yZGVySXRlbRIKCgJpZBgBIAEoBRIVCgVvcmRlchgCIAEo",
+          "CzIGLk9yZGVyEhkKB3Byb2R1Y3QYAyABKAsyCC5Qcm9kdWN0IiwKCk9yZGVy",
+          "SXRlbXMSHgoKb3JkZXJJdGVtcxgBIAMoCzIKLk9yZGVySXRlbSIdCgtTZWFy",
+          "Y2hGaWVsZBIOCgZzZWFyY2gYASABKAkiBgoEVm9pZDLnAQoLVXNlclNlcnZp",
+          "Y2USIgoKQ3JlYXRlVXNlchINLlJlZ2lzdGVyVXNlchoFLlVzZXISHwoKTG9n",
+          "aW5Vc2VycxIKLkxvZ2luVXNlchoFLlVzZXISHwoIRmluZFVzZXISDC5TZWFy",
+          "Y2hGaWVsZBoFLlVzZXISIQoKQWRkQ3JlZGl0cxIMLkNyZWRpdHNVc2VyGgUu",
+          "Vm9pZBIkCg1SZW1vdmVDcmVkaXRzEgwuQ3JlZGl0c1VzZXIaBS5Wb2lkEikK",
+          "FVVwZGF0ZVVzZXJJbmZvcm1hdGlvbhIJLlVzZXJJbmZvGgUuVm9pZDKDAgoO",
+          "UHJvZHVjdFNlcnZpY2USJQoPUmVnaXN0ZXJQcm9kdWN0EgguUHJvZHVjdBoI",
+          "LlByb2R1Y3QSIwoLR2V0UHJvZHVjdHMSBS5Wb2lkGg0uUHJvZHVjdEl0ZW1z",
+          "EjYKF0dldFByb2R1Y3RzSW5DYXJ0QnlVc2VyEgwuU2VhcmNoRmllbGQaDS5Q",
+          "cm9kdWN0SXRlbXMSJQoLRmluZFByb2R1Y3QSDC5TZWFyY2hGaWVsZBoILlBy",
+          "b2R1Y3QSIAoNVXBkYXRlUHJvZHVjdBIILlByb2R1Y3QaBS5Wb2lkEiQKDURl",
+          "bGV0ZVByb2R1Y3QSDC5TZWFyY2hGaWVsZBoFLlZvaWQylAIKC0NhcnRTZXJ2",
+          "aWNlEhwKDFJlZ2lzdGVyQ2FydBIFLkNhcnQaBS5Wb2lkEiQKEFJlZ2lzdGVy",
+          "Q2FydEl0ZW0SCS5DYXJ0SXRlbRoFLlZvaWQSHwoIRmluZENhcnQSDC5TZWFy",
+          "Y2hGaWVsZBoFLkNhcnQSKgoOR2V0QWxsRnJvbUNhcnQSDC5TZWFyY2hGaWVs",
+          "ZBoKLkNhcnRJdGVtcxIoChFEZWxldGVBbGxGcm9tQ2FydBIMLlNlYXJjaEZp",
+          "ZWxkGgUuVm9pZBImCg9VcGRhdGVDYXJ0VG90YWwSDC5TZWFyY2hGaWVsZBoF",
+          "LlZvaWQSIgoORGVsZXRlRnJvbUNhcnQSCS5DYXJ0SXRlbRoFLlZvaWQyegoM",
+          "T3JkZXJTZXJ2aWNlEh4KDVJlZ2lzdGVyT3JkZXISBi5PcmRlchoFLlZvaWQS",
+          "JwoRUmVnaXN0ZXJPcmRlckl0ZW0SCy5PcmRlckl0ZW1zGgUuVm9pZBIhCglG",
+          "aW5kT3JkZXISDC5TZWFyY2hGaWVsZBoGLk9yZGVyQhsKF29yZy5kYXRhYWNj",
+          "ZXNzLnByb3RvYnVmUAFiBnByb3RvMw=="));
     descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
         new pbr::FileDescriptor[] { },
         new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -82,8 +83,8 @@ public static partial class ProtobufReflection {
           new pbr::GeneratedClrTypeInfo(typeof(global::Cart), global::Cart.Parser, new[]{ "Id", "Username", "Total" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::CartItem), global::CartItem.Parser, new[]{ "Id", "CartId", "ProductId" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::CartItems), global::CartItems.Parser, new[]{ "CartItems_" }, null, null, null, null),
-          new pbr::GeneratedClrTypeInfo(typeof(global::Order), global::Order.Parser, new[]{ "Id", "Username", "Total" }, null, null, null, null),
-          new pbr::GeneratedClrTypeInfo(typeof(global::OrderItem), global::OrderItem.Parser, new[]{ "Id", "OrderId", "ProductId" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::Order), global::Order.Parser, new[]{ "Id", "User", "Total" }, null, null, null, null),
+          new pbr::GeneratedClrTypeInfo(typeof(global::OrderItem), global::OrderItem.Parser, new[]{ "Id", "Order", "Product" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::OrderItems), global::OrderItems.Parser, new[]{ "OrderItems_" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::SearchField), global::SearchField.Parser, new[]{ "Search" }, null, null, null, null),
           new pbr::GeneratedClrTypeInfo(typeof(global::Void), global::Void.Parser, null, null, null, null, null)
@@ -3474,7 +3475,7 @@ public sealed partial class Order : pb::IMessage<Order>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public Order(Order other) : this() {
     id_ = other.id_;
-    username_ = other.username_;
+    user_ = other.user_ != null ? other.user_.Clone() : null;
     total_ = other.total_;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
@@ -3497,15 +3498,15 @@ public sealed partial class Order : pb::IMessage<Order>
     }
   }
 
-  /// <summary>Field number for the "username" field.</summary>
-  public const int UsernameFieldNumber = 2;
-  private string username_ = "";
+  /// <summary>Field number for the "user" field.</summary>
+  public const int UserFieldNumber = 2;
+  private global::User user_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public string Username {
-    get { return username_; }
+  public global::User User {
+    get { return user_; }
     set {
-      username_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      user_ = value;
     }
   }
 
@@ -3537,7 +3538,7 @@ public sealed partial class Order : pb::IMessage<Order>
       return true;
     }
     if (Id != other.Id) return false;
-    if (Username != other.Username) return false;
+    if (!object.Equals(User, other.User)) return false;
     if (Total != other.Total) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
@@ -3547,7 +3548,7 @@ public sealed partial class Order : pb::IMessage<Order>
   public override int GetHashCode() {
     int hash = 1;
     if (Id != 0) hash ^= Id.GetHashCode();
-    if (Username.Length != 0) hash ^= Username.GetHashCode();
+    if (user_ != null) hash ^= User.GetHashCode();
     if (Total != 0) hash ^= Total.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
@@ -3571,9 +3572,9 @@ public sealed partial class Order : pb::IMessage<Order>
       output.WriteRawTag(8);
       output.WriteInt32(Id);
     }
-    if (Username.Length != 0) {
+    if (user_ != null) {
       output.WriteRawTag(18);
-      output.WriteString(Username);
+      output.WriteMessage(User);
     }
     if (Total != 0) {
       output.WriteRawTag(24);
@@ -3593,9 +3594,9 @@ public sealed partial class Order : pb::IMessage<Order>
       output.WriteRawTag(8);
       output.WriteInt32(Id);
     }
-    if (Username.Length != 0) {
+    if (user_ != null) {
       output.WriteRawTag(18);
-      output.WriteString(Username);
+      output.WriteMessage(User);
     }
     if (Total != 0) {
       output.WriteRawTag(24);
@@ -3614,8 +3615,8 @@ public sealed partial class Order : pb::IMessage<Order>
     if (Id != 0) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
     }
-    if (Username.Length != 0) {
-      size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
+    if (user_ != null) {
+      size += 1 + pb::CodedOutputStream.ComputeMessageSize(User);
     }
     if (Total != 0) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Total);
@@ -3635,8 +3636,11 @@ public sealed partial class Order : pb::IMessage<Order>
     if (other.Id != 0) {
       Id = other.Id;
     }
-    if (other.Username.Length != 0) {
-      Username = other.Username;
+    if (other.user_ != null) {
+      if (user_ == null) {
+        User = new global::User();
+      }
+      User.MergeFrom(other.User);
     }
     if (other.Total != 0) {
       Total = other.Total;
@@ -3661,7 +3665,10 @@ public sealed partial class Order : pb::IMessage<Order>
           break;
         }
         case 18: {
-          Username = input.ReadString();
+          if (user_ == null) {
+            User = new global::User();
+          }
+          input.ReadMessage(User);
           break;
         }
         case 24: {
@@ -3688,7 +3695,10 @@ public sealed partial class Order : pb::IMessage<Order>
           break;
         }
         case 18: {
-          Username = input.ReadString();
+          if (user_ == null) {
+            User = new global::User();
+          }
+          input.ReadMessage(User);
           break;
         }
         case 24: {
@@ -3737,8 +3747,8 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
   public OrderItem(OrderItem other) : this() {
     id_ = other.id_;
-    orderId_ = other.orderId_;
-    productId_ = other.productId_;
+    order_ = other.order_ != null ? other.order_.Clone() : null;
+    product_ = other.product_ != null ? other.product_.Clone() : null;
     _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
   }
 
@@ -3760,27 +3770,27 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
     }
   }
 
-  /// <summary>Field number for the "orderId" field.</summary>
-  public const int OrderIdFieldNumber = 2;
-  private int orderId_;
+  /// <summary>Field number for the "order" field.</summary>
+  public const int OrderFieldNumber = 2;
+  private global::Order order_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int OrderId {
-    get { return orderId_; }
+  public global::Order Order {
+    get { return order_; }
     set {
-      orderId_ = value;
+      order_ = value;
     }
   }
 
-  /// <summary>Field number for the "productId" field.</summary>
-  public const int ProductIdFieldNumber = 3;
-  private int productId_;
+  /// <summary>Field number for the "product" field.</summary>
+  public const int ProductFieldNumber = 3;
+  private global::Product product_;
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
   [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-  public int ProductId {
-    get { return productId_; }
+  public global::Product Product {
+    get { return product_; }
     set {
-      productId_ = value;
+      product_ = value;
     }
   }
 
@@ -3800,8 +3810,8 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
       return true;
     }
     if (Id != other.Id) return false;
-    if (OrderId != other.OrderId) return false;
-    if (ProductId != other.ProductId) return false;
+    if (!object.Equals(Order, other.Order)) return false;
+    if (!object.Equals(Product, other.Product)) return false;
     return Equals(_unknownFields, other._unknownFields);
   }
 
@@ -3810,8 +3820,8 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
   public override int GetHashCode() {
     int hash = 1;
     if (Id != 0) hash ^= Id.GetHashCode();
-    if (OrderId != 0) hash ^= OrderId.GetHashCode();
-    if (ProductId != 0) hash ^= ProductId.GetHashCode();
+    if (order_ != null) hash ^= Order.GetHashCode();
+    if (product_ != null) hash ^= Product.GetHashCode();
     if (_unknownFields != null) {
       hash ^= _unknownFields.GetHashCode();
     }
@@ -3834,13 +3844,13 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
       output.WriteRawTag(8);
       output.WriteInt32(Id);
     }
-    if (OrderId != 0) {
-      output.WriteRawTag(16);
-      output.WriteInt32(OrderId);
+    if (order_ != null) {
+      output.WriteRawTag(18);
+      output.WriteMessage(Order);
     }
-    if (ProductId != 0) {
-      output.WriteRawTag(24);
-      output.WriteInt32(ProductId);
+    if (product_ != null) {
+      output.WriteRawTag(26);
+      output.WriteMessage(Product);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(output);
@@ -3856,13 +3866,13 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
       output.WriteRawTag(8);
       output.WriteInt32(Id);
     }
-    if (OrderId != 0) {
-      output.WriteRawTag(16);
-      output.WriteInt32(OrderId);
+    if (order_ != null) {
+      output.WriteRawTag(18);
+      output.WriteMessage(Order);
     }
-    if (ProductId != 0) {
-      output.WriteRawTag(24);
-      output.WriteInt32(ProductId);
+    if (product_ != null) {
+      output.WriteRawTag(26);
+      output.WriteMessage(Product);
     }
     if (_unknownFields != null) {
       _unknownFields.WriteTo(ref output);
@@ -3877,11 +3887,11 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
     if (Id != 0) {
       size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
     }
-    if (OrderId != 0) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(OrderId);
+    if (order_ != null) {
+      size += 1 + pb::CodedOutputStream.ComputeMessageSize(Order);
     }
-    if (ProductId != 0) {
-      size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProductId);
+    if (product_ != null) {
+      size += 1 + pb::CodedOutputStream.ComputeMessageSize(Product);
     }
     if (_unknownFields != null) {
       size += _unknownFields.CalculateSize();
@@ -3898,11 +3908,17 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
     if (other.Id != 0) {
       Id = other.Id;
     }
-    if (other.OrderId != 0) {
-      OrderId = other.OrderId;
+    if (other.order_ != null) {
+      if (order_ == null) {
+        Order = new global::Order();
+      }
+      Order.MergeFrom(other.Order);
     }
-    if (other.ProductId != 0) {
-      ProductId = other.ProductId;
+    if (other.product_ != null) {
+      if (product_ == null) {
+        Product = new global::Product();
+      }
+      Product.MergeFrom(other.Product);
     }
     _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
   }
@@ -3923,12 +3939,18 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
           Id = input.ReadInt32();
           break;
         }
-        case 16: {
-          OrderId = input.ReadInt32();
+        case 18: {
+          if (order_ == null) {
+            Order = new global::Order();
+          }
+          input.ReadMessage(Order);
           break;
         }
-        case 24: {
-          ProductId = input.ReadInt32();
+        case 26: {
+          if (product_ == null) {
+            Product = new global::Product();
+          }
+          input.ReadMessage(Product);
           break;
         }
       }
@@ -3950,12 +3972,18 @@ public sealed partial class OrderItem : pb::IMessage<OrderItem>
           Id = input.ReadInt32();
           break;
         }
-        case 16: {
-          OrderId = input.ReadInt32();
+        case 18: {
+          if (order_ == null) {
+            Order = new global::Order();
+          }
+          input.ReadMessage(Order);
           break;
         }
-        case 24: {
-          ProductId = input.ReadInt32();
+        case 26: {
+          if (product_ == null) {
+            Product = new global::Product();
+          }
+          input.ReadMessage(Product);
           break;
         }
       }

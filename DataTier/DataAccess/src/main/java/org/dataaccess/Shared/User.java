@@ -37,6 +37,12 @@ public class User implements Serializable
     public User() {
     }
 
+    public User(String username, String password, String type) {
+        this.username = username;
+        this.password = password;
+        this.type = type;
+    }
+
     public User(String username, String password, String f_name, String l_name) {
         this.username = username;
         this.password = password;
@@ -49,6 +55,17 @@ public class User implements Serializable
         this.password = password;
         this.f_name = f_name;
         this.l_name = l_name;
+        this.address = address;
+    }
+
+    public User(String username, String password, String f_name, String l_name, int credits, String type, String phone, Address address) {
+        this.username = username;
+        this.password = password;
+        this.f_name = f_name;
+        this.l_name = l_name;
+        this.credits = credits;
+        this.type = type;
+        this.phone = phone;
         this.address = address;
     }
 

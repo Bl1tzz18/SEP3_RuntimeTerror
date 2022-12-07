@@ -43,6 +43,13 @@ builder.Services.AddGrpcClient<CartService.CartServiceClient>(o =>
 builder.Services.AddScoped<ICartDAO, CartDao>();
 builder.Services.AddScoped<ICartLogic, CartLogic>();
 
+builder.Services.AddGrpcClient<OrderService.OrderServiceClient>(o =>
+{
+    o.Address = new Uri("http://localhost:6565");
+});
+builder.Services.AddScoped<IOrderDAO, OrderDao>();
+builder.Services.AddScoped<IOrderLogic, OrderLogic>();
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;

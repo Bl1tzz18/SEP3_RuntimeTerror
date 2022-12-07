@@ -6,6 +6,7 @@ org\dataaccess\protobuf\CartItems$Builder.class
 org\dataaccess\protobuf\ProductServiceGrpc$ProductServiceMethodDescriptorSupplier.class
 org\dataaccess\protobuf\UserServiceGrpc$UserServiceStub.class
 org\dataaccess\protobuf\Protobuf.class
+org\dataaccess\DAOInterfaces\OrderDAO.class
 org\dataaccess\protobuf\CartServiceGrpc$CartServiceStub.class
 org\dataaccess\protobuf\OrderServiceGrpc$1.class
 org\dataaccess\protobuf\UserServiceGrpc$MethodHandlers.class
@@ -26,6 +27,7 @@ org\dataaccess\mappers\AddressMapper.class
 org\dataaccess\protobuf\CartServiceGrpc$2.class
 org\dataaccess\protobuf\OrderItem$Builder.class
 org\dataaccess\protobuf\ProductServiceGrpc$3.class
+org\dataaccess\DAOImpl\OrderDAOImpl.class
 org\dataaccess\protobuf\LoginUser$Builder.class
 org\dataaccess\protobuf\OrderServiceGrpc$MethodHandlers.class
 services\ProductService.class
@@ -80,10 +82,12 @@ org\dataaccess\protobuf\UserInfo$Builder.class
 org\dataaccess\protobuf\CreditsUser$1.class
 org\dataaccess\repositories\UserRepository.class
 org\dataaccess\protobuf\CartServiceGrpc$3.class
+org\dataaccess\repositories\OrderRepository.class
 org\dataaccess\protobuf\ProductItems$Builder.class
 org\dataaccess\protobuf\ProductServiceGrpc$ProductServiceStub.class
 org\dataaccess\configs\UserConfig.class
 org\dataaccess\protobuf\OrderItemsOrBuilder.class
+org\dataaccess\Shared\OrderItem.class
 org\dataaccess\protobuf\ProductServiceGrpc$ProductServiceFutureStub.class
 org\dataaccess\protobuf\CartItemOrBuilder.class
 org\dataaccess\protobuf\CartItem.class
@@ -94,6 +98,7 @@ org\dataaccess\protobuf\Product$Builder.class
 org\dataaccess\repositories\ProductRepository.class
 org\dataaccess\protobuf\OrderServiceGrpc$OrderServiceImplBase.class
 org\dataaccess\protobuf\OrderServiceGrpc.class
+org\dataaccess\repositories\OrderItemsRepository.class
 org\dataaccess\protobuf\RegisterUser.class
 org\dataaccess\protobuf\UserInfo$1.class
 org\dataaccess\protobuf\OrderServiceGrpc$OrderServiceBlockingStub.class
@@ -112,6 +117,8 @@ org\dataaccess\protobuf\CreditsUser$Builder.class
 org\dataaccess\protobuf\RegisterUserOrBuilder.class
 org\dataaccess\protobuf\UserOrBuilder.class
 org\dataaccess\protobuf\CartServiceGrpc$CartServiceFileDescriptorSupplier.class
+services\OrderService.class
+org\dataaccess\mappers\OrderMapper.class
 services\CartService.class
 org\dataaccess\protobuf\CartItemsOrBuilder.class
 org\dataaccess\DAOImpl\UserDAOImpl.class
@@ -142,7 +149,9 @@ org\dataaccess\protobuf\ProductServiceGrpc$1.class
 org\dataaccess\protobuf\OrderItems$Builder.class
 org\dataaccess\mappers\CartItemMapper.class
 org\dataaccess\protobuf\LoginUser.class
+org\dataaccess\mappers\OrderItemMapper.class
 org\dataaccess\protobuf\Order$Builder.class
+org\dataaccess\Shared\Order.class
 org\dataaccess\repositories\CategoryRepository.class
 org\dataaccess\DAOInterfaces\ProductDAO.class
 org\dataaccess\protobuf\Category.class

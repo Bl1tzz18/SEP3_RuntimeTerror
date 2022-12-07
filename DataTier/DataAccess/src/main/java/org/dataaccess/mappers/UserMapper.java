@@ -17,4 +17,18 @@ public abstract class UserMapper
                 .setAddress(AddressMapper.mapToProto(user.getAddress()))
                 .build();
     }
+
+    public static org.dataaccess.Shared.User mapToShared(User user)
+    {
+        return new org.dataaccess.Shared.User(
+                user.getUsername(),
+                user.getPassword(),
+                user.getFName(),
+                user.getLName(),
+                user.getCredits(),
+                user.getType(),
+                user.getPhone(),
+                AddressMapper.mapToShared(user.getAddress())
+        );
+    }
 }

@@ -53,14 +53,30 @@ private static final long serialVersionUID = 0L;
             id_ = input.readInt32();
             break;
           }
-          case 16: {
+          case 18: {
+            org.dataaccess.protobuf.Order.Builder subBuilder = null;
+            if (order_ != null) {
+              subBuilder = order_.toBuilder();
+            }
+            order_ = input.readMessage(org.dataaccess.protobuf.Order.parser(), extensionRegistry);
+            if (subBuilder != null) {
+              subBuilder.mergeFrom(order_);
+              order_ = subBuilder.buildPartial();
+            }
 
-            cartId_ = input.readInt32();
             break;
           }
-          case 24: {
+          case 26: {
+            org.dataaccess.protobuf.Product.Builder subBuilder = null;
+            if (product_ != null) {
+              subBuilder = product_.toBuilder();
+            }
+            product_ = input.readMessage(org.dataaccess.protobuf.Product.parser(), extensionRegistry);
+            if (subBuilder != null) {
+              subBuilder.mergeFrom(product_);
+              product_ = subBuilder.buildPartial();
+            }
 
-            productId_ = input.readInt32();
             break;
           }
           default: {
@@ -108,26 +124,56 @@ private static final long serialVersionUID = 0L;
     return id_;
   }
 
-  public static final int CARTID_FIELD_NUMBER = 2;
-  private int cartId_;
+  public static final int ORDER_FIELD_NUMBER = 2;
+  private org.dataaccess.protobuf.Order order_;
   /**
-   * <code>int32 cartId = 2;</code>
-   * @return The cartId.
+   * <code>.Order order = 2;</code>
+   * @return Whether the order field is set.
    */
   @java.lang.Override
-  public int getCartId() {
-    return cartId_;
+  public boolean hasOrder() {
+    return order_ != null;
+  }
+  /**
+   * <code>.Order order = 2;</code>
+   * @return The order.
+   */
+  @java.lang.Override
+  public org.dataaccess.protobuf.Order getOrder() {
+    return order_ == null ? org.dataaccess.protobuf.Order.getDefaultInstance() : order_;
+  }
+  /**
+   * <code>.Order order = 2;</code>
+   */
+  @java.lang.Override
+  public org.dataaccess.protobuf.OrderOrBuilder getOrderOrBuilder() {
+    return getOrder();
   }
 
-  public static final int PRODUCTID_FIELD_NUMBER = 3;
-  private int productId_;
+  public static final int PRODUCT_FIELD_NUMBER = 3;
+  private org.dataaccess.protobuf.Product product_;
   /**
-   * <code>int32 productId = 3;</code>
-   * @return The productId.
+   * <code>.Product product = 3;</code>
+   * @return Whether the product field is set.
    */
   @java.lang.Override
-  public int getProductId() {
-    return productId_;
+  public boolean hasProduct() {
+    return product_ != null;
+  }
+  /**
+   * <code>.Product product = 3;</code>
+   * @return The product.
+   */
+  @java.lang.Override
+  public org.dataaccess.protobuf.Product getProduct() {
+    return product_ == null ? org.dataaccess.protobuf.Product.getDefaultInstance() : product_;
+  }
+  /**
+   * <code>.Product product = 3;</code>
+   */
+  @java.lang.Override
+  public org.dataaccess.protobuf.ProductOrBuilder getProductOrBuilder() {
+    return getProduct();
   }
 
   private byte memoizedIsInitialized = -1;
@@ -147,11 +193,11 @@ private static final long serialVersionUID = 0L;
     if (id_ != 0) {
       output.writeInt32(1, id_);
     }
-    if (cartId_ != 0) {
-      output.writeInt32(2, cartId_);
+    if (order_ != null) {
+      output.writeMessage(2, getOrder());
     }
-    if (productId_ != 0) {
-      output.writeInt32(3, productId_);
+    if (product_ != null) {
+      output.writeMessage(3, getProduct());
     }
     unknownFields.writeTo(output);
   }
@@ -166,13 +212,13 @@ private static final long serialVersionUID = 0L;
       size += com.google.protobuf.CodedOutputStream
         .computeInt32Size(1, id_);
     }
-    if (cartId_ != 0) {
+    if (order_ != null) {
       size += com.google.protobuf.CodedOutputStream
-        .computeInt32Size(2, cartId_);
+        .computeMessageSize(2, getOrder());
     }
-    if (productId_ != 0) {
+    if (product_ != null) {
       size += com.google.protobuf.CodedOutputStream
-        .computeInt32Size(3, productId_);
+        .computeMessageSize(3, getProduct());
     }
     size += unknownFields.getSerializedSize();
     memoizedSize = size;
@@ -191,10 +237,16 @@ private static final long serialVersionUID = 0L;
 
     if (getId()
         != other.getId()) return false;
-    if (getCartId()
-        != other.getCartId()) return false;
-    if (getProductId()
-        != other.getProductId()) return false;
+    if (hasOrder() != other.hasOrder()) return false;
+    if (hasOrder()) {
+      if (!getOrder()
+          .equals(other.getOrder())) return false;
+    }
+    if (hasProduct() != other.hasProduct()) return false;
+    if (hasProduct()) {
+      if (!getProduct()
+          .equals(other.getProduct())) return false;
+    }
     if (!unknownFields.equals(other.unknownFields)) return false;
     return true;
   }
@@ -208,10 +260,14 @@ private static final long serialVersionUID = 0L;
     hash = (19 * hash) + getDescriptor().hashCode();
     hash = (37 * hash) + ID_FIELD_NUMBER;
     hash = (53 * hash) + getId();
-    hash = (37 * hash) + CARTID_FIELD_NUMBER;
-    hash = (53 * hash) + getCartId();
-    hash = (37 * hash) + PRODUCTID_FIELD_NUMBER;
-    hash = (53 * hash) + getProductId();
+    if (hasOrder()) {
+      hash = (37 * hash) + ORDER_FIELD_NUMBER;
+      hash = (53 * hash) + getOrder().hashCode();
+    }
+    if (hasProduct()) {
+      hash = (37 * hash) + PRODUCT_FIELD_NUMBER;
+      hash = (53 * hash) + getProduct().hashCode();
+    }
     hash = (29 * hash) + unknownFields.hashCode();
     memoizedHashCode = hash;
     return hash;
@@ -347,10 +403,18 @@ private static final long serialVersionUID = 0L;
       super.clear();
       id_ = 0;
 
-      cartId_ = 0;
-
-      productId_ = 0;
-
+      if (orderBuilder_ == null) {
+        order_ = null;
+      } else {
+        order_ = null;
+        orderBuilder_ = null;
+      }
+      if (productBuilder_ == null) {
+        product_ = null;
+      } else {
+        product_ = null;
+        productBuilder_ = null;
+      }
       return this;
     }
 
@@ -378,8 +442,16 @@ private static final long serialVersionUID = 0L;
     public org.dataaccess.protobuf.OrderItem buildPartial() {
       org.dataaccess.protobuf.OrderItem result = new org.dataaccess.protobuf.OrderItem(this);
       result.id_ = id_;
-      result.cartId_ = cartId_;
-      result.productId_ = productId_;
+      if (orderBuilder_ == null) {
+        result.order_ = order_;
+      } else {
+        result.order_ = orderBuilder_.build();
+      }
+      if (productBuilder_ == null) {
+        result.product_ = product_;
+      } else {
+        result.product_ = productBuilder_.build();
+      }
       onBuilt();
       return result;
     }
@@ -431,11 +503,11 @@ private static final long serialVersionUID = 0L;
       if (other.getId() != 0) {
         setId(other.getId());
       }
-      if (other.getCartId() != 0) {
-        setCartId(other.getCartId());
+      if (other.hasOrder()) {
+        mergeOrder(other.getOrder());
       }
-      if (other.getProductId() != 0) {
-        setProductId(other.getProductId());
+      if (other.hasProduct()) {
+        mergeProduct(other.getProduct());
       }
       this.mergeUnknownFields(other.unknownFields);
       onChanged();
@@ -497,66 +569,242 @@ private static final long serialVersionUID = 0L;
       return this;
     }
 
-    private int cartId_ ;
+    private org.dataaccess.protobuf.Order order_;
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.Order, org.dataaccess.protobuf.Order.Builder, org.dataaccess.protobuf.OrderOrBuilder> orderBuilder_;
     /**
-     * <code>int32 cartId = 2;</code>
-     * @return The cartId.
+     * <code>.Order order = 2;</code>
+     * @return Whether the order field is set.
      */
-    @java.lang.Override
-    public int getCartId() {
-      return cartId_;
+    public boolean hasOrder() {
+      return orderBuilder_ != null || order_ != null;
     }
     /**
-     * <code>int32 cartId = 2;</code>
-     * @param value The cartId to set.
-     * @return This builder for chaining.
+     * <code>.Order order = 2;</code>
+     * @return The order.
      */
-    public Builder setCartId(int value) {
-      
-      cartId_ = value;
-      onChanged();
+    public org.dataaccess.protobuf.Order getOrder() {
+      if (orderBuilder_ == null) {
+        return order_ == null ? org.dataaccess.protobuf.Order.getDefaultInstance() : order_;
+      } else {
+        return orderBuilder_.getMessage();
+      }
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    public Builder setOrder(org.dataaccess.protobuf.Order value) {
+      if (orderBuilder_ == null) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        order_ = value;
+        onChanged();
+      } else {
+        orderBuilder_.setMessage(value);
+      }
+
       return this;
     }
     /**
-     * <code>int32 cartId = 2;</code>
-     * @return This builder for chaining.
+     * <code>.Order order = 2;</code>
      */
-    public Builder clearCartId() {
-      
-      cartId_ = 0;
-      onChanged();
+    public Builder setOrder(
+        org.dataaccess.protobuf.Order.Builder builderForValue) {
+      if (orderBuilder_ == null) {
+        order_ = builderForValue.build();
+        onChanged();
+      } else {
+        orderBuilder_.setMessage(builderForValue.build());
+      }
+
       return this;
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    public Builder mergeOrder(org.dataaccess.protobuf.Order value) {
+      if (orderBuilder_ == null) {
+        if (order_ != null) {
+          order_ =
+            org.dataaccess.protobuf.Order.newBuilder(order_).mergeFrom(value).buildPartial();
+        } else {
+          order_ = value;
+        }
+        onChanged();
+      } else {
+        orderBuilder_.mergeFrom(value);
+      }
+
+      return this;
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    public Builder clearOrder() {
+      if (orderBuilder_ == null) {
+        order_ = null;
+        onChanged();
+      } else {
+        order_ = null;
+        orderBuilder_ = null;
+      }
+
+      return this;
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    public org.dataaccess.protobuf.Order.Builder getOrderBuilder() {
+      
+      onChanged();
+      return getOrderFieldBuilder().getBuilder();
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    public org.dataaccess.protobuf.OrderOrBuilder getOrderOrBuilder() {
+      if (orderBuilder_ != null) {
+        return orderBuilder_.getMessageOrBuilder();
+      } else {
+        return order_ == null ?
+            org.dataaccess.protobuf.Order.getDefaultInstance() : order_;
+      }
+    }
+    /**
+     * <code>.Order order = 2;</code>
+     */
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.Order, org.dataaccess.protobuf.Order.Builder, org.dataaccess.protobuf.OrderOrBuilder> 
+        getOrderFieldBuilder() {
+      if (orderBuilder_ == null) {
+        orderBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+            org.dataaccess.protobuf.Order, org.dataaccess.protobuf.Order.Builder, org.dataaccess.protobuf.OrderOrBuilder>(
+                getOrder(),
+                getParentForChildren(),
+                isClean());
+        order_ = null;
+      }
+      return orderBuilder_;
     }
 
-    private int productId_ ;
+    private org.dataaccess.protobuf.Product product_;
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.Product, org.dataaccess.protobuf.Product.Builder, org.dataaccess.protobuf.ProductOrBuilder> productBuilder_;
     /**
-     * <code>int32 productId = 3;</code>
-     * @return The productId.
+     * <code>.Product product = 3;</code>
+     * @return Whether the product field is set.
      */
-    @java.lang.Override
-    public int getProductId() {
-      return productId_;
+    public boolean hasProduct() {
+      return productBuilder_ != null || product_ != null;
     }
     /**
-     * <code>int32 productId = 3;</code>
-     * @param value The productId to set.
-     * @return This builder for chaining.
+     * <code>.Product product = 3;</code>
+     * @return The product.
      */
-    public Builder setProductId(int value) {
-      
-      productId_ = value;
-      onChanged();
+    public org.dataaccess.protobuf.Product getProduct() {
+      if (productBuilder_ == null) {
+        return product_ == null ? org.dataaccess.protobuf.Product.getDefaultInstance() : product_;
+      } else {
+        return productBuilder_.getMessage();
+      }
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    public Builder setProduct(org.dataaccess.protobuf.Product value) {
+      if (productBuilder_ == null) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        product_ = value;
+        onChanged();
+      } else {
+        productBuilder_.setMessage(value);
+      }
+
       return this;
     }
     /**
-     * <code>int32 productId = 3;</code>
-     * @return This builder for chaining.
+     * <code>.Product product = 3;</code>
      */
-    public Builder clearProductId() {
-      
-      productId_ = 0;
-      onChanged();
+    public Builder setProduct(
+        org.dataaccess.protobuf.Product.Builder builderForValue) {
+      if (productBuilder_ == null) {
+        product_ = builderForValue.build();
+        onChanged();
+      } else {
+        productBuilder_.setMessage(builderForValue.build());
+      }
+
       return this;
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    public Builder mergeProduct(org.dataaccess.protobuf.Product value) {
+      if (productBuilder_ == null) {
+        if (product_ != null) {
+          product_ =
+            org.dataaccess.protobuf.Product.newBuilder(product_).mergeFrom(value).buildPartial();
+        } else {
+          product_ = value;
+        }
+        onChanged();
+      } else {
+        productBuilder_.mergeFrom(value);
+      }
+
+      return this;
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    public Builder clearProduct() {
+      if (productBuilder_ == null) {
+        product_ = null;
+        onChanged();
+      } else {
+        product_ = null;
+        productBuilder_ = null;
+      }
+
+      return this;
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    public org.dataaccess.protobuf.Product.Builder getProductBuilder() {
+      
+      onChanged();
+      return getProductFieldBuilder().getBuilder();
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    public org.dataaccess.protobuf.ProductOrBuilder getProductOrBuilder() {
+      if (productBuilder_ != null) {
+        return productBuilder_.getMessageOrBuilder();
+      } else {
+        return product_ == null ?
+            org.dataaccess.protobuf.Product.getDefaultInstance() : product_;
+      }
+    }
+    /**
+     * <code>.Product product = 3;</code>
+     */
+    private com.google.protobuf.SingleFieldBuilderV3<
+        org.dataaccess.protobuf.Product, org.dataaccess.protobuf.Product.Builder, org.dataaccess.protobuf.ProductOrBuilder> 
+        getProductFieldBuilder() {
+      if (productBuilder_ == null) {
+        productBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+            org.dataaccess.protobuf.Product, org.dataaccess.protobuf.Product.Builder, org.dataaccess.protobuf.ProductOrBuilder>(
+                getProduct(),
+                getParentForChildren(),
+                isClean());
+        product_ = null;
+      }
+      return productBuilder_;
     }
     @java.lang.Override
     public final Builder setUnknownFields(

@@ -130,34 +130,36 @@ public final class Protobuf {
       "\020\n\010username\030\002 \001(\t\022\r\n\005total\030\003 \001(\005\"9\n\010Cart" +
       "Item\022\n\n\002id\030\001 \001(\005\022\016\n\006cartId\030\002 \001(\005\022\021\n\tprod" +
       "uctId\030\003 \001(\005\")\n\tCartItems\022\034\n\tcartItems\030\001 " +
-      "\003(\0132\t.CartItem\"4\n\005Order\022\n\n\002id\030\001 \001(\005\022\020\n\010u" +
-      "sername\030\002 \001(\t\022\r\n\005total\030\003 \001(\005\":\n\tOrderIte" +
-      "m\022\n\n\002id\030\001 \001(\005\022\016\n\006cartId\030\002 \001(\005\022\021\n\tproduct" +
-      "Id\030\003 \001(\005\",\n\nOrderItems\022\036\n\norderItems\030\001 \003" +
-      "(\0132\n.OrderItem\"\035\n\013SearchField\022\016\n\006search\030" +
-      "\001 \001(\t\"\006\n\004Void2\347\001\n\013UserService\022\"\n\nCreateU" +
-      "ser\022\r.RegisterUser\032\005.User\022\037\n\nLoginUsers\022" +
-      "\n.LoginUser\032\005.User\022\037\n\010FindUser\022\014.SearchF" +
-      "ield\032\005.User\022!\n\nAddCredits\022\014.CreditsUser\032" +
-      "\005.Void\022$\n\rRemoveCredits\022\014.CreditsUser\032\005." +
-      "Void\022)\n\025UpdateUserInformation\022\t.UserInfo" +
-      "\032\005.Void2\203\002\n\016ProductService\022%\n\017RegisterPr" +
-      "oduct\022\010.Product\032\010.Product\022#\n\013GetProducts" +
-      "\022\005.Void\032\r.ProductItems\0226\n\027GetProductsInC" +
-      "artByUser\022\014.SearchField\032\r.ProductItems\022%" +
-      "\n\013FindProduct\022\014.SearchField\032\010.Product\022 \n" +
-      "\rUpdateProduct\022\010.Product\032\005.Void\022$\n\rDelet" +
-      "eProduct\022\014.SearchField\032\005.Void2\224\002\n\013CartSe" +
-      "rvice\022\034\n\014RegisterCart\022\005.Cart\032\005.Void\022$\n\020R" +
-      "egisterCartItem\022\t.CartItem\032\005.Void\022\037\n\010Fin" +
-      "dCart\022\014.SearchField\032\005.Cart\022*\n\016GetAllFrom" +
-      "Cart\022\014.SearchField\032\n.CartItems\022(\n\021Delete" +
-      "AllFromCart\022\014.SearchField\032\005.Void\022&\n\017Upda" +
-      "teCartTotal\022\014.SearchField\032\005.Void\022\"\n\016Dele" +
-      "teFromCart\022\t.CartItem\032\005.Void2W\n\014OrderSer" +
-      "vice\022\036\n\rRegisterOrder\022\006.Order\032\005.Void\022\'\n\021" +
-      "RegisterOrderItem\022\013.OrderItems\032\005.VoidB\033\n" +
-      "\027org.dataaccess.protobufP\001b\006proto3"
+      "\003(\0132\t.CartItem\"7\n\005Order\022\n\n\002id\030\001 \001(\005\022\023\n\004u" +
+      "ser\030\002 \001(\0132\005.User\022\r\n\005total\030\003 \001(\005\"I\n\tOrder" +
+      "Item\022\n\n\002id\030\001 \001(\005\022\025\n\005order\030\002 \001(\0132\006.Order\022" +
+      "\031\n\007product\030\003 \001(\0132\010.Product\",\n\nOrderItems" +
+      "\022\036\n\norderItems\030\001 \003(\0132\n.OrderItem\"\035\n\013Sear" +
+      "chField\022\016\n\006search\030\001 \001(\t\"\006\n\004Void2\347\001\n\013User" +
+      "Service\022\"\n\nCreateUser\022\r.RegisterUser\032\005.U" +
+      "ser\022\037\n\nLoginUsers\022\n.LoginUser\032\005.User\022\037\n\010" +
+      "FindUser\022\014.SearchField\032\005.User\022!\n\nAddCred" +
+      "its\022\014.CreditsUser\032\005.Void\022$\n\rRemoveCredit" +
+      "s\022\014.CreditsUser\032\005.Void\022)\n\025UpdateUserInfo" +
+      "rmation\022\t.UserInfo\032\005.Void2\203\002\n\016ProductSer" +
+      "vice\022%\n\017RegisterProduct\022\010.Product\032\010.Prod" +
+      "uct\022#\n\013GetProducts\022\005.Void\032\r.ProductItems" +
+      "\0226\n\027GetProductsInCartByUser\022\014.SearchFiel" +
+      "d\032\r.ProductItems\022%\n\013FindProduct\022\014.Search" +
+      "Field\032\010.Product\022 \n\rUpdateProduct\022\010.Produ" +
+      "ct\032\005.Void\022$\n\rDeleteProduct\022\014.SearchField" +
+      "\032\005.Void2\224\002\n\013CartService\022\034\n\014RegisterCart\022" +
+      "\005.Cart\032\005.Void\022$\n\020RegisterCartItem\022\t.Cart" +
+      "Item\032\005.Void\022\037\n\010FindCart\022\014.SearchField\032\005." +
+      "Cart\022*\n\016GetAllFromCart\022\014.SearchField\032\n.C" +
+      "artItems\022(\n\021DeleteAllFromCart\022\014.SearchFi" +
+      "eld\032\005.Void\022&\n\017UpdateCartTotal\022\014.SearchFi" +
+      "eld\032\005.Void\022\"\n\016DeleteFromCart\022\t.CartItem\032" +
+      "\005.Void2z\n\014OrderService\022\036\n\rRegisterOrder\022" +
+      "\006.Order\032\005.Void\022\'\n\021RegisterOrderItem\022\013.Or" +
+      "derItems\032\005.Void\022!\n\tFindOrder\022\014.SearchFie" +
+      "ld\032\006.OrderB\033\n\027org.dataaccess.protobufP\001b" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -240,13 +242,13 @@ public final class Protobuf {
     internal_static_Order_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Order_descriptor,
-        new java.lang.String[] { "Id", "Username", "Total", });
+        new java.lang.String[] { "Id", "User", "Total", });
     internal_static_OrderItem_descriptor =
       getDescriptor().getMessageTypes().get(13);
     internal_static_OrderItem_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OrderItem_descriptor,
-        new java.lang.String[] { "Id", "CartId", "ProductId", });
+        new java.lang.String[] { "Id", "Order", "Product", });
     internal_static_OrderItems_descriptor =
       getDescriptor().getMessageTypes().get(14);
     internal_static_OrderItems_fieldAccessorTable = new

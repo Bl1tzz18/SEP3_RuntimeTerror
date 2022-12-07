@@ -14,16 +14,19 @@ public interface OrderOrBuilder extends
   int getId();
 
   /**
-   * <code>string username = 2;</code>
-   * @return The username.
+   * <code>.User user = 2;</code>
+   * @return Whether the user field is set.
    */
-  java.lang.String getUsername();
+  boolean hasUser();
   /**
-   * <code>string username = 2;</code>
-   * @return The bytes for username.
+   * <code>.User user = 2;</code>
+   * @return The user.
    */
-  com.google.protobuf.ByteString
-      getUsernameBytes();
+  org.dataaccess.protobuf.User getUser();
+  /**
+   * <code>.User user = 2;</code>
+   */
+  org.dataaccess.protobuf.UserOrBuilder getUserOrBuilder();
 
   /**
    * <code>int32 total = 3;</code>

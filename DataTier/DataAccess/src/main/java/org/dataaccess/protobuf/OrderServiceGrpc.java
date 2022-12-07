@@ -76,6 +76,37 @@ public final class OrderServiceGrpc {
     return getRegisterOrderItemMethod;
   }
 
+  private static volatile io.grpc.MethodDescriptor<org.dataaccess.protobuf.SearchField,
+      org.dataaccess.protobuf.Order> getFindOrderMethod;
+
+  @io.grpc.stub.annotations.RpcMethod(
+      fullMethodName = SERVICE_NAME + '/' + "FindOrder",
+      requestType = org.dataaccess.protobuf.SearchField.class,
+      responseType = org.dataaccess.protobuf.Order.class,
+      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
+  public static io.grpc.MethodDescriptor<org.dataaccess.protobuf.SearchField,
+      org.dataaccess.protobuf.Order> getFindOrderMethod() {
+    io.grpc.MethodDescriptor<org.dataaccess.protobuf.SearchField, org.dataaccess.protobuf.Order> getFindOrderMethod;
+    if ((getFindOrderMethod = OrderServiceGrpc.getFindOrderMethod) == null) {
+      synchronized (OrderServiceGrpc.class) {
+        if ((getFindOrderMethod = OrderServiceGrpc.getFindOrderMethod) == null) {
+          OrderServiceGrpc.getFindOrderMethod = getFindOrderMethod =
+              io.grpc.MethodDescriptor.<org.dataaccess.protobuf.SearchField, org.dataaccess.protobuf.Order>newBuilder()
+              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
+              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "FindOrder"))
+              .setSampledToLocalTracing(true)
+              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  org.dataaccess.protobuf.SearchField.getDefaultInstance()))
+              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
+                  org.dataaccess.protobuf.Order.getDefaultInstance()))
+              .setSchemaDescriptor(new OrderServiceMethodDescriptorSupplier("FindOrder"))
+              .build();
+        }
+      }
+    }
+    return getFindOrderMethod;
+  }
+
   /**
    * Creates a new async stub that supports all call types for the service
    */
@@ -138,6 +169,13 @@ public final class OrderServiceGrpc {
       io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getRegisterOrderItemMethod(), responseObserver);
     }
 
+    /**
+     */
+    public void findOrder(org.dataaccess.protobuf.SearchField request,
+        io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Order> responseObserver) {
+      io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getFindOrderMethod(), responseObserver);
+    }
+
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
@@ -154,6 +192,13 @@ public final class OrderServiceGrpc {
                 org.dataaccess.protobuf.OrderItems,
                 org.dataaccess.protobuf.Void>(
                   this, METHODID_REGISTER_ORDER_ITEM)))
+          .addMethod(
+            getFindOrderMethod(),
+            io.grpc.stub.ServerCalls.asyncUnaryCall(
+              new MethodHandlers<
+                org.dataaccess.protobuf.SearchField,
+                org.dataaccess.protobuf.Order>(
+                  this, METHODID_FIND_ORDER)))
           .build();
     }
   }
@@ -187,6 +232,14 @@ public final class OrderServiceGrpc {
       io.grpc.stub.ClientCalls.asyncUnaryCall(
           getChannel().newCall(getRegisterOrderItemMethod(), getCallOptions()), request, responseObserver);
     }
+
+    /**
+     */
+    public void findOrder(org.dataaccess.protobuf.SearchField request,
+        io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Order> responseObserver) {
+      io.grpc.stub.ClientCalls.asyncUnaryCall(
+          getChannel().newCall(getFindOrderMethod(), getCallOptions()), request, responseObserver);
+    }
   }
 
   /**
@@ -215,6 +268,13 @@ public final class OrderServiceGrpc {
     public org.dataaccess.protobuf.Void registerOrderItem(org.dataaccess.protobuf.OrderItems request) {
       return io.grpc.stub.ClientCalls.blockingUnaryCall(
           getChannel(), getRegisterOrderItemMethod(), getCallOptions(), request);
+    }
+
+    /**
+     */
+    public org.dataaccess.protobuf.Order findOrder(org.dataaccess.protobuf.SearchField request) {
+      return io.grpc.stub.ClientCalls.blockingUnaryCall(
+          getChannel(), getFindOrderMethod(), getCallOptions(), request);
     }
   }
 
@@ -247,10 +307,19 @@ public final class OrderServiceGrpc {
       return io.grpc.stub.ClientCalls.futureUnaryCall(
           getChannel().newCall(getRegisterOrderItemMethod(), getCallOptions()), request);
     }
+
+    /**
+     */
+    public com.google.common.util.concurrent.ListenableFuture<org.dataaccess.protobuf.Order> findOrder(
+        org.dataaccess.protobuf.SearchField request) {
+      return io.grpc.stub.ClientCalls.futureUnaryCall(
+          getChannel().newCall(getFindOrderMethod(), getCallOptions()), request);
+    }
   }
 
   private static final int METHODID_REGISTER_ORDER = 0;
   private static final int METHODID_REGISTER_ORDER_ITEM = 1;
+  private static final int METHODID_FIND_ORDER = 2;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -276,6 +345,10 @@ public final class OrderServiceGrpc {
         case METHODID_REGISTER_ORDER_ITEM:
           serviceImpl.registerOrderItem((org.dataaccess.protobuf.OrderItems) request,
               (io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Void>) responseObserver);
+          break;
+        case METHODID_FIND_ORDER:
+          serviceImpl.findOrder((org.dataaccess.protobuf.SearchField) request,
+              (io.grpc.stub.StreamObserver<org.dataaccess.protobuf.Order>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -340,6 +413,7 @@ public final class OrderServiceGrpc {
               .setSchemaDescriptor(new OrderServiceFileDescriptorSupplier())
               .addMethod(getRegisterOrderMethod())
               .addMethod(getRegisterOrderItemMethod())
+              .addMethod(getFindOrderMethod())
               .build();
         }
       }
