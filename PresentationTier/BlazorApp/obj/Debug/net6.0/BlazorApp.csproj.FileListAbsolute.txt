@@ -3370,3 +3370,4 @@ C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\n
 C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css

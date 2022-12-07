@@ -102,6 +102,18 @@ public class JwtAuthService : IAuthService
         }
     }
     
+    public async Task AddCreditsAsync(int credits, string username)
+    { 
+        StringContent content = new StringContent("", Encoding.UTF8, "application/json");
+        
+        HttpResponseMessage response = await client.PutAsync($"https://localhost:7129/User/addcredits?credits={credits}&username={username}",content);
+        if (!response.IsSuccessStatusCode)
+        {
+            string result = await response.Content.ReadAsStringAsync();
+            throw new Exception(result);
+        }
+    }
+    
 
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; } = null!;
     

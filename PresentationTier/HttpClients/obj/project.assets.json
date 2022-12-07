@@ -524,19 +524,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robchik\\.nuget\\packages\\": {}
+    "C:\\Users\\catal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
+      "projectUniqueName": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
       "projectName": "HttpClients",
-      "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
-      "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
-      "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\obj\\",
+      "projectPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
+      "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -585,7 +585,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

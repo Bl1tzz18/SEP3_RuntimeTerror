@@ -13,4 +13,6 @@ public interface IAuthService
     Task EditProfileData(UserInfoCreationDTO dto);
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; }
     
+    public Task AddCreditsAsync(int credits, string username);
+    
 }
