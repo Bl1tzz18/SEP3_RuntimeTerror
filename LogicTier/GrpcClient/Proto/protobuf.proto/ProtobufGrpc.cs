@@ -811,4 +811,146 @@ public static partial class CartService
   }
 
 }
+public static partial class OrderService
+{
+  static readonly string __ServiceName = "OrderService";
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
+  {
+    #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+    if (message is global::Google.Protobuf.IBufferMessage)
+    {
+      context.SetPayloadLength(message.CalculateSize());
+      global::Google.Protobuf.MessageExtensions.WriteTo(message, context.GetBufferWriter());
+      context.Complete();
+      return;
+    }
+    #endif
+    context.Complete(global::Google.Protobuf.MessageExtensions.ToByteArray(message));
+  }
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static class __Helper_MessageCache<T>
+  {
+    public static readonly bool IsBufferMessage = global::System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(global::Google.Protobuf.IBufferMessage)).IsAssignableFrom(typeof(T));
+  }
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static T __Helper_DeserializeMessage<T>(grpc::DeserializationContext context, global::Google.Protobuf.MessageParser<T> parser) where T : global::Google.Protobuf.IMessage<T>
+  {
+    #if !GRPC_DISABLE_PROTOBUF_BUFFER_SERIALIZATION
+    if (__Helper_MessageCache<T>.IsBufferMessage)
+    {
+      return parser.ParseFrom(context.PayloadAsReadOnlySequence());
+    }
+    #endif
+    return parser.ParseFrom(context.PayloadAsNewBuffer());
+  }
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Marshaller<global::Order> __Marshaller_Order = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Order.Parser));
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Marshaller<global::Void> __Marshaller_Void = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Void.Parser));
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Marshaller<global::OrderItems> __Marshaller_OrderItems = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OrderItems.Parser));
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::Order, global::Void> __Method_RegisterOrder = new grpc::Method<global::Order, global::Void>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "RegisterOrder",
+      __Marshaller_Order,
+      __Marshaller_Void);
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::OrderItems, global::Void> __Method_RegisterOrderItem = new grpc::Method<global::OrderItems, global::Void>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "RegisterOrderItem",
+      __Marshaller_OrderItems,
+      __Marshaller_Void);
+
+  /// <summary>Service descriptor</summary>
+  public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+  {
+    get { return global::ProtobufReflection.Descriptor.Services[3]; }
+  }
+
+  /// <summary>Client for OrderService</summary>
+  public partial class OrderServiceClient : grpc::ClientBase<OrderServiceClient>
+  {
+    /// <summary>Creates a new client for OrderService</summary>
+    /// <param name="channel">The channel to use to make remote calls.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public OrderServiceClient(grpc::ChannelBase channel) : base(channel)
+    {
+    }
+    /// <summary>Creates a new client for OrderService that uses a custom <c>CallInvoker</c>.</summary>
+    /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public OrderServiceClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+    {
+    }
+    /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    protected OrderServiceClient() : base()
+    {
+    }
+    /// <summary>Protected constructor to allow creation of configured clients.</summary>
+    /// <param name="configuration">The client configuration.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    protected OrderServiceClient(ClientBaseConfiguration configuration) : base(configuration)
+    {
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void RegisterOrder(global::Order request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return RegisterOrder(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void RegisterOrder(global::Order request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_RegisterOrder, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> RegisterOrderAsync(global::Order request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return RegisterOrderAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> RegisterOrderAsync(global::Order request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_RegisterOrder, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void RegisterOrderItem(global::OrderItems request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return RegisterOrderItem(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void RegisterOrderItem(global::OrderItems request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_RegisterOrderItem, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> RegisterOrderItemAsync(global::OrderItems request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return RegisterOrderItemAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> RegisterOrderItemAsync(global::OrderItems request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_RegisterOrderItem, null, options, request);
+    }
+    /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    protected override OrderServiceClient NewInstance(ClientBaseConfiguration configuration)
+    {
+      return new OrderServiceClient(configuration);
+    }
+  }
+
+}
 #endregion

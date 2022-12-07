@@ -1,6 +1,7 @@
 package org.dataaccess.config;
 
 import services.CartService;
+import services.OrderService;
 import services.ProductService;
 import services.UserService;
 import org.springframework.context.annotation.Bean;
@@ -20,5 +21,9 @@ public class ServerConfig
 
     @Bean public CartService getCartService() {
         return new CartService();
+    }
+
+    @Bean public OrderService getOrderService() {
+        return new OrderService();
     }
 }

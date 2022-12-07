@@ -272,6 +272,11 @@
     city = GetClaimValue(AuthState.Result.User, "City");
     zip = GetClaimValue(AuthState.Result.User, "Zip");
     street = GetClaimValue(AuthState.Result.User, "Street");
+    
+    AuthenticationState authState = await AuthState;
+    ClaimsPrincipal user = authState.User;
+    userClaims = user.Claims;
+    name = user.Identity!.Name!;
   }
 
   private async Task click()
@@ -284,10 +289,6 @@
   {
     try
     {
-      AuthenticationState authState = await AuthState;
-      ClaimsPrincipal user = authState.User;
-      userClaims = user.Claims;
-      name = user.Identity!.Name!;
 
       var address = new Address
       {
@@ -334,7 +335,6 @@
     try
     {
       await AuthService.AddCreditsAsync(creditsToAdd, name);
-
     }
     catch (Exception e)
     {

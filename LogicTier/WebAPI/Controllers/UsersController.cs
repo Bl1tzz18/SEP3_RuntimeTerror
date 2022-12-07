@@ -61,7 +61,7 @@ public class UserController : ControllerBase
     }
     
     [HttpPut("addcredits")]
-    public async Task<ActionResult> AddCreditsAsync([FromQuery] int credits, string username)
+    public async Task<ActionResult> AddCreditsAsync([FromQuery] int credits, [FromQuery] string username)
     {
         try
         {
@@ -76,7 +76,7 @@ public class UserController : ControllerBase
     }
     
     [HttpPut("removecredits")]
-    public async Task<ActionResult> RemoveCreditsAsync([FromQuery] int credits, string username)
+    public async Task<ActionResult> RemoveCreditsAsync([FromQuery] int credits, [FromQuery] string username)
     {
         try
         {

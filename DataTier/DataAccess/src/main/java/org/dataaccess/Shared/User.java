@@ -27,6 +27,9 @@ public class User implements Serializable
     @OneToOne(mappedBy = "user")
     private Cart cart;
 
+    @OneToOne(mappedBy = "user")
+    private Order order;
+
     @OneToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "address_id")
     private Address address;
@@ -119,6 +122,14 @@ public class User implements Serializable
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+
+    public Order getOrder() {
+        return order;
+    }
+
+    public void setOrder(Order order) {
+        this.order = order;
     }
 }
 
