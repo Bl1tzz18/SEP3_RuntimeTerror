@@ -13,4 +13,6 @@ public interface OrderDAO
     void registerOrderItems(Collection<OrderItem> orderItems);
 
     Order getOrderByUser(User username);
+
+    void updateOrderStatus(String username, String status);
 }

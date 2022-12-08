@@ -38,6 +38,12 @@ public class OrderDAOImpl implements OrderDAO
     @Override
     public Order getOrderByUser(User username)
     {
-        return orderRepository.findByUser(username);
+        return orderRepository.findByUserAndStatus(username, "New");
+    }
+
+    @Override
+    public void updateOrderStatus(String username, String status)
+    {
+        orderRepository.updateOrderStatus(username, status);
     }
 }

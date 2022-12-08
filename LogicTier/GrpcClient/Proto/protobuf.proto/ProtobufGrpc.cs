@@ -340,6 +340,14 @@ public static partial class ProductService
       __Marshaller_ProductItems);
 
   [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::SearchField, global::ProductItems> __Method_GetProductOrderHistory = new grpc::Method<global::SearchField, global::ProductItems>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "GetProductOrderHistory",
+      __Marshaller_SearchField,
+      __Marshaller_ProductItems);
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
   static readonly grpc::Method<global::SearchField, global::Product> __Method_FindProduct = new grpc::Method<global::SearchField, global::Product>(
       grpc::MethodType.Unary,
       __ServiceName,
@@ -455,6 +463,26 @@ public static partial class ProductService
     public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsInCartByUserAsync(global::SearchField request, grpc::CallOptions options)
     {
       return CallInvoker.AsyncUnaryCall(__Method_GetProductsInCartByUser, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductOrderHistory(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductOrderHistory(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductOrderHistory(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_GetProductOrderHistory, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductOrderHistoryAsync(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductOrderHistoryAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductOrderHistoryAsync(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_GetProductOrderHistory, null, options, request);
     }
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public virtual global::Product FindProduct(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
@@ -856,6 +884,8 @@ public static partial class OrderService
   static readonly grpc::Marshaller<global::OrderItems> __Marshaller_OrderItems = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OrderItems.Parser));
   [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
   static readonly grpc::Marshaller<global::SearchField> __Marshaller_SearchField = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::SearchField.Parser));
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Marshaller<global::OrderStatus> __Marshaller_OrderStatus = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OrderStatus.Parser));
 
   [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
   static readonly grpc::Method<global::Order, global::Void> __Method_RegisterOrder = new grpc::Method<global::Order, global::Void>(
@@ -880,6 +910,14 @@ public static partial class OrderService
       "FindOrder",
       __Marshaller_SearchField,
       __Marshaller_Order);
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::OrderStatus, global::Void> __Method_UpdateOrderStatus = new grpc::Method<global::OrderStatus, global::Void>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "UpdateOrderStatus",
+      __Marshaller_OrderStatus,
+      __Marshaller_Void);
 
   /// <summary>Service descriptor</summary>
   public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -973,6 +1011,26 @@ public static partial class OrderService
     public virtual grpc::AsyncUnaryCall<global::Order> FindOrderAsync(global::SearchField request, grpc::CallOptions options)
     {
       return CallInvoker.AsyncUnaryCall(__Method_FindOrder, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void UpdateOrderStatus(global::OrderStatus request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return UpdateOrderStatus(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::Void UpdateOrderStatus(global::OrderStatus request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_UpdateOrderStatus, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> UpdateOrderStatusAsync(global::OrderStatus request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return UpdateOrderStatusAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::Void> UpdateOrderStatusAsync(global::OrderStatus request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_UpdateOrderStatus, null, options, request);
     }
     /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

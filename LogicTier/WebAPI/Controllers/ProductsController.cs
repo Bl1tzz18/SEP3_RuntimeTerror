@@ -61,6 +61,22 @@ public class ProductsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+    
+    [Route("getorderhistory")]
+    [HttpGet]
+    public async Task<IActionResult> GetProductOrderHistoryAsync([FromQuery] string username)
+    {
+        try
+        {
+            var products = await productLogic.GetProductOrderHistoryAsync(username);
+            return Created("/orderhistory", products);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 
     [HttpDelete]
     public async Task<ActionResult> DeleteProductAsync([FromQuery] string id)

@@ -33,4 +33,16 @@ public interface OrderOrBuilder extends
    * @return The total.
    */
   int getTotal();
+
+  /**
+   * <code>string status = 4;</code>
+   * @return The status.
+   */
+  java.lang.String getStatus();
+  /**
+   * <code>string status = 4;</code>
+   * @return The bytes for status.
+   */
+  com.google.protobuf.ByteString
+      getStatusBytes();
 }

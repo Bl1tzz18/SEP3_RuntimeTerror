@@ -68,9 +68,6 @@ public class CartDao : ICartDAO
 
         foreach (var cartItem in cartItems.CartItems_)
         {
-            if (cartItem == null)
-                continue;
-
             Shared.Models.CartItem cart = new Shared.Models.CartItem
             {
                 Id = cartItem.Id,

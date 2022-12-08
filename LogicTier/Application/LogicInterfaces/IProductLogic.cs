@@ -10,6 +10,8 @@ public interface IProductLogic
     Task<IEnumerable<Product>> GetProductsAsync();
 
     Task<IEnumerable<Product>> GetProductsInCartByUserAsync(string username);
+
+    Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username);
     
     Task<Product> FindProductByIdAsync(string productId);
 

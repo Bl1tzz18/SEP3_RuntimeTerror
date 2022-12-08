@@ -17,7 +17,8 @@ public class OrderDao : IOrderDAO
         {
             Id = order.Id,
             User = ConvertSharedUserToGrpcUser(order.User),
-            Total = order.Total
+            Total = order.Total,
+            Status = order.status
         };
 
         await orderService.RegisterOrderAsync(registerOrder);
@@ -63,6 +64,17 @@ public class OrderDao : IOrderDAO
         };
 
         return orderToFind;
+    }
+
+    public async Task UpdateOrderStatus(string username, string status)
+    {
+        var orderStatus = new OrderStatus
+        {
+            Username = username,
+            Status = status
+        };
+
+        await orderService.UpdateOrderStatusAsync(orderStatus);
     }
 
     private Product ConvertSharedProductToGrpcProduct(Shared.Models.Product product)

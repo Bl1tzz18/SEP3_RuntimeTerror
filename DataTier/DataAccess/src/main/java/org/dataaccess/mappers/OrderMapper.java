@@ -10,6 +10,7 @@ public abstract class OrderMapper
                 .setId(order.getId())
                 .setUser(UserMapper.mapProto(order.getUser()))
                 .setTotal(order.getTotal())
+                .setStatus(order.getStatus())
                 .build();
     }
 
@@ -18,7 +19,8 @@ public abstract class OrderMapper
         return new org.dataaccess.Shared.Order(
                 order.getId(),
                 UserMapper.mapToShared(order.getUser()),
-                order.getTotal()
+                order.getTotal(),
+                order.getStatus()
         );
     }
 }

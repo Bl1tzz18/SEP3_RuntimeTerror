@@ -9,4 +9,6 @@ public interface IOrderDAO
     Task RegisterOrderItemsAsync(List<OrderItem> orderItems);
 
     Task<Order> FindOrderAsync(string username);
+
+    Task UpdateOrderStatus(string username, string status);
 }

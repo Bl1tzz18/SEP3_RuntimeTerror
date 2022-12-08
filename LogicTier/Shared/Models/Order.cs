@@ -7,4 +7,6 @@ public class Order
     public User User { get; set; }
 
     public int Total { get; set; }
+    
+    public string status { get; set; }
 }

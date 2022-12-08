@@ -12,19 +12,22 @@ public class Order implements Serializable
     @Column(name = "orderId")
     private int id;
 
-    @OneToOne(cascade = CascadeType.MERGE)
-    @JoinColumn(name = "username")
+    @ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+    @JoinColumn(name = "username", referencedColumnName = "username")
     private User user;
 
     private int total;
 
+    private String status;
+
     public Order() {
     }
 
-    public Order(int id, User user, int total) {
+    public Order(int id, User user, int total, String status) {
         this.id = id;
         this.user = user;
         this.total = total;
+        this.status = status;
     }
 
     public int getId() {
@@ -49,5 +52,13 @@ public class Order implements Serializable
 
     public void setTotal(int total) {
         this.total = total;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

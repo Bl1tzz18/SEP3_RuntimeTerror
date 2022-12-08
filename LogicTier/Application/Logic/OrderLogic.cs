@@ -29,7 +29,8 @@ public class OrderLogic : IOrderLogic
         {
             Id = cart.Id,
             User = user,
-            Total = cart.Total
+            Total = cart.Total,
+            status = "New"
         };
 
         await orderDao.RegisterOrderAsync(order);
@@ -46,6 +47,10 @@ public class OrderLogic : IOrderLogic
         foreach (var cartItem in cartItems)
         {
             Product product = await productDao.FindProductByIdAsync(cartItem.ProductId.ToString());
+            product.inStock = false;
+            
+            await productDao.UpdateProductAsync(product);
+            
             OrderItem newOrderItem = new OrderItem
             {
                 Id = cartItem.Id,
@@ -54,6 +59,8 @@ public class OrderLogic : IOrderLogic
             };
             orderItems.Add(newOrderItem);
         }
+
+        await orderDao.UpdateOrderStatus(username, "Completed");
 
         await orderDao.RegisterOrderItemsAsync(orderItems);
     }

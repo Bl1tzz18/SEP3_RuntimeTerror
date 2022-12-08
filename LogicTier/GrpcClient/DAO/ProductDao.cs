@@ -76,6 +76,32 @@ public class ProductDao : IProductDAO
         return list;
     }
 
+    public async Task<IEnumerable<Shared.Models.Product>> GetProductOrderHistoryAsync(string username)
+    {
+        SearchField sf = new SearchField
+        {
+            Search = username
+        };
+        
+        var list = new List<Shared.Models.Product>();
+
+        ProductItems productsProto = await productService.GetProductOrderHistoryAsync(sf);
+
+        foreach (var product in productsProto.Product)
+        {
+            if (product == null)
+            {
+                continue;
+            }
+            
+            Shared.Models.Product productGrpcToShared = ConvertGrpcProductToSharedProduct(product);
+            
+            list.Add(productGrpcToShared);
+        }
+
+        return list;
+    }
+
     public async Task<Shared.Models.Product> FindProductByIdAsync(string productId)
     {
         SearchField id = new SearchField

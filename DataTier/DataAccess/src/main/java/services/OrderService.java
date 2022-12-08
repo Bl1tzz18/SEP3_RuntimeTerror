@@ -12,6 +12,7 @@ import org.dataaccess.protobuf.*;
 import org.dataaccess.protobuf.Void;
 import org.lognet.springboot.grpc.GRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,9 +22,6 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
 {
     @Autowired
     private OrderDAO orderDAO;
-
-    @Autowired
-    private CartDAO cartDAO;
 
     @Autowired
     private UserDAO userDAO;
@@ -38,6 +36,8 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
 
         org.dataaccess.Shared.User user = userDAO.findUser(request.getUser().getUsername());
 
+        order.setTotal(request.getTotal());
+        order.setStatus(request.getStatus());
         order.setUser(user);
 
         orderDAO.registerOrder(order);
@@ -76,6 +76,16 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
         }
 
         responseObserver.onNext(OrderMapper.mapToProto(order));
+        responseObserver.onCompleted();
+    }
+
+    @Transactional
+    @Override
+    public void updateOrderStatus(OrderStatus request, StreamObserver<Void> responseObserver)
+    {
+        orderDAO.updateOrderStatus(request.getUsername(), request.getStatus());
+
+        responseObserver.onNext(Void.newBuilder().build());
         responseObserver.onCompleted();
     }
 }

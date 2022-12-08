@@ -16,6 +16,7 @@ service ProductService{
   rpc RegisterProduct(Product) returns (Product);
   rpc GetProducts(Void) returns (ProductItems);
   rpc GetProductsInCartByUser(SearchField) returns (ProductItems);
+  rpc GetProductOrderHistory(SearchField) returns (ProductItems);
   rpc FindProduct(SearchField) returns (Product);
   rpc UpdateProduct(Product) returns (Void);
   rpc DeleteProduct(SearchField) returns (Void);
@@ -35,6 +36,7 @@ service OrderService{
   rpc RegisterOrder(Order) returns (Void);
   rpc RegisterOrderItem(OrderItems) returns (Void);
   rpc FindOrder(SearchField) returns (Order);
+  rpc UpdateOrderStatus(OrderStatus) returns (Void);
 }
 
 message User{
@@ -119,6 +121,12 @@ message Order{
   int32 id = 1;
   User user = 2;
   int32 total = 3;
+  string status = 4;
+}
+
+message OrderStatus{
+  string username = 1;
+  string status = 2;
 }
 
 message OrderItem{
