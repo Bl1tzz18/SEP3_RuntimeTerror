@@ -6,6 +6,7 @@
     border-radius: 5px;
     position: relative;
 }
+
 .btn::after {
     content: '';
     position: absolute;
@@ -104,7 +105,8 @@
 .form button {
     width: 100%;
     outline: none !important;
-    background: linear-gradient(180deg, #49a09b, #3d8291);
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     border: none;
@@ -143,7 +145,7 @@
     height: 250px;
     border-radius: 15px;
     backface-visibility: hidden;
-    background: linear-gradient(135deg, #bd6772, #53223f);
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
     position: absolute;
     color: #fff;
     font-family: Inconsolata;

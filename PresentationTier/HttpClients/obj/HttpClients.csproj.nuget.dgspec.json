@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj": {}
+    "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj": {}
   },
   "projects": {
-    "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj": {
+    "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
+        "projectUniqueName": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
         "projectName": "HttpClients",
-        "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
-        "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
-        "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\PresentationTier\\HttpClients\\obj\\",
+        "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\HttpClients.csproj",
+        "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+        "outputPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\PresentationTier\\HttpClients\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

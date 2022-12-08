@@ -9,4 +9,6 @@ public interface ICartService
     public Task RemoveItemFromCartAsync(string username, int productId);
     
     public Task RemoveItemsFromCartAsync(string username);
+
+    public Task FindCartAsync(string username);
 }

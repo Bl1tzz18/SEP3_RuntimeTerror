@@ -36,7 +36,7 @@ else
                                     <p>@product.Description</p>
                                 </div>
                                 <div class="card-footer">
-                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                    <div class="wcf-left"><span class="price">@product.Price <i>Credits</i></span></div>
                                     <div class="wcf-right"><a href="/Cart" @onclick="() => RemoveItemFromCartAsync(product.Id)" class="buy-btn" style="background: url('https://api.iconify.design/zmdi/delete.svg') no-repeat center center / contain;"></a></div>
                                 </div>
                             </div>
@@ -44,8 +44,12 @@ else
                     </div>
                 }
             </div>
+            <hr>
+            <button class="btn btn-primary marginBetweenButton">Purchase</button><button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
+            <p>Total price: @total</p>
         </div>
     </div>
+    
 
 
 
@@ -57,9 +61,11 @@ else
     [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
 
+    private int total = 0;
     private string? name;
     private IEnumerable<Claim>? userClaims;
     private bool isLoggedIn;
+    private Cart _cart;
 
 
     private string errormsg = "";
@@ -81,6 +87,7 @@ else
             name = user.Identity!.Name!;
             
             products = await productService.GetProductsInCartByUserAsync(name);
+
         }
         catch (Exception e)
         {
@@ -94,6 +101,7 @@ else
         try
         {
             await cartService.RemoveItemFromCartAsync(name, productId);
+            
         }
         catch (Exception e)
         {
@@ -116,3 +124,8 @@ else
     }
 }
 }
+<style>
+    .marginBetweenButton{
+        margin-right: 1rem;
+    }
+</style>

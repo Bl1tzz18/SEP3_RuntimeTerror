@@ -44,4 +44,14 @@ public class CartHttpClient : ICartService
         if (!response.IsSuccessStatusCode)
             throw new Exception(result);
     }
+
+    public async Task FindCartAsync(string username)
+    {
+        HttpResponseMessage responseMessage = await httpClient.GetAsync($"/Cart/getCart?username={username}");
+        
+        string result = await responseMessage.Content.ReadAsStringAsync();
+        
+        if (!responseMessage.IsSuccessStatusCode)
+            throw new Exception(result);
+    }
 }

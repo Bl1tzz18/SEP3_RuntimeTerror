@@ -479,19 +479,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robchik\\.nuget\\packages\\": {}
+    "C:\\Users\\mariu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
+      "projectUniqueName": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
       "projectName": "GrpcClient",
-      "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
-      "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
-      "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\obj\\",
+      "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
+      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
+      "outputPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -503,8 +503,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
-              "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Application\\Application.csproj"
+            "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
+              "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj"
             }
           }
         }
