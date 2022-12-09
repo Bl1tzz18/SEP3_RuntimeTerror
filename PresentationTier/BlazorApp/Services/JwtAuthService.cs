@@ -62,22 +62,7 @@ public class JwtAuthService : IAuthService
             throw new Exception(responseContent);
         }
     }
-
-    // public async  Task ChangeUserInfoAsync(UserInfoCreationDTO infoCreationDto)
-    // {
-    //     
-    //     String userAsJson = JsonSerializer.Serialize(infoCreationDto);
-    //     StringContent content = new StringContent(userAsJson, Encoding.UTF8, "application/json");
-    //
-    //     HttpResponseMessage response = await client.PutAsync("https://localhost:7129/User/changeUserInfo", content);
-    //     String responseContent = await response.Content.ReadAsStringAsync();
-    //     
-    //     if (!response.IsSuccessStatusCode)
-    //     {
-    //         Console.WriteLine(responseContent);
-    //         throw new Exception(responseContent);
-    //     }
-    // }
+    
 
     public Task<ClaimsPrincipal> GetAuthAsync()
     {

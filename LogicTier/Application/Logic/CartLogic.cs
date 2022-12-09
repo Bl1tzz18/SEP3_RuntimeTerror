@@ -68,6 +68,7 @@ public class CartLogic : ICartLogic
         };
 
         await cartDao.RegisterCartItemAsync(cartItem);
+        await cartDao.UpdateCartTotalAsync(dto.UserName);
     }
 
     public async Task<Cart> FindCartAsync(string username)
@@ -86,6 +87,7 @@ public class CartLogic : ICartLogic
         {
             throw new Exception("The cart does not exists");
         }
+        
         await cartDao.UpdateCartTotalAsync(username);
 
         return await cartDao.GetAllFromCartAsync(username);

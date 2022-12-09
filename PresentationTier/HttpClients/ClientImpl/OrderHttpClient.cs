@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+using System.Text;
 using HttpClients.ClientInterfaces;
 
 namespace HttpClients.ClientImpl;
@@ -14,11 +15,33 @@ public class OrderHttpClient : IOrderService
 
     public async Task RegisterOrderAsync(string username)
     {
-        // HttpResponseMessage response = await httpClient.PostAsync($"Order/order?username={username}",);
+        StringContent content = new StringContent("", Encoding.UTF8, "application/json");
+
+        HttpResponseMessage response =
+            await httpClient.PostAsync($"https://localhost:7129/Order/order?username={username}", content);
+        
+        String responseContent = await response.Content.ReadAsStringAsync();
+        
+        if (!response.IsSuccessStatusCode)
+        {
+            Console.WriteLine(responseContent);
+            throw new Exception(responseContent);
+        }
     }
 
     public async Task RegisterOrderItemAsync(string username)
     {
-        throw new NotImplementedException();
+        StringContent content = new StringContent("", Encoding.UTF8, "application/json");
+
+        HttpResponseMessage response =
+            await httpClient.PostAsync($"https://localhost:7129/Order/orderItems?username={username}", content);
+        
+        String responseContent = await response.Content.ReadAsStringAsync();
+        
+        if (!response.IsSuccessStatusCode)
+        {
+            Console.WriteLine(responseContent);
+            throw new Exception(responseContent);
+        }
     }
 }

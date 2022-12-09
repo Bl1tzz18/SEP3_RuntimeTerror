@@ -3,6 +3,7 @@
 @using global::Shared.Models
 @using HttpClients.ClientInterfaces
 @inject IProductService productService;
+@inject IOrderService orderService;
 @inject ICartService cartService;
 
 
@@ -48,7 +49,7 @@
                         }
                     </div>
                     <hr>
-                    <button class="btn btn-primary marginBetweenButton">Purchase</button>
+                    <button class="btn btn-primary marginBetweenButton" @onclick="onPurchase">Purchase</button>
                     <button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
                     <p>Total price: @total</p>
                 </div>
@@ -136,9 +137,19 @@
         }
     }
 
-    private async Task onCheckout()
+    private async Task onPurchase()
     {
-        
+        try
+        {
+            await productService.GetProductsInCartByUserAsync(name);
+            await orderService.RegisterOrderAsync(name);
+            await orderService.RegisterOrderItemAsync(name);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
     }
 
 }
