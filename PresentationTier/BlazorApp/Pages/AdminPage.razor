@@ -5,107 +5,125 @@
 @using HttpClients.ClientInterfaces
 @inject IProductService productService;
 @inject ICartService cartService;
-<h3>AdminPage</h3>
-<div class="container">
-    <div class="row">
-        
-        <div class="col-md-6">
-            <p class="nihuiasebe">Name:</p>
-            <input disabled="@isDisable" @bind="_name"/>
-        </div>
-        <div class="col-md-6">
-            <p class="nihuiasebe">In stock:</p> 
-            <input disabled="@isDisable" @bind="_inStock"/>
-        </div>
-        <div class="col-md-6">
-            <p class="nihuiasebe">Price: </p>
-            <input disabled="@isDisable" @bind="_price"/>
-        </div>
-        <div class="col-md-6">
-            <p class="nihuiasebe">Description: </p>
-            <input disabled="@isDisable" @bind="_description"/>
-        </div>
-        <div class="col-md-6">
-            <br>
-            <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
-        </div>
-        
-    </div>
-</div>
 
-
-@if (products == null)
-    {
-    }
-    else if (!products.Any())
-    {
-        <p>No Products to display</p>
-    }
-    else
-    {
-        <div class="shell">
-            <div class="container">
-                <div class="row">
-                    @foreach (var product in products)
-                    {
-                        if (product.inStock)
-                        {
-                            <div class="col-md-3">
-                                <div class="wsk-cp-product">
-                                    <div class="wsk-cp-img">
-                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
-                                    </div>
-                                    <div class="wsk-cp-text">
-                                        <div class="category">
-                                            <span>@product.Category.Name</span>
-                                        </div>
-                                        <div class="title-product">
-                                            <h3>@product.Name</h3>
-                                        </div>
-                                        <div class="description-prod">
-                                            <p>@product.Description</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
-                                            <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
-                                            <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                        else
-                        {
-                            <div class="col-md-3">
-                                <div class="wsk-cp-product" style="background-color: #b7b7b7"> 
-                                    <div class="wsk-cp-img">
-                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
-                                    </div>
-                                    <div class="wsk-cp-text">
-                                        <div class="category">
-                                            <span>@product.Category.Name</span>
-                                        </div>
-                                        <div class="title-product">
-                                            <h3>@product.Name</h3>
-                                        </div>
-                                        <div class="description-prod">
-                                            <p>@product.Description</p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
-                                            <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
-                                            <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        }
-                    }
+<AuthorizeView Roles="admin">
+    <Authorized>
+        <h3>AdminPage</h3>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <p class="nihuiasebe">Name:</p>
+                    <input disabled="@isDisable" @bind="_name"/>
                 </div>
+                <div class="col-md-6">
+                    <p class="nihuiasebe">In stock:</p> 
+                    <input disabled="@isDisable" @bind="_inStock"/>
+                </div>
+                <div class="col-md-6">
+                    <p class="nihuiasebe">Price: </p>
+                    <input disabled="@isDisable" @bind="_price"/>
+                </div>
+                <div class="col-md-6">
+                    <p class="nihuiasebe">Description: </p>
+                    <input disabled="@isDisable" @bind="_description"/>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
+                </div>
+                
             </div>
         </div>
-    }
+        
+        @if (products == null)
+            {
+            }
+            else if (!products.Any())
+            {
+                <p>No Products to display</p>
+            }
+            else
+            {
+                <div class="shell">
+                    <div class="container">
+                        <div class="row">
+                            @foreach (var product in products)
+                            {
+                                if (product.inStock)
+                                {
+                                    <div class="col-md-3">
+                                        <div class="wsk-cp-product">
+                                            <div class="wsk-cp-img">
+                                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                            </div>
+                                            <div class="wsk-cp-text">
+                                                <div class="category">
+                                                    <span>@product.Category.Name</span>
+                                                </div>
+                                                <div class="title-product">
+                                                    <h3>@product.Name</h3>
+                                                </div>
+                                                <div class="description-prod">
+                                                    <p>@product.Description</p>
+                                                </div>
+                                                <div class="card-footer">
+                                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                                    <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"></a></div>
+                                                    <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a></div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col-md-3">
+                                        <div class="wsk-cp-product" style="background-color: #b7b7b7"> 
+                                            <div class="wsk-cp-img">
+                                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                            </div>
+                                            <div class="wsk-cp-text">
+                                                <div class="category">
+                                                    <span>@product.Category.Name</span>
+                                                </div>
+                                                <div class="title-product">
+                                                    <h3>@product.Name</h3>
+                                                </div>
+                                                <div class="description-prod">
+                                                    <p>@product.Description</p>
+                                                </div>
+                                                
+                                                <div class="card-footer">
+                                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                                    
+                                                    <div class="wcf-right">
+                                                        <a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"> </a>
+                                                    </div>
+
+                                                    <div class="wcf-right">
+                                                        <a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+    </Authorized>
+    <NotAuthorized>
+        <p>You are not authorized to view this page</p>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+
 
 @code {
      

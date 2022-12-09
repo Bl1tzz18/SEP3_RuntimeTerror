@@ -48,7 +48,8 @@
                         }
                     </div>
                     <hr>
-                    <button class="btn btn-primary marginBetweenButton">Purchase</button><button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
+                    <button class="btn btn-primary marginBetweenButton">Purchase</button>
+                    <button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
                     <p>Total price: @total</p>
                 </div>
             </div>
@@ -134,6 +135,12 @@
             errormsg = e.Message;
         }
     }
+
+    private async Task onCheckout()
+    {
+        
+    }
+
 }
 
 
