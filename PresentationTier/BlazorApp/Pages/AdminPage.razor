@@ -1,0 +1,234 @@
+﻿@page "/AdminPage"
+@using System.Security.Claims
+@using global::Shared.Models
+@using global::Shared.DTOs
+@using HttpClients.ClientInterfaces
+@inject IProductService productService;
+@inject ICartService cartService;
+<h3>AdminPage</h3>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-6">
+            <p class="nihuiasebe">Name:</p>
+            <input disabled="@isDisable" @bind="_name"/>
+        </div>
+        <div class="col-md-6">
+            <p class="nihuiasebe">In stock:</p> 
+            <input disabled="@isDisable" @bind="_inStock"/>
+        </div>
+        <div class="col-md-6">
+            <p class="nihuiasebe">Price: </p>
+            <input disabled="@isDisable" @bind="_price"/>
+        </div>
+        <div class="col-md-6">
+            <p class="nihuiasebe">Description: </p>
+            <input disabled="@isDisable" @bind="_description"/>
+        </div>
+        <div class="col-md-6">
+            <br>
+            <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
+        </div>
+        
+    </div>
+</div>
+
+
+@if (products == null)
+    {
+    }
+    else if (!products.Any())
+    {
+        <p>No Products to display</p>
+    }
+    else
+    {
+        <div class="shell">
+            <div class="container">
+                <div class="row">
+                    @foreach (var product in products)
+                    {
+                        if (product.inStock)
+                        {
+                            <div class="col-md-3">
+                                <div class="wsk-cp-product">
+                                    <div class="wsk-cp-img">
+                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                    </div>
+                                    <div class="wsk-cp-text">
+                                        <div class="category">
+                                            <span>@product.Category.Name</span>
+                                        </div>
+                                        <div class="title-product">
+                                            <h3>@product.Name</h3>
+                                        </div>
+                                        <div class="description-prod">
+                                            <p>@product.Description</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                            <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
+                                            <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-md-3">
+                                <div class="wsk-cp-product" style="background-color: #b7b7b7"> 
+                                    <div class="wsk-cp-img">
+                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                    </div>
+                                    <div class="wsk-cp-text">
+                                        <div class="category">
+                                            <span>@product.Category.Name</span>
+                                        </div>
+                                        <div class="title-product">
+                                            <h3>@product.Name</h3>
+                                        </div>
+                                        <div class="description-prod">
+                                            <p>@product.Description</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
+                                            <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
+                                            <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://css.gg/json?=trash') no-repeat center center / contain;"></a></div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+@code {
+     
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+    private bool isDisable { get; set; } = true;
+    
+    
+    private ICollection<Product> products = new List<Product>();
+    private string errormsg = "";
+    private int productId;
+
+
+    private int _productId;
+    private string _productImagePath;
+    private string _name;
+    private string _category;
+    private string _inStock;
+    private string _price;
+    private string _description;
+  
+  
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            products = await productService.GetProductsAsync();
+            
+            AuthenticationState authState = await AuthState;
+            ClaimsPrincipal user = authState.User;
+            isLoggedIn = user.Identity != null;
+        
+            if (!isLoggedIn) return;
+        
+            userClaims = user.Claims;
+            name = user.Identity!.Name!;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+
+    private async Task deleteItem(int id)
+    {
+        try
+        {
+            await productService.DeleteProductAsync(id.ToString());
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+    
+    private void onDisable()
+    {
+        this.isDisable = false;
+    }
+    
+    async Task onEditButtonClick()
+    {
+        this.isDisable = true;
+    }
+
+    async Task onClickEdit(int id)
+    {
+        try
+        {
+            var productToFind = await productService.FindProductById(id.ToString());
+            _productId = productToFind.Id;
+            _productImagePath = productToFind.ImagePath;
+            _name = productToFind.Name;
+            _category = productToFind.Category.Name;
+            _inStock = productToFind.inStock.ToString();
+            _price = productToFind.Price.ToString();
+            _description = productToFind.Description;
+            onDisable();
+        }
+        
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    async Task onSaveButton()
+    {
+        try
+        {
+            Product product = new Product
+            {
+                Id = _productId,
+                Name = _name,
+                ImagePath = _productImagePath,
+                Price = Convert.ToInt32(_price),
+                Description = _description,
+                inStock = Convert.ToBoolean(_inStock),
+                Category = new Category
+                {
+                    Name = _category
+                }
+            };
+            await productService.UpdateProductAsync(product);
+            onEditButtonClick();
+
+            _name = "";
+            _price = "";
+            _inStock = "";
+            _description = "";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+
+}

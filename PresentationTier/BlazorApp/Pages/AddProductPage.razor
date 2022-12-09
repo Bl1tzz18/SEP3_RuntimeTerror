@@ -1,0 +1,100 @@
+﻿@page "/AddProductPage"
+@using HttpClients.ClientInterfaces
+@using global::Shared.Models
+@using global::Shared.DTOs
+@inject IProductService _productService;
+
+<h3>Add Product</h3>
+<div class="container">
+    <div class="row">
+        
+        <div class="col-md-4">
+            <p class="nihuiasebe">Name:</p>
+            <input @bind="_name"/>
+        </div>
+        <div class="col-md-4">
+            <p class="nihuiasebe">In stock:</p>
+            <input @bind="_inStock"/>
+        </div>
+        <div class="col-md-4">
+            <p class="nihuiasebe">Price: </p>
+            <input @bind="_price"/>
+        </div>
+        <div class="col-md-4">
+            <p class="nihuiasebe">Category: </p>
+            <input @bind="_category"/>
+        </div>
+        <div class="col-md-4">
+            <p class="nihuiasebe">Image Path:</p>
+            <input @bind="_productImagePath"/>
+        </div>
+        <div class="col-md-4">
+            <p class="nihuiasebe">Description :</p>
+            <textarea @bind="_description"></textarea>
+        </div>
+        
+        <div class="col-md-4">
+            <br>
+            <button class="btn btn-primary" @onclick="() => onAddProductButton()">Add Product</button>
+        </div>
+        <div class="col-md-4">
+            <br>
+            <button class="btn btn-primary" @onclick="() => clearBoxes()">Clear</button>
+        </div>
+
+    </div>
+</div>
+
+@code {
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+    
+    private bool isDisable { get; set; } = true;
+    
+    private string errormsg = "";
+    
+    private int _productId;
+    private string _productImagePath;
+    private string _name;
+    private string _category;
+    private string _inStock;
+    private string _price;
+    private string _description;
+
+    async Task onAddProductButton()
+    {
+        try
+        {
+            ProductCreationDTO productToCreate = new ProductCreationDTO
+            {
+                Name = _name,
+                Description = _description,
+                ImagePath = _productImagePath,
+                InStock = Convert.ToBoolean(_inStock),
+                Price = Convert.ToInt32(_price),
+                Category = new Category
+                {
+                    Name = _category
+                }
+            };
+            
+            await _productService.CreateProductAsync(productToCreate);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+
+    void clearBoxes()
+    {
+        _name = "";
+        _price = "";
+        _inStock = "";
+        _description = "";
+        _category = "";
+        _productImagePath = "";
+    }
+
+}

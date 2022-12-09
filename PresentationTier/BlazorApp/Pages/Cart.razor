@@ -6,49 +6,61 @@
 @inject ICartService cartService;
 
 
-@if (products == null)
-{
-}
-else if (!products.Any())
-{
-    <p>No Products to display</p>
-}
-else
-{
-    <div class="shell">
-        <div class="container">
-            <div class="row">
-                @foreach (var product in products)
-                {
-                    <div class="col-md-3">
-                        <div class="wsk-cp-product">
-                            <div class="wsk-cp-img">
-                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+
+<AuthorizeView Roles="customer">
+    <Authorized>
+        @if (products == null)
+        {
+        }
+        else if (!products.Any())
+        {
+            <p>No Products to display</p>
+        }
+        else
+        {
+            <div class="shell">
+                <div class="container">
+                    <div class="row">
+                        @foreach (var product in products)
+                        {
+                            <div class="col-md-3">
+                                <div class="wsk-cp-product">
+                                    <div class="wsk-cp-img">
+                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                    </div>
+                                    <div class="wsk-cp-text">
+                                        <div class="category">
+                                            <span>@product.Category.Name</span>
+                                        </div>
+                                        <div class="title-product">
+                                            <h3>@product.Name</h3>
+                                        </div>
+                                        <div class="description-prod">
+                                            <p>@product.Description</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="wcf-left"><span class="price">@product.Price <i>Credits</i></span></div>
+                                            <div class="wcf-right"><a href="/Cart" @onclick="() => RemoveItemFromCartAsync(product.Id)" class="buy-btn" style="background: url('https://api.iconify.design/zmdi/delete.svg') no-repeat center center / contain;"></a></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="wsk-cp-text">
-                                <div class="category">
-                                    <span>@product.Category.Name</span>
-                                </div>
-                                <div class="title-product">
-                                    <h3>@product.Name</h3>
-                                </div>
-                                <div class="description-prod">
-                                    <p>@product.Description</p>
-                                </div>
-                                <div class="card-footer">
-                                    <div class="wcf-left"><span class="price">@product.Price <i>Credits</i></span></div>
-                                    <div class="wcf-right"><a href="/Cart" @onclick="() => RemoveItemFromCartAsync(product.Id)" class="buy-btn" style="background: url('https://api.iconify.design/zmdi/delete.svg') no-repeat center center / contain;"></a></div>
-                                </div>
-                            </div>
-                        </div>
+                        }
                     </div>
-                }
+                    <hr>
+                    <button class="btn btn-primary marginBetweenButton">Purchase</button><button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
+                    <p>Total price: @total</p>
+                </div>
             </div>
-            <hr>
-            <button class="btn btn-primary marginBetweenButton">Purchase</button><button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
-            <p>Total price: @total</p>
-        </div>
-    </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>You shall be logged in to access cart</h1>
+        <img width="600" src="https://i.kym-cdn.com/entries/icons/original/000/002/144/You_Shall_Not_Pass!_0-1_screenshot.jpg"/>
+    </NotAuthorized>
+</AuthorizeView>
+
+
     
 
 
@@ -123,7 +135,8 @@ else
         }
     }
 }
-}
+
+
 <style>
     .marginBetweenButton{
         margin-right: 1rem;

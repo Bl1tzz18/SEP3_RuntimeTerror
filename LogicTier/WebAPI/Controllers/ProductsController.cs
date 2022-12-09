@@ -78,6 +78,7 @@ public class ProductsController : ControllerBase
         }
     }
 
+    [Route("deleteProduct")]
     [HttpDelete]
     public async Task<ActionResult> DeleteProductAsync([FromQuery] string id)
     {
@@ -93,6 +94,7 @@ public class ProductsController : ControllerBase
         }
     }
 
+    [Route("updateProduct")]
     [HttpPut]
     public async Task<ActionResult> UpdateProductAsync(Shared.Models.Product product)
     {
@@ -100,6 +102,23 @@ public class ProductsController : ControllerBase
         {
             await productLogic.UpdateProductAsync(product);
             return Ok();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    
+    [Route("findProductById")]
+    [HttpGet]
+    public async Task<ActionResult> FindProductByIdAsync(string productId)
+    {
+        try
+        {
+            var product = await productLogic.FindProductByIdAsync(productId);
+            
+            return Created("/product",product);
         }
         catch (Exception e)
         {
