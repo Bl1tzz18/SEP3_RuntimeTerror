@@ -25,6 +25,11 @@ public class OrderLogic : IOrderLogic
 
         User user = await userDao.FindUserAsync(cart.UserName);
 
+        if (cart.Total>= user.Credits)
+        {
+            throw new Exception("Not enough credits");
+        }
+        
         Order order = new Order
         {
             Id = cart.Id,
@@ -41,27 +46,40 @@ public class OrderLogic : IOrderLogic
         ICollection<CartItem> cartItems = await cartDao.GetAllFromCartAsync(username);
 
         Order order = await orderDao.FindOrderAsync(username);
-
-        List<OrderItem> orderItems = new List<OrderItem>();
-
-        foreach (var cartItem in cartItems)
+        
+        if (order.status.Equals("New"))
         {
-            Product product = await productDao.FindProductByIdAsync(cartItem.ProductId.ToString());
-            product.inStock = false;
-            
-            await productDao.UpdateProductAsync(product);
-            
-            OrderItem newOrderItem = new OrderItem
+            List<OrderItem> orderItems = new List<OrderItem>();
+
+            foreach (var cartItem in cartItems)
             {
-                Id = cartItem.Id,
-                Order = order,
-                Product = product
-            };
-            orderItems.Add(newOrderItem);
+                Product product = await productDao.FindProductByIdAsync(cartItem.ProductId.ToString());
+                product.inStock = false;
+            
+                await productDao.UpdateProductAsync(product);
+            
+                OrderItem newOrderItem = new OrderItem
+                {
+                    Id = cartItem.Id,
+                    Order = order,
+                    Product = product
+                };
+                orderItems.Add(newOrderItem);
+            }
+
+            await userDao.RemoveCreditsAsync(order.Total, username);
+                
+            await orderDao.UpdateOrderStatus(username, "Completed");
+
+            await orderDao.RegisterOrderItemsAsync(orderItems);
+
+            await cartDao.DeleteAllFromCartAsync(username);
         }
-
-        await orderDao.UpdateOrderStatus(username, "Completed");
-
-        await orderDao.RegisterOrderItemsAsync(orderItems);
+        else
+        {
+            await orderDao.UpdateOrderStatus(username, "Failed");
+            throw new Exception("Order canceled");
+        }
+        
     }
 }

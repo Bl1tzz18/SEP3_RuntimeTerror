@@ -60,7 +60,8 @@ public class OrderDao : IOrderDAO
         {
             Id = order.Id,
             User = ConvertGrpcUserToSharedUser(order.User),
-            Total = order.Total
+            Total = order.Total,
+            status = order.Status
         };
 
         return orderToFind;

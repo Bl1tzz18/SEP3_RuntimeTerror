@@ -11,61 +11,61 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BlazorApp
 build_property.RootNamespace = BlazorApp
-build_property.ProjectDir = D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\
+build_property.ProjectDir = C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\PresentationTier\BlazorApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp
+build_property.MSBuildProjectDirectory = C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\PresentationTier\BlazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/App.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/AddProductPage.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/AddProductPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJvZHVjdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Index.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/SurveyPrompt.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/_Imports.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/AdminPage.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/AdminPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5QYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-xtg5w04q40
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Cart.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Cart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-9m8xy3xw11
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Login.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c956fem5qt
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Products.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-n1rrc73ki8
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Profile.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Profile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-i9n0qbq691
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Pages/Register.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-x3lxt1hyuu
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/MainLayout.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3dsd3z3yec
 
-[D:/VIA/Semester Projects/Semester Project 3/SEP3_RuntimeTerror/PresentationTier/BlazorApp/Shared/NavMenu.razor]
+[C:/VIA_SEP/SEP3/New SEP project/SEP3-RuntimeTerror/PresentationTier/BlazorApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-7cxxmz0cwl

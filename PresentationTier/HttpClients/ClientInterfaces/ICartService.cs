@@ -1,4 +1,5 @@
 ﻿using Shared.DTOs;
+using Shared.Models;
 
 namespace HttpClients.ClientInterfaces;
 
@@ -10,5 +11,5 @@ public interface ICartService
     
     public Task RemoveItemsFromCartAsync(string username);
 
-    public Task FindCartAsync(string username);
+    public Task<Cart> FindCartAsync(string username);
 }

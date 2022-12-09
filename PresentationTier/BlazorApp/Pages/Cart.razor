@@ -75,11 +75,12 @@
     [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
 
-    private int total = 0;
+    private int total;
     private string? name;
     private IEnumerable<Claim>? userClaims;
     private bool isLoggedIn;
-    private Cart _cart;
+    
+    private global::Shared.Models.Cart cart;
 
 
     private string errormsg = "";
@@ -102,6 +103,9 @@
             
             products = await productService.GetProductsInCartByUserAsync(name);
 
+            cart = await cartService.FindCartAsync(name);
+
+            total = cart.Total;
         }
         catch (Exception e)
         {
@@ -115,7 +119,9 @@
         try
         {
             await cartService.RemoveItemFromCartAsync(name, productId);
-            
+            cart = await cartService.FindCartAsync(name);
+
+            total = cart.Total;
         }
         catch (Exception e)
         {
@@ -129,6 +135,9 @@
         try
         {
             await cartService.RemoveItemsFromCartAsync(name);
+            cart = await cartService.FindCartAsync(name);
+
+            total = cart.Total;
         }
         catch (Exception e)
         {
@@ -141,9 +150,11 @@
     {
         try
         {
-            await productService.GetProductsInCartByUserAsync(name);
             await orderService.RegisterOrderAsync(name);
             await orderService.RegisterOrderItemAsync(name);
+            cart = await cartService.FindCartAsync(name);
+
+            total = cart.Total;
         }
         catch (Exception e)
         {

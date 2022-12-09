@@ -101,6 +101,8 @@ public class CartLogic : ICartLogic
         }
 
         await cartDao.DeleteAllFromCartAsync(username);
+        
+        await cartDao.UpdateCartTotalAsync(username);
     }
 
     public async Task DeleteFromCartAsync(CartItemCreationDTO dto)
@@ -126,5 +128,7 @@ public class CartLogic : ICartLogic
         };
 
         await cartDao.DeleteFromCartAsync(cartItem);
+        
+        await cartDao.UpdateCartTotalAsync(dto.UserName);
     }
 }

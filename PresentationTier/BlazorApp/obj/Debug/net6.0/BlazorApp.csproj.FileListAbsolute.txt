@@ -3374,3 +3374,4 @@ C:\Users\catal\Desktop\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\n
 C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
 D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
 D:\VIA\Semester Projects\Semester Project 3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\AdminPage.razor.rz.scp.css
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\AdminPage.razor.rz.scp.css

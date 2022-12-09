@@ -1,6 +1,7 @@
 ﻿using System.Net.Http.Json;
 using HttpClients.ClientInterfaces;
 using Shared.DTOs;
+using Shared.Models;
 
 namespace HttpClients.ClientImpl;
 
@@ -45,7 +46,7 @@ public class CartHttpClient : ICartService
             throw new Exception(result);
     }
 
-    public async Task FindCartAsync(string username)
+    public async Task<Cart> FindCartAsync(string username)
     {
         HttpResponseMessage responseMessage = await httpClient.GetAsync($"/Cart/getCart?username={username}");
         
@@ -53,5 +54,9 @@ public class CartHttpClient : ICartService
         
         if (!responseMessage.IsSuccessStatusCode)
             throw new Exception(result);
+        
+        var cart = await responseMessage.Content.ReadFromJsonAsync<Cart>();
+
+        return cart;
     }
 }
