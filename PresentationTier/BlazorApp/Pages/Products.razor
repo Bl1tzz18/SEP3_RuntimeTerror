@@ -12,13 +12,12 @@
     
     <div class="col-md-1">
         
-        Category: <select>
-            @foreach (var product in products)
+        Category: <select @bind="category">
+            <option value="All">All</option>
+            @foreach (var category in categories2)
             {
-                if (product.inStock)
-                {
-                    <option value="@product.Category.Name">@product.Category.Name</option>
-                }
+                <option value="@category">@category</option>
+
             }
         </select>
     </div>
@@ -102,10 +101,15 @@
     
     
     private ICollection<Product> products = new List<Product>();
+    private ICollection<Product> allProducts = new List<Product>();
     private string errormsg = "";
     private int productId;
 
     private string searchField = "";
+
+    private List<string> categories = new List<string>();
+    private List<string> categories2 = new List<string>();
+    private string category;
 
 
     protected override async Task OnInitializedAsync()
@@ -113,6 +117,10 @@
         try
         {
             products = await productService.GetProductsAsync();
+            
+            allProducts = await productService.GetProductsAsync();
+            
+            getCategories(allProducts);
             
             AuthenticationState authState = await AuthState;
             ClaimsPrincipal user = authState.User;
@@ -122,6 +130,7 @@
         
             userClaims = user.Claims;
             name = user.Identity!.Name!;
+            
         }
         catch (Exception e)
         {
@@ -156,9 +165,13 @@
     {
         try
         {
-            if (searchField.Equals(""))
+            if (searchField.Equals("") && category.Equals("All") )
             {
                 products = await productService.GetProductsAsync();
+            }
+            else if (!category.Equals("All"))
+            {
+                products = await productService.GetProductsByCategoryName(category);
             }
             else
             {
@@ -173,7 +186,24 @@
             errormsg = e.Message;
         }
     }
-    
-    
 
+    private void getCategories(ICollection<Product> allProducts )
+    {
+        
+        foreach (var product in allProducts)
+        {
+            if (product.inStock)
+            {
+                categories.Add(product.Category.Name);
+            }
+        }
+
+        foreach (var category in categories)
+        {
+            if(!categories2.Contains(category))
+                categories2.Add(category);
+        }
+        
+    }
+    
 }

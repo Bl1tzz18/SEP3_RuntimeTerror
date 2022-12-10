@@ -1477,19 +1477,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mariu\\.nuget\\packages\\": {}
+    "C:\\Users\\catal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\mariu\\.nuget\\packages\\",
-      "outputPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\catal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mariu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\catal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1501,11 +1501,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
-              "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj"
+            "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj"
             },
-            "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj": {
-              "projectPath": "D:\\VIA\\Semester Projects\\Semester Project 3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj"
+            "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj": {
+              "projectPath": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj"
             }
           }
         }
@@ -1556,7 +1556,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
