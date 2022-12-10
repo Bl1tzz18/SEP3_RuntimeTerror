@@ -69,4 +69,14 @@ public class ProductDAOImpl implements ProductDAO
     public void updateProduct(Product product) {
         productRepository.updateProduct(product.getId(), product.getName(), product.getImgPath(),product.getPrice(), product.getDescription(), product.isInStock());
     }
+
+    @Override
+    public Collection<Product> getAllProductsByName(String productName) {
+        return productRepository.getAllByNameContainingIgnoreCase(productName);
+    }
+
+    @Override
+    public Collection<Product> getAllProductsByCategoryName(String categoryName) {
+        return productRepository.getAllByCategoryName(categoryName);
+    }
 }

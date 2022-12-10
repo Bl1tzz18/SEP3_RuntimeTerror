@@ -23,4 +23,8 @@ public interface ProductDAO
     void deleteProduct(String productId);
 
     void updateProduct(Product product);
+
+    Collection<Product> getAllProductsByName(String productName);
+
+    Collection<Product> getAllProductsByCategoryName(String categoryName);
 }

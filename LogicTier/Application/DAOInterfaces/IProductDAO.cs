@@ -21,4 +21,8 @@ public interface IProductDAO
     Task DeleteProductAsync(string id);
 
     Task UpdateProductAsync(Product product);
+
+    Task<IEnumerable<Product>> GetProductsByNameAsync(string productName);
+    
+    Task<IEnumerable<Product>> GetProductsByCategoryNameAsync(string categoryName);
 }

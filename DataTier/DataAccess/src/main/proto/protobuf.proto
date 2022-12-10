@@ -20,6 +20,8 @@ service ProductService{
   rpc UpdateProduct(Product) returns (Void);
   rpc DeleteProduct(SearchField) returns (Void);
   rpc GetProductsByOrderId(SearchField) returns (ProductItems);
+  rpc GetProductsByName(SearchField) returns (ProductItems);
+  rpc GetProductsByCategoryName(SearchField) returns (ProductItems);
 }
 
 service CartService{

@@ -174,4 +174,50 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
         responseObserver.onNext(Void.newBuilder().build());
         responseObserver.onCompleted();
     }
+
+    @Override
+    public void getProductsByName(SearchField request, StreamObserver<ProductItems> responseObserver)
+    {
+        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductsByName(request.getSearch());
+
+        if (products.isEmpty()) {
+            responseObserver.onError(new Exception("No products"));
+            return;
+        }
+
+        Collection<Product> productCollection = new ArrayList<>();
+
+        for (var product : products)
+        {
+            productCollection.add(ProductMapper.mapToProto(product));
+        }
+
+        ProductItems productItems = ProductItems.newBuilder().addAllProduct(productCollection).build();
+
+        responseObserver.onNext(productItems);
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void getProductsByCategoryName(SearchField request, StreamObserver<ProductItems> responseObserver)
+    {
+        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductsByCategoryName(request.getSearch());
+
+        if (products.isEmpty()) {
+            responseObserver.onError(new Exception("No products"));
+            return;
+        }
+
+        Collection<Product> productCollection = new ArrayList<>();
+
+        for (var product : products)
+        {
+            productCollection.add(ProductMapper.mapToProto(product));
+        }
+
+        ProductItems productItems = ProductItems.newBuilder().addAllProduct(productCollection).build();
+
+        responseObserver.onNext(productItems);
+        responseObserver.onCompleted();
+    }
 }

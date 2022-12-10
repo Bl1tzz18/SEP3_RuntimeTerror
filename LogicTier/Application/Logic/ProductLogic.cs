@@ -115,4 +115,18 @@ public class ProductLogic : IProductLogic
 
         await productDao.UpdateProductAsync(productToSend);
     }
+
+    public async Task<IEnumerable<Product>> GetProductsByNameAsync(string productName)
+    {
+        var products = await productDao.GetProductsByNameAsync(productName);
+        
+        return products;
+    }
+
+    public async Task<IEnumerable<Product>> GetProductsByCategoryNameAsync(string categoryName)
+    {
+        var products = await productDao.GetProductsByCategoryNameAsync(categoryName);
+        
+        return products;
+    }
 }

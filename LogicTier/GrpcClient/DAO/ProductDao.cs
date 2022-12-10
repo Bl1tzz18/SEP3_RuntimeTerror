@@ -176,6 +176,58 @@ public class ProductDao : IProductDAO
         await productService.UpdateProductAsync(productToSend);
     }
 
+    public async Task<IEnumerable<Shared.Models.Product>> GetProductsByNameAsync(string productName)
+    {
+        SearchField sf = new SearchField
+        {
+            Search = productName
+        };
+        
+        var list = new List<Shared.Models.Product>();
+
+        ProductItems productsProto = await productService.GetProductsByNameAsync(sf);
+    
+        foreach (var product in productsProto.Product)
+        {
+            if (product == null)
+            {
+                continue;
+            }
+            
+            Shared.Models.Product productGrpcToShared = ConvertGrpcProductToSharedProduct(product);
+            
+            list.Add(productGrpcToShared);
+        }
+    
+        return list;
+    }
+
+    public async Task<IEnumerable<Shared.Models.Product>> GetProductsByCategoryNameAsync(string categoryName)
+    {
+        SearchField sf = new SearchField
+        {
+            Search = categoryName
+        };
+        
+        var list = new List<Shared.Models.Product>();
+
+        ProductItems productsProto = await productService.GetProductsByCategoryNameAsync(sf);
+    
+        foreach (var product in productsProto.Product)
+        {
+            if (product == null)
+            {
+                continue;
+            }
+            
+            Shared.Models.Product productGrpcToShared = ConvertGrpcProductToSharedProduct(product);
+            
+            list.Add(productGrpcToShared);
+        }
+        
+        return list;
+    }
+
     private Shared.Models.Product ConvertGrpcProductToSharedProduct(Product product)
     {
         return new Shared.Models.Product

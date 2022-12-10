@@ -371,6 +371,22 @@ public static partial class ProductService
       __Marshaller_SearchField,
       __Marshaller_ProductItems);
 
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::SearchField, global::ProductItems> __Method_GetProductsByName = new grpc::Method<global::SearchField, global::ProductItems>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "GetProductsByName",
+      __Marshaller_SearchField,
+      __Marshaller_ProductItems);
+
+  [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+  static readonly grpc::Method<global::SearchField, global::ProductItems> __Method_GetProductsByCategoryName = new grpc::Method<global::SearchField, global::ProductItems>(
+      grpc::MethodType.Unary,
+      __ServiceName,
+      "GetProductsByCategoryName",
+      __Marshaller_SearchField,
+      __Marshaller_ProductItems);
+
   /// <summary>Service descriptor</summary>
   public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
   {
@@ -543,6 +559,46 @@ public static partial class ProductService
     public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsByOrderIdAsync(global::SearchField request, grpc::CallOptions options)
     {
       return CallInvoker.AsyncUnaryCall(__Method_GetProductsByOrderId, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductsByName(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductsByName(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductsByName(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_GetProductsByName, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsByNameAsync(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductsByNameAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsByNameAsync(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_GetProductsByName, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductsByCategoryName(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductsByCategoryName(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual global::ProductItems GetProductsByCategoryName(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.BlockingUnaryCall(__Method_GetProductsByCategoryName, null, options, request);
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsByCategoryNameAsync(global::SearchField request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+    {
+      return GetProductsByCategoryNameAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+    }
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public virtual grpc::AsyncUnaryCall<global::ProductItems> GetProductsByCategoryNameAsync(global::SearchField request, grpc::CallOptions options)
+    {
+      return CallInvoker.AsyncUnaryCall(__Method_GetProductsByCategoryName, null, options, request);
     }
     /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

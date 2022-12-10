@@ -141,4 +141,34 @@ public class ProductsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpGet("getProductsByName")]
+    public async Task<IActionResult> GetProductsByNameAsync(string productName)
+    {
+        try
+        {
+            var products = await productLogic.GetProductsByNameAsync(productName);
+            return Created("/getProductsByName", products);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+    
+    [HttpGet("getProductsByCategoryName")]
+    public async Task<IActionResult> GetProductsByCategoryNameAsync(string categoryName)
+    {
+        try
+        {
+            var products = await productLogic.GetProductsByCategoryNameAsync(categoryName);
+            return Created("/getProductsByCategoryName", products);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

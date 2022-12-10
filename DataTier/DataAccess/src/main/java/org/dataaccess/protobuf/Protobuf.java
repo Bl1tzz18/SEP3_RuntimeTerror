@@ -154,28 +154,30 @@ public final class Protobuf {
       "\032\005.User\022!\n\nAddCredits\022\014.CreditsUser\032\005.Vo" +
       "id\022$\n\rRemoveCredits\022\014.CreditsUser\032\005.Void" +
       "\022)\n\025UpdateUserInformation\022\t.UserInfo\032\005.V" +
-      "oid2\270\002\n\016ProductService\022%\n\017RegisterProduc" +
+      "oid2\244\003\n\016ProductService\022%\n\017RegisterProduc" +
       "t\022\010.Product\032\010.Product\022#\n\013GetProducts\022\005.V" +
       "oid\032\r.ProductItems\0226\n\027GetProductsInCartB" +
       "yUser\022\014.SearchField\032\r.ProductItems\022%\n\013Fi" +
       "ndProduct\022\014.SearchField\032\010.Product\022 \n\rUpd" +
       "ateProduct\022\010.Product\032\005.Void\022$\n\rDeletePro" +
       "duct\022\014.SearchField\032\005.Void\0223\n\024GetProducts" +
-      "ByOrderId\022\014.SearchField\032\r.ProductItems2\224" +
-      "\002\n\013CartService\022\034\n\014RegisterCart\022\005.Cart\032\005." +
-      "Void\022$\n\020RegisterCartItem\022\t.CartItem\032\005.Vo" +
-      "id\022\037\n\010FindCart\022\014.SearchField\032\005.Cart\022*\n\016G" +
-      "etAllFromCart\022\014.SearchField\032\n.CartItems\022" +
-      "(\n\021DeleteAllFromCart\022\014.SearchField\032\005.Voi" +
-      "d\022&\n\017UpdateCartTotal\022\014.SearchField\032\005.Voi" +
-      "d\022\"\n\016DeleteFromCart\022\t.CartItem\032\005.Void2\322\001" +
-      "\n\014OrderService\022\036\n\rRegisterOrder\022\006.Order\032" +
-      "\005.Void\022\'\n\021RegisterOrderItem\022\013.OrderItems" +
-      "\032\005.Void\022!\n\tFindOrder\022\014.SearchField\032\006.Ord" +
-      "er\022(\n\021UpdateOrderStatus\022\014.OrderStatus\032\005." +
-      "Void\022,\n\023GetOrdersByUsername\022\014.SearchFiel" +
-      "d\032\007.OrdersB\033\n\027org.dataaccess.protobufP\001b" +
-      "\006proto3"
+      "ByOrderId\022\014.SearchField\032\r.ProductItems\0220" +
+      "\n\021GetProductsByName\022\014.SearchField\032\r.Prod" +
+      "uctItems\0228\n\031GetProductsByCategoryName\022\014." +
+      "SearchField\032\r.ProductItems2\224\002\n\013CartServi" +
+      "ce\022\034\n\014RegisterCart\022\005.Cart\032\005.Void\022$\n\020Regi" +
+      "sterCartItem\022\t.CartItem\032\005.Void\022\037\n\010FindCa" +
+      "rt\022\014.SearchField\032\005.Cart\022*\n\016GetAllFromCar" +
+      "t\022\014.SearchField\032\n.CartItems\022(\n\021DeleteAll" +
+      "FromCart\022\014.SearchField\032\005.Void\022&\n\017UpdateC" +
+      "artTotal\022\014.SearchField\032\005.Void\022\"\n\016DeleteF" +
+      "romCart\022\t.CartItem\032\005.Void2\322\001\n\014OrderServi" +
+      "ce\022\036\n\rRegisterOrder\022\006.Order\032\005.Void\022\'\n\021Re" +
+      "gisterOrderItem\022\013.OrderItems\032\005.Void\022!\n\tF" +
+      "indOrder\022\014.SearchField\032\006.Order\022(\n\021Update" +
+      "OrderStatus\022\014.OrderStatus\032\005.Void\022,\n\023GetO" +
+      "rdersByUsername\022\014.SearchField\032\007.OrdersB\033" +
+      "\n\027org.dataaccess.protobufP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
