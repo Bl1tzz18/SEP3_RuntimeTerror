@@ -127,4 +127,38 @@ public class ProductHttpClient : IProductService
         })!;
         return products;
     }
+
+    public async Task<ICollection<Product>> GetProductsByNameAsync(string productName)
+    {
+        HttpResponseMessage response =
+            await httpClient.GetAsync($"/Products/getProductsByName?productName={productName}");
+        
+        string result = await response.Content.ReadAsStringAsync();
+        
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(result);
+        
+        ICollection<Product> products = JsonSerializer.Deserialize<ICollection<Product>>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return products;
+    }
+
+    public async Task<ICollection<Product>> GetProductsByCategoryName(string categoryName)
+    {
+        HttpResponseMessage response =
+            await httpClient.GetAsync($"/Products/getProductsByCategoryName?categoryName={categoryName}");
+        
+        string result = await response.Content.ReadAsStringAsync();
+        
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(result);
+        
+        ICollection<Product> products = JsonSerializer.Deserialize<ICollection<Product>>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return products;
+    }
 }

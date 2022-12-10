@@ -1,0 +1,1264 @@
+<changelist name="Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]" date="1670640346975" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 12/10/2022 3:45 AM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.Watcher.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.Watcher.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.FileSystem.Watcher.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Principal.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Principal.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Principal.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebSockets.Client.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebSockets.Client.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.WebSockets.Client.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.ILGeneration.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.ILGeneration.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Emit.ILGeneration.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Csp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Csp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.Csp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Encoding.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Encoding.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.Encoding.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Expressions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Expressions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Linq.Expressions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.Serialization.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.Serialization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.Serialization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.DriveInfo.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.DriveInfo.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.FileSystem.DriveInfo.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.RegularExpressions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.RegularExpressions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.RegularExpressions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Json.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Serialization.Json.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Core.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.TypeConverter.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.TypeConverter.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.TypeConverter.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.Annotations.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.Annotations.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.Annotations.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/hjxpJRoX.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/hjxpJRoX.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/hjxpJRoX.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.Encoding.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Handles.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Handles.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Handles.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Quic.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Quic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Quic.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Pipes.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Pipes.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Pipes.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebHeaderCollection.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebHeaderCollection.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.WebHeaderCollection.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XmlSerializer.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XmlSerializer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.XmlSerializer.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.Reader.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.Reader.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Resources.Reader.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Intrinsics.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Intrinsics.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Intrinsics.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ObjectModel.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ObjectModel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ObjectModel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.VisualBasic.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.VisualBasic.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Microsoft.VisualBasic.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Tools.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Tools.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.Tools.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.Win32.Registry.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.Win32.Registry.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Microsoft.Win32.Registry.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Requests.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Requests.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Requests.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.SecureString.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.SecureString.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.SecureString.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.IsolatedStorage.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.IsolatedStorage.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.IsolatedStorage.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Principal.Windows.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Principal.Windows.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Principal.Windows.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.AccessControl.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.AccessControl.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.AccessControl.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Cng.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Cng.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.Cng.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Uri.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Uri.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.Uri.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.FileSystem.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Channels.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Channels.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Channels.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ServiceModel.Web.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ServiceModel.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ServiceModel.Web.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.CompilerServices.Unsafe.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XmlDocument.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XmlDocument.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.XmlDocument.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Numerics.Vectors.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Numerics.Vectors.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Numerics.Vectors.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.DispatchProxy.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.DispatchProxy.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.DispatchProxy.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.ResourceManager.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.ResourceManager.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Resources.ResourceManager.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Ping.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Ping.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Ping.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebProxy.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebProxy.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.WebProxy.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.Lightweight.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.Lightweight.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Emit.Lightweight.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.StackTrace.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.StackTrace.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.StackTrace.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.FileSystem.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.MemoryMappedFiles.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.MemoryMappedFiles.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.MemoryMappedFiles.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Sockets.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Sockets.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Sockets.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.Linq.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.Linq.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.Linq.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Serialization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Runtime.InteropServices.JavaScript.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Runtime.InteropServices.JavaScript.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.Runtime.InteropServices.JavaScript.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XPath.XDocument.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XPath.XDocument.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.XPath.XDocument.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.VisualBasic.Core.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.VisualBasic.Core.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Microsoft.VisualBasic.Core.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/dotnet.wasm" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/dotnet.wasm" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/dotnet.wasm" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/WindowsBase.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/WindowsBase.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WindowsBase.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Concurrent.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Concurrent.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Collections.Concurrent.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Timer.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Timer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Timer.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Extensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Extensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Tasks.Extensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.Extensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.Extensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.Encoding.Extensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.ThreadPool.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.ThreadPool.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.ThreadPool.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/fNMe5xli.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/fNMe5xli.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/fNMe5xli.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/F+O94vIZ.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/F+O94vIZ.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/F+O94vIZ.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Http.Json.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Http.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Http.Json.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Parallel.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Parallel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Tasks.Parallel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.EventBasedAsync.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.EventBasedAsync.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.EventBasedAsync.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/dotnet.timezones.blat" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/dotnet.timezones.blat" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/dotnet.timezones.blat" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Transactions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Transactions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Transactions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Xml.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Xml.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Serialization.Xml.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Collections.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.Writer.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Resources.Writer.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Resources.Writer.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Contracts.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Contracts.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.Contracts.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Parallel.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Parallel.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Linq.Parallel.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.ServicePoint.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.ServicePoint.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.ServicePoint.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget3.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/netstandard.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/netstandard.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/netstandard.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/WebAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.DiagnosticSource.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.DataSetExtensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.DataSetExtensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Data.DataSetExtensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Mail.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Mail.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Mail.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Debug.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Debug.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.Debug.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Metadata.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Metadata.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Metadata.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Claims.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Claims.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Claims.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Globalization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.TypeExtensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.TypeExtensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.TypeExtensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Numerics.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Numerics.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Numerics.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Console.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Console.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Console.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.AccessControl.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.FileSystem.AccessControl.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.FileSystem.AccessControl.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.InteropServices.RuntimeInformation.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Formatters.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Formatters.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Serialization.Formatters.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Security.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Security.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Security.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Memory.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Memory.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Memory.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.Win32.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.Win32.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Microsoft.Win32.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Extensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Extensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Extensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.pdb.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Extensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Extensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Extensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Numerics.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Numerics.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Numerics.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Windows.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Windows.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Windows.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.TraceSource.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.TraceSource.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.TraceSource.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.OpenSsl.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.OpenSsl.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.OpenSsl.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ValueTuple.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ValueTuple.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ValueTuple.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.HttpListener.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.HttpListener.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.HttpListener.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.NameResolution.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.NameResolution.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.NameResolution.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.DataAnnotations.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ComponentModel.DataAnnotations.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ComponentModel.DataAnnotations.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Buffers.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Buffers.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Buffers.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.ServiceProcess.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.ServiceProcess.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.ServiceProcess.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.CompilerServices.VisualC.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.CompilerServices.VisualC.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.CompilerServices.VisualC.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Xml.Linq.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Xml.Linq.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.Xml.Linq.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Formats.Asn1.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Formats.Asn1.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Formats.Asn1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.DataContractSerialization.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.DataContractSerialization.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.DataContractSerialization.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.AppContext.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.AppContext.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.AppContext.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.dll.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.Extensions.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.Extensions.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Globalization.Extensions.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Web.HttpUtility.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Web.HttpUtility.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Web.HttpUtility.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XPath.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XPath.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.XPath.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget4.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Xml.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.Xml.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.Xml.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.Calendars.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Globalization.Calendars.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Globalization.Calendars.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Reflection.Emit.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Reflection.Emit.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Tasks.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/WebAPI.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/Application/obj/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Algorithms.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.Algorithms.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.Algorithms.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encodings.Web.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encodings.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.Encodings.Web.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.NetworkInformation.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.NetworkInformation.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.NetworkInformation.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.InteropServices.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.InteropServices.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.InteropServices.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.NonGeneric.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.NonGeneric.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Collections.NonGeneric.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XDocument.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.XDocument.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.XDocument.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.CSharp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Microsoft.CSharp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Microsoft.CSharp.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/obj/Debug/net6.0/Shared.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/CVPG4y12.gz" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/build-gz/CVPG4y12.gz" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/CVPG4y12.gz" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Loader.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Loader.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Loader.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Tracing.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Tracing.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.Tracing.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Linq.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Application3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Shared.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Shared.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared7.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Dynamic.Runtime.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Dynamic.Runtime.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Dynamic.Runtime.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/WebAPI/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Configuration.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Configuration.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Configuration.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Process.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.Process.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.Process.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/Shared/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared5.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Compression.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Queryable.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Linq.Queryable.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Linq.Queryable.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.CodePages.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Encoding.CodePages.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.Encoding.CodePages.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Drawing.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Drawing.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Drawing.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.ZipFile.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.ZipFile.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Compression.ZipFile.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.TextWriterTraceListener.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.TextWriterTraceListener.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.TextWriterTraceListener.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.ReaderWriter.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Xml.ReaderWriter.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Xml.ReaderWriter.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/project.nuget5.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.CoreLib.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Private.CoreLib.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Private.CoreLib.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.Brotli.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.Brotli.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Compression.Brotli.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Web.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Web.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Web.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.X509Certificates.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Security.Cryptography.X509Certificates.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Security.Cryptography.X509Certificates.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Http.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.Http.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.Http.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Transactions.Local.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Transactions.Local.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Transactions.Local.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.FileSystem.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Compression.FileSystem.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Compression.FileSystem.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Json.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Text.Json.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Text.Json.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebSockets.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebSockets.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.WebSockets.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Runtime.Serialization.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Runtime.Serialization.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.UnmanagedMemoryStream.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.UnmanagedMemoryStream.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.UnmanagedMemoryStream.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Data.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared6.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/mscorlib.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/mscorlib.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/mscorlib.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Thread.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Thread.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Thread.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebClient.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Net.WebClient.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Net.WebClient.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.pdb" />
+    <option name="AFTER_PATH" value="../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/GrpcClient2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Immutable.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Immutable.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Collections.Immutable.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Overlapped.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Overlapped.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Overlapped.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Dataflow.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Threading.Tasks.Dataflow.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Threading.Tasks.Dataflow.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.Common.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Data.Common.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Data.Common.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.FileVersionInfo.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Diagnostics.FileVersionInfo.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Diagnostics.FileVersionInfo.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Drawing.Primitives.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Drawing.Primitives.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Drawing.Primitives.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Pipes.AccessControl.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.IO.Pipes.AccessControl.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.IO.Pipes.AccessControl.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/obj/Debug/net6.0/HttpClients.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/HttpClients3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="HttpClients/bin/Debug/net6.0/Shared.pdb" />
+    <option name="AFTER_PATH" value="HttpClients/bin/Debug/net6.0/Shared.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/Shared7.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/obj/Debug/net6.0/BlazorApp.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/BlazorApp4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Specialized.dll" />
+    <option name="AFTER_PATH" value="BlazorApp/bin/Debug/net6.0/System.Collections.Specialized.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM_[Changes]/System.Collections.Specialized.dll" />
+  </binary>
+</changelist>

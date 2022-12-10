@@ -26,7 +26,7 @@
         <input type="text" @bind="@searchField" class="form-control form-input" placeholder="Search product...">
     </div>
     <div class="col-md-2">
-        <button class="btn btn-primary">Search</button>
+        <button class="btn btn-primary" @onclick="() => searchProduct(searchField)">Search</button>
     </div>
 </div>
 
@@ -154,7 +154,26 @@
 
     private async Task searchProduct(string searchString)
     {
-        
+        try
+        {
+            if (searchField.Equals(""))
+            {
+                products = await productService.GetProductsAsync();
+            }
+            else
+            {
+                products = await productService.GetProductsByNameAsync(searchString);
+                searchField = "";    
+            }
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
     }
+    
+    
 
 }
