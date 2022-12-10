@@ -78,6 +78,32 @@ public class OrderDao : IOrderDAO
         await orderService.UpdateOrderStatusAsync(orderStatus);
     }
 
+    public async Task<IEnumerable<Shared.Models.Order>> GetOrdersByUsernameAsync(string username)
+    {
+        SearchField sf = new SearchField
+        {
+            Search = username
+        };
+
+        var list = new List<Shared.Models.Order>();
+
+        Orders ordersProto = await orderService.GetOrdersByUsernameAsync(sf);
+
+        foreach (var order in ordersProto.Order)
+        {
+            if (order is null)
+            {
+                continue;
+            }
+
+            Shared.Models.Order orderToSend = ConvertGrpcOrderToSharedOrder(order);
+
+            list.Add(orderToSend);
+        }
+
+        return list;
+    }
+
     private Product ConvertSharedProductToGrpcProduct(Shared.Models.Product product)
     {
         return new Product
@@ -106,6 +132,16 @@ public class OrderDao : IOrderDAO
         {
             Id = order.Id,
             User = ConvertSharedUserToGrpcUser(order.User),
+            Total = order.Total
+        };
+    }
+    
+    private Shared.Models.Order ConvertGrpcOrderToSharedOrder(Order order)
+    {
+        return new Shared.Models.Order
+        {
+            Id = order.Id,
+            User = ConvertGrpcUserToSharedUser(order.User),
             Total = order.Total
         };
     }

@@ -55,20 +55,27 @@ public class ProductLogic : IProductLogic
         return products;
     }
 
-    public async Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username)
+    public Task<IEnumerable<Product>> GetProductsByOrderIdAsync(string orderId)
     {
-        User user = await userDao.FindUserAsync(username);
+        var productsInOrder = productDao.GetProductsByOrderIdAsync(orderId);
 
-        if (user == null)
-        {
-            throw new Exception("User not exists");
-        }
-        
-        var products = await productDao.GetProductOrderHistoryAsync(username);
-        
-        
-        return products;
+        return productsInOrder;
     }
+
+    // public async Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username)
+    // {
+    //     User user = await userDao.FindUserAsync(username);
+    //
+    //     if (user == null)
+    //     {
+    //         throw new Exception("User not exists");
+    //     }
+    //     
+    //     var products = await productDao.GetProductOrderHistoryAsync(username);
+    //     
+    //     
+    //     return products;
+    // }
 
     public async Task<Product> FindProductByIdAsync(string productId)
     {

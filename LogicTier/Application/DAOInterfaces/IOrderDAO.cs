@@ -11,4 +11,6 @@ public interface IOrderDAO
     Task<Order> FindOrderAsync(string username);
 
     Task UpdateOrderStatus(string username, string status);
+
+    Task<IEnumerable<Order>> GetOrdersByUsernameAsync(string username);
 }

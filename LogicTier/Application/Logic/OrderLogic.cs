@@ -82,4 +82,11 @@ public class OrderLogic : IOrderLogic
         }
         
     }
+
+    public async Task<IEnumerable<Order>> GetOrdersByUsernameAsync(string username)
+    {
+        var orders = await orderDao.GetOrdersByUsernameAsync(username);
+
+        return orders;
+    }
 }

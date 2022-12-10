@@ -43,4 +43,19 @@ public class OrderController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpGet("getOrders")]
+    public async Task<IActionResult> GetOrdersByUserAsync([FromQuery] string username)
+    {
+        try
+        {
+            var orders = await orderLogic.GetOrdersByUsernameAsync(username);
+            return Created("/OrdersByUsername", orders);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

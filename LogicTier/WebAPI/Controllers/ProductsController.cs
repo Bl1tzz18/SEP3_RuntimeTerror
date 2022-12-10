@@ -62,21 +62,21 @@ public class ProductsController : ControllerBase
         }
     }
     
-    [Route("getorderhistory")]
-    [HttpGet]
-    public async Task<IActionResult> GetProductOrderHistoryAsync([FromQuery] string username)
-    {
-        try
-        {
-            var products = await productLogic.GetProductOrderHistoryAsync(username);
-            return Created("/orderhistory", products);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return StatusCode(500, e.Message);
-        }
-    }
+    // [Route("getorderhistory")]
+    // [HttpGet]
+    // public async Task<IActionResult> GetProductOrderHistoryAsync([FromQuery] string username)
+    // {
+    //     try
+    //     {
+    //         var products = await productLogic.GetProductOrderHistoryAsync(username);
+    //         return Created("/orderhistory", products);
+    //     }
+    //     catch (Exception e)
+    //     {
+    //         Console.WriteLine(e);
+    //         return StatusCode(500, e.Message);
+    //     }
+    // }
 
     [Route("deleteProduct")]
     [HttpDelete]
@@ -119,6 +119,21 @@ public class ProductsController : ControllerBase
             var product = await productLogic.FindProductByIdAsync(productId);
             
             return Created("/product",product);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
+
+    [HttpGet("getOrderProducts")]
+    public async Task<IActionResult> GetProductsByOrderIdAsync(string orderId)
+    {
+        try
+        {
+            var products = await productLogic.GetProductsByOrderIdAsync(orderId);
+            return Created("/getProductsByOrderId", products);
         }
         catch (Exception e)
         {

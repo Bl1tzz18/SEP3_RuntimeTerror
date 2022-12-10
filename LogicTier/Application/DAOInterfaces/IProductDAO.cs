@@ -11,7 +11,10 @@ public interface IProductDAO
 
     Task<IEnumerable<Product>> GetProductsInCartByUserAsync(string username);
     
-    Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username);
+    // Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username);
+
+    Task<IEnumerable<Product>> GetProductsByOrderIdAsync(string orderId);
+
 
     Task<Product> FindProductByIdAsync(string productId);
     
