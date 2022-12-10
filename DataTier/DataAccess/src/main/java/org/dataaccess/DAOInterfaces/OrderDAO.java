@@ -15,4 +15,6 @@ public interface OrderDAO
     Order getOrderByUser(User username);
 
     void updateOrderStatus(String username, String status);
+
+    Collection<Order> findAllByUser_UsernameAndStatus(String username);
 }

@@ -7,6 +7,8 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
+
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Integer>
 {
@@ -15,4 +17,6 @@ public interface OrderRepository extends JpaRepository<Order, Integer>
     @Modifying
     @Query("UPDATE Order o SET o.status = ?2 WHERE o.user.username = ?1")
     void updateOrderStatus(String username, String status);
+
+    Collection<Order> findAllByUser_UsernameAndStatus(String username, String status);
 }

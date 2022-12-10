@@ -95,6 +95,11 @@ public final class Protobuf {
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OrderItems_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_Orders_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_Orders_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SearchField_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
@@ -141,34 +146,36 @@ public final class Protobuf {
       "\022\016\n\006status\030\002 \001(\t\"I\n\tOrderItem\022\n\n\002id\030\001 \001(" +
       "\005\022\025\n\005order\030\002 \001(\0132\006.Order\022\031\n\007product\030\003 \001(" +
       "\0132\010.Product\",\n\nOrderItems\022\036\n\norderItems\030" +
-      "\001 \003(\0132\n.OrderItem\"\035\n\013SearchField\022\016\n\006sear" +
-      "ch\030\001 \001(\t\"\006\n\004Void2\347\001\n\013UserService\022\"\n\nCrea" +
-      "teUser\022\r.RegisterUser\032\005.User\022\037\n\nLoginUse" +
-      "rs\022\n.LoginUser\032\005.User\022\037\n\010FindUser\022\014.Sear" +
-      "chField\032\005.User\022!\n\nAddCredits\022\014.CreditsUs" +
-      "er\032\005.Void\022$\n\rRemoveCredits\022\014.CreditsUser" +
-      "\032\005.Void\022)\n\025UpdateUserInformation\022\t.UserI" +
-      "nfo\032\005.Void2\272\002\n\016ProductService\022%\n\017Registe" +
-      "rProduct\022\010.Product\032\010.Product\022#\n\013GetProdu" +
-      "cts\022\005.Void\032\r.ProductItems\0226\n\027GetProducts" +
-      "InCartByUser\022\014.SearchField\032\r.ProductItem" +
-      "s\0225\n\026GetProductOrderHistory\022\014.SearchFiel" +
-      "d\032\r.ProductItems\022%\n\013FindProduct\022\014.Search" +
-      "Field\032\010.Product\022 \n\rUpdateProduct\022\010.Produ" +
-      "ct\032\005.Void\022$\n\rDeleteProduct\022\014.SearchField" +
-      "\032\005.Void2\224\002\n\013CartService\022\034\n\014RegisterCart\022" +
-      "\005.Cart\032\005.Void\022$\n\020RegisterCartItem\022\t.Cart" +
-      "Item\032\005.Void\022\037\n\010FindCart\022\014.SearchField\032\005." +
-      "Cart\022*\n\016GetAllFromCart\022\014.SearchField\032\n.C" +
-      "artItems\022(\n\021DeleteAllFromCart\022\014.SearchFi" +
-      "eld\032\005.Void\022&\n\017UpdateCartTotal\022\014.SearchFi" +
-      "eld\032\005.Void\022\"\n\016DeleteFromCart\022\t.CartItem\032" +
-      "\005.Void2\244\001\n\014OrderService\022\036\n\rRegisterOrder" +
-      "\022\006.Order\032\005.Void\022\'\n\021RegisterOrderItem\022\013.O" +
-      "rderItems\032\005.Void\022!\n\tFindOrder\022\014.SearchFi" +
-      "eld\032\006.Order\022(\n\021UpdateOrderStatus\022\014.Order" +
-      "Status\032\005.VoidB\033\n\027org.dataaccess.protobuf" +
-      "P\001b\006proto3"
+      "\001 \003(\0132\n.OrderItem\"\037\n\006Orders\022\025\n\005order\030\001 \003" +
+      "(\0132\006.Order\"\035\n\013SearchField\022\016\n\006search\030\001 \001(" +
+      "\t\"\006\n\004Void2\347\001\n\013UserService\022\"\n\nCreateUser\022" +
+      "\r.RegisterUser\032\005.User\022\037\n\nLoginUsers\022\n.Lo" +
+      "ginUser\032\005.User\022\037\n\010FindUser\022\014.SearchField" +
+      "\032\005.User\022!\n\nAddCredits\022\014.CreditsUser\032\005.Vo" +
+      "id\022$\n\rRemoveCredits\022\014.CreditsUser\032\005.Void" +
+      "\022)\n\025UpdateUserInformation\022\t.UserInfo\032\005.V" +
+      "oid2\270\002\n\016ProductService\022%\n\017RegisterProduc" +
+      "t\022\010.Product\032\010.Product\022#\n\013GetProducts\022\005.V" +
+      "oid\032\r.ProductItems\0226\n\027GetProductsInCartB" +
+      "yUser\022\014.SearchField\032\r.ProductItems\022%\n\013Fi" +
+      "ndProduct\022\014.SearchField\032\010.Product\022 \n\rUpd" +
+      "ateProduct\022\010.Product\032\005.Void\022$\n\rDeletePro" +
+      "duct\022\014.SearchField\032\005.Void\0223\n\024GetProducts" +
+      "ByOrderId\022\014.SearchField\032\r.ProductItems2\224" +
+      "\002\n\013CartService\022\034\n\014RegisterCart\022\005.Cart\032\005." +
+      "Void\022$\n\020RegisterCartItem\022\t.CartItem\032\005.Vo" +
+      "id\022\037\n\010FindCart\022\014.SearchField\032\005.Cart\022*\n\016G" +
+      "etAllFromCart\022\014.SearchField\032\n.CartItems\022" +
+      "(\n\021DeleteAllFromCart\022\014.SearchField\032\005.Voi" +
+      "d\022&\n\017UpdateCartTotal\022\014.SearchField\032\005.Voi" +
+      "d\022\"\n\016DeleteFromCart\022\t.CartItem\032\005.Void2\322\001" +
+      "\n\014OrderService\022\036\n\rRegisterOrder\022\006.Order\032" +
+      "\005.Void\022\'\n\021RegisterOrderItem\022\013.OrderItems" +
+      "\032\005.Void\022!\n\tFindOrder\022\014.SearchField\032\006.Ord" +
+      "er\022(\n\021UpdateOrderStatus\022\014.OrderStatus\032\005." +
+      "Void\022,\n\023GetOrdersByUsername\022\014.SearchFiel" +
+      "d\032\007.OrdersB\033\n\027org.dataaccess.protobufP\001b" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -270,14 +277,20 @@ public final class Protobuf {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_OrderItems_descriptor,
         new java.lang.String[] { "OrderItems", });
-    internal_static_SearchField_descriptor =
+    internal_static_Orders_descriptor =
       getDescriptor().getMessageTypes().get(16);
+    internal_static_Orders_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_Orders_descriptor,
+        new java.lang.String[] { "Order", });
+    internal_static_SearchField_descriptor =
+      getDescriptor().getMessageTypes().get(17);
     internal_static_SearchField_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_SearchField_descriptor,
         new java.lang.String[] { "Search", });
     internal_static_Void_descriptor =
-      getDescriptor().getMessageTypes().get(17);
+      getDescriptor().getMessageTypes().get(18);
     internal_static_Void_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Void_descriptor,

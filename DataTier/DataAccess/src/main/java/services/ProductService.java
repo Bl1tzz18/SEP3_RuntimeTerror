@@ -86,12 +86,12 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
     }
 
     @Override
-    public void getProductOrderHistory(SearchField request, StreamObserver<ProductItems> responseObserver)
+    public void getProductsByOrderId(SearchField request, StreamObserver<ProductItems> responseObserver)
     {
-        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductOrdersByUsername(request.getSearch());
+        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductsByOrderId(request.getSearch());
 
         if (products.isEmpty()) {
-            responseObserver.onError(new Exception("Order history is empty"));
+            responseObserver.onError(new Exception("No products in order"));
             return;
         }
 
@@ -107,6 +107,29 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
         responseObserver.onNext(productItems);
         responseObserver.onCompleted();
     }
+
+//    @Override
+//    public void getProductOrderHistory(SearchField request, StreamObserver<ProductItems> responseObserver)
+//    {
+//        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductOrdersByUsername(request.getSearch());
+//
+//        if (products.isEmpty()) {
+//            responseObserver.onError(new Exception("Order history is empty"));
+//            return;
+//        }
+//
+//        Collection<Product> productCollection = new ArrayList<>();
+//
+//        for (var product : products)
+//        {
+//            productCollection.add(ProductMapper.mapToProto(product));
+//        }
+//
+//        ProductItems productItems = ProductItems.newBuilder().addAllProduct(productCollection).build();
+//
+//        responseObserver.onNext(productItems);
+//        responseObserver.onCompleted();
+//    }
 
     @Override
     public void findProduct(SearchField request, StreamObserver<Product> responseObserver)

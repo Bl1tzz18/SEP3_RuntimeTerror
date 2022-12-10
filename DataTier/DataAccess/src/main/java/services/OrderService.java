@@ -8,6 +8,7 @@ import org.dataaccess.Shared.Cart;
 import org.dataaccess.Shared.CartItem;
 import org.dataaccess.mappers.OrderItemMapper;
 import org.dataaccess.mappers.OrderMapper;
+import org.dataaccess.mappers.ProductMapper;
 import org.dataaccess.protobuf.*;
 import org.dataaccess.protobuf.Void;
 import org.lognet.springboot.grpc.GRpcService;
@@ -86,6 +87,24 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
         orderDAO.updateOrderStatus(request.getUsername(), request.getStatus());
 
         responseObserver.onNext(Void.newBuilder().build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void getOrdersByUsername(SearchField request, StreamObserver<Orders> responseObserver)
+    {
+        Collection<org.dataaccess.Shared.Order> orders = orderDAO.findAllByUser_UsernameAndStatus(request.getSearch());
+
+        Collection<Order> orderCollection = new ArrayList<>();
+
+        for (var order : orders)
+        {
+            orderCollection.add(OrderMapper.mapToProto(order));
+        }
+
+        Orders ordersToSend = Orders.newBuilder().addAllOrder(orderCollection).build();
+
+        responseObserver.onNext(ordersToSend);
         responseObserver.onCompleted();
     }
 }

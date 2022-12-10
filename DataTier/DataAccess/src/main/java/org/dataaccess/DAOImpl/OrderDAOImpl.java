@@ -46,4 +46,11 @@ public class OrderDAOImpl implements OrderDAO
     {
         orderRepository.updateOrderStatus(username, status);
     }
+
+    @Override
+    public Collection<Order> findAllByUser_UsernameAndStatus(String username) {
+        return orderRepository.findAllByUser_UsernameAndStatus(username, "Completed");
+    }
+
+
 }

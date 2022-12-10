@@ -46,8 +46,8 @@ public class ProductDAOImpl implements ProductDAO
     }
 
     @Override
-    public Collection<Product> getAllProductOrdersByUsername(String username) {
-        return productRepository.getAllProductOrdersByUsername(username);
+    public Collection<Product> getAllProductsByOrderId(String orderId) {
+        return productRepository.getAllProductOrdersByOrderId(Integer.parseInt(orderId));
     }
 
     @Override

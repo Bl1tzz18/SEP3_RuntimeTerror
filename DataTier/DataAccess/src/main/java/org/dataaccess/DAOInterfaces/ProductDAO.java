@@ -13,7 +13,8 @@ public interface ProductDAO
 
     Collection<Product> getAllProductFromCartByUsername(String username);
 
-    Collection<Product> getAllProductOrdersByUsername(String username);
+    Collection<Product> getAllProductsByOrderId(String orderId);
+
 
     Product findProduct(String productId);
 

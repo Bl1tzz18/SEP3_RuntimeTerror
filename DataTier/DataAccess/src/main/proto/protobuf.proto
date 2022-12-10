@@ -16,10 +16,10 @@ service ProductService{
   rpc RegisterProduct(Product) returns (Product);
   rpc GetProducts(Void) returns (ProductItems);
   rpc GetProductsInCartByUser(SearchField) returns (ProductItems);
-  rpc GetProductOrderHistory(SearchField) returns (ProductItems);
   rpc FindProduct(SearchField) returns (Product);
   rpc UpdateProduct(Product) returns (Void);
   rpc DeleteProduct(SearchField) returns (Void);
+  rpc GetProductsByOrderId(SearchField) returns (ProductItems);
 }
 
 service CartService{
@@ -37,6 +37,7 @@ service OrderService{
   rpc RegisterOrderItem(OrderItems) returns (Void);
   rpc FindOrder(SearchField) returns (Order);
   rpc UpdateOrderStatus(OrderStatus) returns (Void);
+  rpc GetOrdersByUsername(SearchField) returns (Orders);
 }
 
 message User{
@@ -139,8 +140,13 @@ message OrderItems{
   repeated OrderItem orderItems = 1;
 }
 
+message Orders{
+  repeated Order order = 1;
+}
+
 message SearchField{
   string search = 1;
 }
+
 
 message Void{}
