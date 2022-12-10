@@ -169,16 +169,35 @@
             {
                 products = await productService.GetProductsAsync();
             }
+            else if (!searchField.Equals("") && !category.Equals("All"))
+            {
+                ICollection<Product> productsByName = await productService.GetProductsByNameAsync(searchField);
+                ICollection<Product> productsByCategory = await productService.GetProductsByCategoryName(category);
+                ICollection<Product> list = new List<Product>();
+                foreach (var productName in productsByName)
+                {
+                    foreach (var productCategory in productsByCategory)
+                    {
+                        if (productName.Category.Name.Equals(productCategory.Category.Name))
+                        {
+                            list.Add(productName);
+                            break;
+                        }
+                    }
+                }
+                products = list;
+                searchField = "";
+            }
             else if (!category.Equals("All"))
             {
                 products = await productService.GetProductsByCategoryName(category);
             }
-            else
+            else if (!searchField.Equals(""))
             {
                 products = await productService.GetProductsByNameAsync(searchString);
                 searchField = "";    
             }
-            
+
         }
         catch (Exception e)
         {

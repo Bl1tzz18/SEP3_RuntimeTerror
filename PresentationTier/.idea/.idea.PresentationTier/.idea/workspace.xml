@@ -5,8 +5,7 @@
     <projectFile profileName="IIS Express">BlazorApp/BlazorApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc8e711b-d5a5-453e-afdc-088fa1e7375f" name="Changes" comment="Update">
-      <change beforePath="$PROJECT_DIR$/../DataTier/DataAccess/target/classes/org/dataaccess/repositories/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTier/DataAccess/target/classes/org/dataaccess/repositories/ProductRepository.class" afterDir="false" />
+    <list default="true" id="fc8e711b-d5a5-453e-afdc-088fa1e7375f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Shared.dll" afterDir="false" />
@@ -23,8 +22,6 @@
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/Proto/protobuf.proto/Protobuf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/Proto/protobuf.proto/Protobuf.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/Proto/protobuf.proto/ProtobufGrpc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/Proto/protobuf.proto/ProtobufGrpc.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/GrpcClient.dll" afterDir="false" />
@@ -80,10 +77,10 @@
       <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_33_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_33_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_43_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_43_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_3_45_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_3_38_AM_[Changes]1/HttpClients.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_3_38_AM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_3_2022_3_38_AM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_4_14_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2022_4_14_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/Products.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/Products.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" afterDir="false" />
@@ -281,13 +278,14 @@
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/BWb1rm0H.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/BWb1rm0H.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/E83OfA8O.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/E83OfA8O.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/N6R+E8u4.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/N6R+E8u4.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/uLi4uD8K.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/uLi4uD8K.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/CdDW+srl.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/CdDW+srl.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/RntvwtK0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/RntvwtK0.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/URNApk2+.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/URNApk2+.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/ld+ZPf8y.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/ld+ZPf8y.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
@@ -415,6 +413,7 @@
       <workItem from="1670606887582" duration="9685000" />
       <workItem from="1670622910923" duration="4595000" />
       <workItem from="1670628627613" duration="1683000" />
+      <workItem from="1670701127544" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1670113194469</created>
