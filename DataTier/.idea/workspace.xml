@@ -6,51 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="eafd07b0-8a5d-47a9-8ed9-0ce1ba3448be" name="Changes" comment="ss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/bin/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/Application/obj/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/obj/Debug/net6.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/Application/obj/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/Application/obj/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/bin/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/bin/Debug/net6.0/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/bin/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/.idea/.idea.PresentationTier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/.idea/.idea.PresentationTier/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/Pages/Cart.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/BlazorApp.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/HttpClients.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/CVPG4y12.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/CVPG4y12.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/F+O94vIZ.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/F+O94vIZ.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/fNMe5xli.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/fNMe5xli.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/hjxpJRoX.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/build-gz/hjxpJRoX.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/BlazorApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/ClientImpl/OrderHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/ClientImpl/OrderHttpClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/bin/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/ref/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/ref/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/refint/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../PresentationTier/HttpClients/obj/Debug/net6.0/refint/HttpClients.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +130,8 @@
       <workItem from="1670429648270" duration="662000" />
       <workItem from="1670450928752" duration="2875000" />
       <workItem from="1670530711634" duration="8644000" />
-      <workItem from="1670606734961" duration="5604000" />
+      <workItem from="1670606734961" duration="7224000" />
+      <workItem from="1670634226693" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1670034608171</created>

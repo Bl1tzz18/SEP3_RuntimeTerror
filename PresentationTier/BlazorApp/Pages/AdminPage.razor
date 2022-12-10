@@ -17,8 +17,11 @@
                     <input disabled="@isDisable" @bind="_name"/>
                 </div>
                 <div class="col-md-6">
-                    <p class="nihuiasebe">In stock:</p> 
-                    <input disabled="@isDisable" @bind="_inStock"/>
+                    <p class="nihuiasebe">In stock:</p>
+                    <select @bind="@_inStock" disabled="@isDisable">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
                 </div>
                 <div class="col-md-6">
                     <p class="nihuiasebe">Price: </p>
@@ -26,8 +29,9 @@
                 </div>
                 <div class="col-md-6">
                     <p class="nihuiasebe">Description: </p>
-                    <input disabled="@isDisable" @bind="_description"/>
+                    <textarea disabled="@isDisable" @bind="_description"/>
                 </div>
+                
                 <div class="col-md-6">
                     <br>
                     <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>

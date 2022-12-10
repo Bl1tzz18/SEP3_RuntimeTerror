@@ -16,7 +16,10 @@
                 </div>
                 <div class="col-md-4">
                     <p class="nihuiasebe">In stock:</p>
-                    <input @bind="_inStock"/>
+                    <select @bind="@_inStock">
+                        <option value="true">True</option>
+                        <option value="false">False</option>
+                    </select>
                 </div><div class="col-md-4">
                     <p class="nihuiasebe">Price: </p>
                     <input @bind="_price"/>

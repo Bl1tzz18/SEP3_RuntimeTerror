@@ -7,8 +7,32 @@
 @inject ICartService cartService;
 
 
+<div class="row height d-flex justify-content-center align-items-center">
 
-    @if (products == null)
+    
+    <div class="col-md-1">
+        
+        Category: <select>
+            @foreach (var product in products)
+            {
+                if (product.inStock)
+                {
+                    <option value="@product.Category.Name">@product.Category.Name</option>
+                }
+            }
+        </select>
+    </div>
+    <div class="col-md-6">
+        <input type="text" @bind="@searchField" class="form-control form-input" placeholder="Search product...">
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-primary">Search</button>
+    </div>
+</div>
+
+
+
+@if (products == null)
     {
     }
     else if (!products.Any())
@@ -64,6 +88,9 @@
 
 
 
+
+
+
 @code {
     
     [CascadingParameter]
@@ -77,8 +104,10 @@
     private ICollection<Product> products = new List<Product>();
     private string errormsg = "";
     private int productId;
-  
-  
+
+    private string searchField = "";
+
+
     protected override async Task OnInitializedAsync()
     {
         try
@@ -121,6 +150,11 @@
             Console.WriteLine(e);
             errormsg = e.Message;
         }
+    }
+
+    private async Task searchProduct(string searchString)
+    {
+        
     }
 
 }
