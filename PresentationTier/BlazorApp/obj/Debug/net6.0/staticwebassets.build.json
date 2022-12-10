@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bNa+eQn/jRM98BeplclX+E8mDpLjmLGdFJ2UzMZk8cE=",
+  "Hash": "GnZZaptN1jpTDNdygI1M5/qMsZxu/3XaLkdewJ4LR2g=",
   "Source": "BlazorApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7359,6 +7359,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\PresentationTier\\BlazorApp\\wwwroot\\open-in-new.svg",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\catal\\Desktop\\SEP3_RuntimeTerror\\PresentationTier\\BlazorApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "open-in-new.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\open-in-new.svg"
     }
   ]
 }

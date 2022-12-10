@@ -110,4 +110,21 @@ public class ProductHttpClient : IProductService
 
         return product;
     }
+
+    public async Task<ICollection<Product>> GetProductsByOrderIdAsync(string orderId)
+    {
+        HttpResponseMessage response =
+            await httpClient.GetAsync($"/Products/getOrderProducts?orderId={orderId}");
+        
+        string result = await response.Content.ReadAsStringAsync();
+        
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(result);
+        
+        ICollection<Product> products = JsonSerializer.Deserialize<ICollection<Product>>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return products;
+    }
 }

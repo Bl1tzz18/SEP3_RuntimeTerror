@@ -1,0 +1,112 @@
+﻿@page "/OrderProducts/{id:int}"
+@using System.Security.Claims
+@using global::Shared.Models
+@using HttpClients.ClientInterfaces
+@inject IProductService productService;
+@inject IOrderService orderService;
+
+
+<AuthorizeView Roles="customer">
+    <Authorized>
+        @if (products == null)
+        {
+        }
+        else if (!products.Any())
+        {
+            <p>No Products to display</p>
+        }
+        else
+        {
+            <div class="shell">
+                <div class="container">
+                    <div class="row">
+                        @foreach (var product in products)
+                        {
+                            <div class="col-md-3">
+                                <div class="wsk-cp-product">
+                                    <div class="wsk-cp-img">
+                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                    </div>
+                                    <div class="wsk-cp-text">
+                                        <div class="category">
+                                            <span>@product.Category.Name</span>
+                                        </div>
+                                        <div class="title-product">
+                                            <h3>@product.Name</h3>
+                                        </div>
+                                        <div class="description-prod">
+                                            <p>@product.Description</p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="wcf-left"><span class="price">@product.Price <i>Credits</i></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <hr>
+                    <p>Total price: @total  </p>
+                </div>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>You shall be logged in to access cart</h1>
+        <img width="600" src="https://i.kym-cdn.com/entries/icons/original/000/002/144/You_Shall_Not_Pass!_0-1_screenshot.jpg"/>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthState { get; set; } = null!;
+
+    private string? name;
+    private IEnumerable<Claim>? userClaims;
+    private bool isLoggedIn;
+    
+    
+    
+    
+    private ICollection<Product> products = new List<Product>();
+    private ICollection<Order> orders = new List<Order>();
+    private string errormsg = "";
+
+    private int total;
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            products = await productService.GetProductsByOrderIdAsync(Id.ToString());
+            
+            AuthenticationState authState = await AuthState;
+            ClaimsPrincipal user = authState.User;
+            isLoggedIn = user.Identity != null;
+        
+            if (!isLoggedIn) return;
+        
+            userClaims = user.Claims;
+            name = user.Identity!.Name!;
+            
+            orders = await orderService.GetOrdersByUserAsync(name);
+
+            foreach (var order in orders)
+            {
+                if (order.Id == Id)
+                    total = order.Total;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errormsg = e.Message;
+        }
+    }
+}

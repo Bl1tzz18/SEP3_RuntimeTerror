@@ -15,4 +15,6 @@ public interface IProductService
     Task UpdateProductAsync(Product product);
 
     Task<Product> FindProductById(string productId);
+
+    Task<ICollection<Product>> GetProductsByOrderIdAsync(string orderId);
 }

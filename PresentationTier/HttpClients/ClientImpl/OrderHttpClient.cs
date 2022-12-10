@@ -1,6 +1,8 @@
 ﻿using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
 using HttpClients.ClientInterfaces;
+using Shared.Models;
 
 namespace HttpClients.ClientImpl;
 
@@ -43,5 +45,23 @@ public class OrderHttpClient : IOrderService
             Console.WriteLine(responseContent);
             throw new Exception(responseContent);
         }
+    }
+
+    public async Task<ICollection<Order>> GetOrdersByUserAsync(string username)
+    {
+        HttpResponseMessage response =
+            await httpClient.GetAsync($"/Order/getOrders?username={username}");
+        
+        string result = await response.Content.ReadAsStringAsync();
+
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(result);
+        
+        ICollection<Order> orders = JsonSerializer.Deserialize<ICollection<Order>>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        
+        return orders;
     }
 }
