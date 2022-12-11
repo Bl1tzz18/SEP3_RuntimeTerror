@@ -6,7 +6,6 @@ import org.dataaccess.Shared.CartItem;
 import org.dataaccess.Shared.User;
 import org.dataaccess.repositories.CartItemsRepository;
 import org.dataaccess.repositories.CartRepository;
-import org.dataaccess.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

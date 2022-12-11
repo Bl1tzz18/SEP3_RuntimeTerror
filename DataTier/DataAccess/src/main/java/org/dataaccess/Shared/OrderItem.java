@@ -29,11 +29,6 @@ public class OrderItem implements Serializable
         this.product = product;
     }
 
-    public OrderItem(Order order, Product product) {
-        this.order = order;
-        this.product = product;
-    }
-
     public int getId() {
         return id;
     }

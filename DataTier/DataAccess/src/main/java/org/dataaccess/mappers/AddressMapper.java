@@ -1,7 +1,6 @@
 package org.dataaccess.mappers;
 
 import org.dataaccess.protobuf.Address;
-import org.dataaccess.protobuf.Category;
 
 public abstract class AddressMapper
 {

@@ -1,7 +1,6 @@
 package org.dataaccess.DAOImpl;
 
 import org.dataaccess.DAOInterfaces.ProductDAO;
-import org.dataaccess.Shared.Category;
 import org.dataaccess.Shared.Product;
 import org.dataaccess.repositories.CategoryRepository;
 import org.dataaccess.repositories.ProductRepository;
@@ -53,11 +52,6 @@ public class ProductDAOImpl implements ProductDAO
     @Override
     public Product findProduct(String productId) {
         return productRepository.findById(Integer.valueOf(productId)).orElse(null);
-    }
-
-    @Override
-    public Category getCategory(String categoryName) {
-        return categoryRepository.findCategory(categoryName);
     }
 
     @Override

@@ -25,8 +25,6 @@ public class UserConfig
             admin.setPhone("");
             admin.setAddress(address);
 
-
-
             repository.save(admin);
         };
     }

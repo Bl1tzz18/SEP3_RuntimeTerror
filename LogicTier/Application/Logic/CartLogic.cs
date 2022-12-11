@@ -17,24 +17,6 @@ public class CartLogic : ICartLogic
         this.productDao = productDao;
     }
 
-
-    /*public async Task RegisterCartAsync(CartCreationDTO dto)
-    {
-        User user = await userDao.FindUserAsync(dto.UserName);
-
-        if (user == null)
-        {
-            throw new Exception("User does not exist");
-        }
-
-        Cart cart = new Cart
-        {
-            UserName = dto.UserName
-        };
-
-        await cartDao.RegisterCartAsync(cart);
-    }*/
-
     public async Task RegisterCartItemAsync(CartItemCreationDTO dto)
     {
         Cart cart = await cartDao.FindCartAsync(dto.UserName);

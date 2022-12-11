@@ -20,15 +20,12 @@ public class CartItem implements Serializable
     @JoinColumn(name = "product_id", nullable = false, referencedColumnName = "id")
     private Product product;
 
-    /*private String username;*/
-
     public CartItem() {
     }
 
-    public CartItem(Cart cart, Product product/*, String username*/) {
+    public CartItem(Cart cart, Product product) {
         this.cart = cart;
         this.product = product;
-        /*this.username = username;*/
     }
 
     public int getId() {
@@ -54,12 +51,4 @@ public class CartItem implements Serializable
     public void setProduct(Product product) {
         this.product = product;
     }
-
-    /*public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }*/
 }

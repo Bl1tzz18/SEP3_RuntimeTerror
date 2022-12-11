@@ -1,7 +1,6 @@
 package org.dataaccess.repositories;
 
 import org.dataaccess.Shared.Category;
-import org.dataaccess.Shared.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

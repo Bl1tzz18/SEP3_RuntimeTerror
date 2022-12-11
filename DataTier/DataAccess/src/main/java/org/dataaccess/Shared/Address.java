@@ -22,15 +22,14 @@ public class Address implements Serializable
     @OneToOne(mappedBy = "address")
     private User user;
 
+    public Address() {
+    }
+
     public Address(String country, String city, String zip, String street) {
         this.country = country;
         this.city = city;
         this.zip = zip;
         this.street = street;
-    }
-
-    public Address() {
-
     }
 
     public int getId() {

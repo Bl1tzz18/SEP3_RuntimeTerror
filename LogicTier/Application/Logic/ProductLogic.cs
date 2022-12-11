@@ -37,11 +37,20 @@ public class ProductLogic : IProductLogic
     {
         var products = await productDao.GetProductsAsync();
 
+        //Need
+        
+        /*if (!products.Any())
+        {
+            throw new Exception("No products to display");
+        }*/
+
         return products;
     }
 
     public async Task<IEnumerable<Product>> GetProductsInCartByUserAsync(string username)
     {
+        //No Need
+        
         User user = await userDao.FindUserAsync(username);
 
         if (user == null)
@@ -51,6 +60,12 @@ public class ProductLogic : IProductLogic
         
         var products = await productDao.GetProductsInCartByUserAsync(username);
         
+        //Need
+        
+        /*if (!products.Any())
+        {
+            throw new Exception("No products to display");
+        }*/
         
         return products;
     }
@@ -62,25 +77,12 @@ public class ProductLogic : IProductLogic
         return productsInOrder;
     }
 
-    // public async Task<IEnumerable<Product>> GetProductOrderHistoryAsync(string username)
-    // {
-    //     User user = await userDao.FindUserAsync(username);
-    //
-    //     if (user == null)
-    //     {
-    //         throw new Exception("User not exists");
-    //     }
-    //     
-    //     var products = await productDao.GetProductOrderHistoryAsync(username);
-    //     
-    //     
-    //     return products;
-    // }
-
     public async Task<Product> FindProductByIdAsync(string productId)
     {
         var product = await productDao.FindProductByIdAsync(productId);
-
+        
+        //No need
+        
         if (product == null)
         {
             throw new Exception("Product not exists");
@@ -96,6 +98,8 @@ public class ProductLogic : IProductLogic
 
     public async Task UpdateProductAsync(Product product)
     {
+        //No need
+        
         string productId = product.Id.ToString();
 
         var checkProduct = await productDao.FindProductByIdAsync(productId);
@@ -119,6 +123,13 @@ public class ProductLogic : IProductLogic
     public async Task<IEnumerable<Product>> GetProductsByNameAsync(string productName)
     {
         var products = await productDao.GetProductsByNameAsync(productName);
+
+        //Need
+        
+        /*if (!products.Any())
+        {
+            throw new Exception($"No result for ({productName})'");
+        }*/
         
         return products;
     }

@@ -72,6 +72,11 @@ public class UserLogic : IUserLogic
         {
             throw new Exception($"The user {username} does not exits");
         }
+        
+        if (credits<0)
+        {
+            throw new Exception("Impossible to add credits less than zero");
+        }
 
         await userDao.AddCreditsAsync(credits, username);
     }

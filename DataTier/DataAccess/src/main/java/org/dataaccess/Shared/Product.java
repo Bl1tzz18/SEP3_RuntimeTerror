@@ -2,7 +2,6 @@ package org.dataaccess.Shared;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Set;
 
 @Entity
 @Table(name = "products", schema = "reverso_sep")
@@ -27,6 +26,9 @@ public class Product implements Serializable
     @JoinColumn(name = "category_id", referencedColumnName = "id")
     private Category category;
 
+    public Product() {
+    }
+
     public Product(int id, String name, String imgPath, int price, String description, boolean inStock, Category category) {
         this.id = id;
         this.name = name;
@@ -44,10 +46,6 @@ public class Product implements Serializable
         this.description = description;
         this.inStock = inStock;
         this.category = category;
-    }
-
-    public Product() {
-
     }
 
     public int getId() {

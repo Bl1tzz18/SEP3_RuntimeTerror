@@ -1,16 +1,12 @@
 package services;
 
 import io.grpc.stub.StreamObserver;
-import org.dataaccess.DAOInterfaces.CartDAO;
 import org.dataaccess.DAOInterfaces.OrderDAO;
 import org.dataaccess.DAOInterfaces.UserDAO;
-import org.dataaccess.Shared.Cart;
-import org.dataaccess.Shared.CartItem;
 import org.dataaccess.mappers.OrderItemMapper;
 import org.dataaccess.mappers.OrderMapper;
-import org.dataaccess.mappers.ProductMapper;
-import org.dataaccess.protobuf.*;
 import org.dataaccess.protobuf.Void;
+import org.dataaccess.protobuf.*;
 import org.lognet.springboot.grpc.GRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;

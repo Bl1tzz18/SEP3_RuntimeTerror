@@ -37,25 +37,11 @@ public class User implements Serializable
     public User() {
     }
 
-    public User(String username, String password, String type) {
-        this.username = username;
-        this.password = password;
-        this.type = type;
-    }
-
     public User(String username, String password, String f_name, String l_name) {
         this.username = username;
         this.password = password;
         this.f_name = f_name;
         this.l_name = l_name;
-    }
-
-    public User(String username, String password, String f_name, String l_name, Address address) {
-        this.username = username;
-        this.password = password;
-        this.f_name = f_name;
-        this.l_name = l_name;
-        this.address = address;
     }
 
     public User(String username, String password, String f_name, String l_name, int credits, String type, String phone, Address address) {

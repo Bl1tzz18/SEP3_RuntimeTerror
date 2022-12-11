@@ -1,27 +1,20 @@
 package services;
 
 import io.grpc.stub.StreamObserver;
-import org.dataaccess.DAOInterfaces.CartDAO;
 import org.dataaccess.DAOInterfaces.UserDAO;
 import org.dataaccess.mappers.AddressMapper;
 import org.dataaccess.mappers.UserMapper;
-import org.dataaccess.protobuf.*;
 import org.dataaccess.protobuf.Void;
-import org.dataaccess.repositories.UserRepository;
+import org.dataaccess.protobuf.*;
 import org.lognet.springboot.grpc.GRpcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @GRpcService
 public class UserService extends UserServiceGrpc.UserServiceImplBase
 {
     @Autowired
     private UserDAO userDAO;
-
-    @Autowired
-    private CartDAO cartDAO;
 
     public UserService()
     {
@@ -96,21 +89,6 @@ public class UserService extends UserServiceGrpc.UserServiceImplBase
         responseObserver.onNext(Void.newBuilder().build());
         responseObserver.onCompleted();
     }
-
-//    @Transactional
-//    @Override
-//    public void updateUserAddress(UserAddress request, StreamObserver<Void> responseObserver)
-//    {
-//        org.dataaccess.Shared.User user = new org.dataaccess.Shared.User(
-//                request.getUsername(),
-//                AddressMapper.mapToShared(request.getAddress())
-//        );
-//
-//        userDAO.updateUserAddress(user);
-//
-//        responseObserver.onNext(Void.newBuilder().build());
-//        responseObserver.onCompleted();
-//    }
 
     @Transactional
     @Override

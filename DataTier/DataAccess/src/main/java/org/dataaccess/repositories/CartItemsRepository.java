@@ -1,6 +1,5 @@
 package org.dataaccess.repositories;
 
-import org.dataaccess.Shared.Cart;
 import org.dataaccess.Shared.CartItem;
 import org.dataaccess.Shared.User;
 import org.springframework.data.jpa.repository.JpaRepository;

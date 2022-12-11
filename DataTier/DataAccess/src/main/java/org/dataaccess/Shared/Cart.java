@@ -2,7 +2,6 @@ package org.dataaccess.Shared;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Set;
 
 @Entity
 @Table(name = "cart", schema = "reverso_sep")
@@ -20,15 +19,6 @@ public class Cart implements Serializable
     private int total;
 
     public Cart() {
-    }
-
-    public Cart(User user) {
-        this.user = user;
-    }
-
-    public Cart(User username, int total) {
-        this.user = username;
-        this.total = total;
     }
 
     public int getId() {

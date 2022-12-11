@@ -34,10 +34,6 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
                 CategoryMapper.mapToShared(request.getCategory())
         );
 
-        org.dataaccess.Shared.Category category = productDAO.getCategory(request.getCategory().getCategoryName());
-        if (category != null)
-            product.setCategory(category);
-
         org.dataaccess.Shared.Product registerProduct = productDAO.registerProduct(product);
 
         responseObserver.onNext(ProductMapper.mapToProto(registerProduct));
@@ -107,29 +103,6 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
         responseObserver.onNext(productItems);
         responseObserver.onCompleted();
     }
-
-//    @Override
-//    public void getProductOrderHistory(SearchField request, StreamObserver<ProductItems> responseObserver)
-//    {
-//        Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductOrdersByUsername(request.getSearch());
-//
-//        if (products.isEmpty()) {
-//            responseObserver.onError(new Exception("Order history is empty"));
-//            return;
-//        }
-//
-//        Collection<Product> productCollection = new ArrayList<>();
-//
-//        for (var product : products)
-//        {
-//            productCollection.add(ProductMapper.mapToProto(product));
-//        }
-//
-//        ProductItems productItems = ProductItems.newBuilder().addAllProduct(productCollection).build();
-//
-//        responseObserver.onNext(productItems);
-//        responseObserver.onCompleted();
-//    }
 
     @Override
     public void findProduct(SearchField request, StreamObserver<Product> responseObserver)
