@@ -6,48 +6,86 @@
 
 <AuthorizeView Roles="admin">
     <Authorized>
-        <h3>Add Product</h3>
-        <div class="container">
+
+        <div class="container1">
             <div class="row">
-                
-                <div class="col-md-4">
-                    <p class="nihuiasebe">Name:</p>
-                    <input @bind="_name"/>
+                <div class="col-md-1">
+                    <div id="vLine"></div>
+                    <div class="first">
+                        <div class="circle" id="1"></div>
+                    </div>
+                    <div class="mid6">
+                        <div class="circle" id="2"></div>
+                        <div class="circle" id="3"></div>
+                        <div class="circle" id="4"></div>
+                        <div class="circle" id="5"></div>
+                        <div class="circle" id="6"></div>
+                        <div class="circle" id="7"></div>
+                    </div>
+                    <div class="last">
+                        <div class="circle" id="8"></div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <p class="nihuiasebe">In stock:</p>
-                    <select @bind="@_inStock">
-                        <option value="true">True</option>
-                        <option value="false">False</option>
-                    </select>
-                </div><div class="col-md-4">
-                    <p class="nihuiasebe">Price: </p>
-                    <input @bind="_price"/>
+                <div class="col-md-11">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Welcome, admin!</h3>
+                            <h6>Add products</h6>
+                            <br><br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Name:</p>
+                            <input @bind="_name"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">In stock:</p>
+                            <input @bind="_inStock"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Price: </p>
+                            <input @bind="_price"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Category: </p>
+                            <input @bind="_category"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Image Path:</p>
+                            <input @bind="_productImagePath"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Description :</p>
+                            <textarea @bind="_description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <br>
+                            <button class="btn btn-primary" @onclick="() => onAddProductButton()">Add</button>
+                        </div>
+                        <div class="col-md-3">
+                            <br>
+                            <button class="btn btn-primary" @onclick="() => clearInputs()">Clear</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <p class="nihuiasebe">Category: </p>
-                    <input @bind="_category"/>
-                </div>
-                <div class="col-md-4">
-                    <p class="nihuiasebe">Image Path:</p>
-                    <input @bind="_productImagePath"/>
-                </div>
-                <div class="col-md-4">
-                    <p class="nihuiasebe">Description :</p>
-                    <textarea @bind="_description"></textarea>
-                </div>
-                
-                <div class="col-md-4">
-                    <br>
-                    <button class="btn btn-primary" @onclick="() => onAddProductButton()">Add Product</button>
-                </div>
-                <div class="col-md-4">
-                    <br>
-                    <button class="btn btn-danger" @onclick="() => clearInputs()">Clear</button>
-                </div>
-        
             </div>
         </div>
+
+
     </Authorized>
     <NotAuthorized>
         You are not authorized to view this page
@@ -56,13 +94,14 @@
 
 
 @code {
+
     [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
-    
+
     private bool isDisable { get; set; } = true;
-    
+
     private string errormsg = "";
-    
+
     private int _productId;
     private string _productImagePath;
     private string _name;
@@ -87,7 +126,7 @@
                     Name = _category
                 }
             };
-            
+
             await _productService.CreateProductAsync(productToCreate);
         }
         catch (Exception e)

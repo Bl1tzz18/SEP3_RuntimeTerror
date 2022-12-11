@@ -1,124 +1,166 @@
 ﻿@page "/AdminPage"
+@using HttpClients.ClientInterfaces
 @using System.Security.Claims
 @using global::Shared.Models
-@using global::Shared.DTOs
-@using HttpClients.ClientInterfaces
 @inject IProductService productService;
 @inject ICartService cartService;
 
 <AuthorizeView Roles="admin">
     <Authorized>
-        <h3>AdminPage</h3>
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-md-6">
-                    <p class="nihuiasebe">Name:</p>
-                    <input disabled="@isDisable" @bind="_name"/>
-                </div>
-                <div class="col-md-6">
-                    <p class="nihuiasebe">In stock:</p>
-                    <select @bind="@_inStock" disabled="@isDisable">
-                        <option value="true">True</option>
-                        <option value="false">False</option>
-                    </select>
-                </div>
-                <div class="col-md-6">
-                    <p class="nihuiasebe">Price: </p>
-                    <input disabled="@isDisable" @bind="_price"/>
-                </div>
-                <div class="col-md-6">
-                    <p class="nihuiasebe">Description: </p>
-                    <textarea disabled="@isDisable" @bind="_description"/>
-                </div>
-                
-                <div class="col-md-6">
-                    <br>
-                    <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
-                </div>
-                
-            </div>
-        </div>
-        
-        @if (products == null)
-            {
-            }
-            else if (!products.Any())
-            {
-                <p>No Products to display</p>
-            }
-            else
-            {
-                <div class="shell">
-                    <div class="container">
-                        <div class="row">
-                            @foreach (var product in products)
-                            {
-                                if (product.inStock)
-                                {
-                                    <div class="col-md-3">
-                                        <div class="wsk-cp-product">
-                                            <div class="wsk-cp-img">
-                                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
-                                            </div>
-                                            <div class="wsk-cp-text">
-                                                <div class="category">
-                                                    <span>@product.Category.Name</span>
-                                                </div>
-                                                <div class="title-product">
-                                                    <h3>@product.Name</h3>
-                                                </div>
-                                                <div class="description-prod">
-                                                    <p>@product.Description</p>
-                                                </div>
-                                                <div class="card-footer">
-                                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
-                                                    <div class="wcf-right"><a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"></a></div>
-                                                    <div class="wcf-right"><a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a></div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                }
-                                else
-                                {
-                                    <div class="col-md-3">
-                                        <div class="wsk-cp-product" style="background-color: #b7b7b7"> 
-                                            <div class="wsk-cp-img">
-                                                <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
-                                            </div>
-                                            <div class="wsk-cp-text">
-                                                <div class="category">
-                                                    <span>@product.Category.Name</span>
-                                                </div>
-                                                <div class="title-product">
-                                                    <h3>@product.Name</h3>
-                                                </div>
-                                                <div class="description-prod">
-                                                    <p>@product.Description</p>
-                                                </div>
-                                                
-                                                <div class="card-footer">
-                                                    <div class="wcf-left"><span class="price">@product.Price <i>dkk</i></span></div>
-                                                    
-                                                    <div class="wcf-right">
-                                                        <a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"> </a>
-                                                    </div>
 
-                                                    <div class="wcf-right">
-                                                        <a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                }
-                            }
+        <div class="container1">
+            <div class="row">
+                <div class="col-md-1">
+                    <div id="vLine"></div>
+                    <div class="first">
+                        <div class="circle" id="1"></div>
+                    </div>
+                    <div class="mid4">
+                        <div class="circle" id="2"></div>
+                        <div class="circle" id="3"></div>
+                        <div class="circle" id="4"></div>
+                        <div class="circle" id="5"></div>
+                    </div>
+                    <div class="last">
+                        <div class="circle" id="6"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Welcome, admin!</h3>
+                            <h6>Modify products</h6>
+                            <br><br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Name</p>
+                            <input disabled="@isDisable" @bind="_name"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">In stock</p>
+                            <input disabled="@isDisable" @bind="_inStock"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Price </p>
+                            <input disabled="@isDisable" @bind="_price"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="nihuiasebe">Description </p>
+                            <input disabled="@isDisable" @bind="_description"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br>
+                            <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
                         </div>
                     </div>
                 </div>
-            }
+                @if (products == null)
+                {
+                }
+                else if (!products.Any())
+                {
+                    <p>No Products to display</p>
+                }
+                else
+                {
+                    <div class="col-md-8">
+                        <div class="shell">
+                            <div class="container">
+                                <div class="row">
+                                    @foreach (var product in products)
+                                    {
+                                        if (product.inStock)
+                                        {
+                                            <div class="col-md-12">
+                                                <div class="wsk-cp-product">
+                                                    <div class="wsk-cp-img">
+                                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                                    </div>
+                                                    <div class="wsk-cp-text">
+                                                        <div class="category">
+                                                            <span>@product.Category.Name</span>
+                                                        </div>
+                                                        <div class="title-product">
+                                                            <h3>@product.Name</h3>
+                                                        </div>
+                                                        <div class="description-prod">
+                                                            <p>@product.Description</p>
+                                                        </div>
+                                                        <div class="card-footer">
+                                                            <div class="wcf-left">
+                                                                <span class="price">
+                                                                    @product.Price <i>dkk</i>
+                                                                </span>
+                                                            </div>
+                                                            <div class="wcf-right">
+                                                                <a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"></a>
+                                                            </div>
+                                                            <div class="wcf-right">
+                                                                <a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="col-md-12">
+                                                <div class="wsk-cp-product" style="background-color: #b7b7b7">
+                                                    <div class="wsk-cp-img">
+                                                        <img src="@product.ImagePath" alt="Product" class="img-responsive"/>
+                                                    </div>
+                                                    <div class="wsk-cp-text">
+                                                        <div class="category">
+                                                            <span>@product.Category.Name</span>
+                                                        </div>
+                                                        <div class="title-product">
+                                                            <h3>@product.Name</h3>
+                                                        </div>
+                                                        <div class="description-prod">
+                                                            <p>@product.Description</p>
+                                                        </div>
+
+                                                        <div class="card-footer">
+                                                            <div class="wcf-left">
+                                                                <span class="price">
+                                                                    @product.Price <i>dkk</i>
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="wcf-right">
+                                                                <a href="" class="buy-btn" @onclick="() => deleteItem(product.Id)" style="background: url('https://api.iconify.design/ic/round-delete.svg') no-repeat center center / contain;"> </a>
+                                                            </div>
+
+                                                            <div class="wcf-right">
+                                                                <a class="buy-btn" @onclick="() => onClickEdit(product.Id)" style="background: url('https://api.iconify.design/material-symbols/edit.svg') no-repeat center center / contain;"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
     </Authorized>
     <NotAuthorized>
         <p>You are not authorized to view this page</p>
@@ -126,11 +168,8 @@
 </AuthorizeView>
 
 
-
-
-
 @code {
-     
+
     [CascadingParameter]
     public Task<AuthenticationState> AuthState { get; set; } = null!;
 
@@ -138,8 +177,8 @@
     private IEnumerable<Claim>? userClaims;
     private bool isLoggedIn;
     private bool isDisable { get; set; } = true;
-    
-    
+
+
     private ICollection<Product> products = new List<Product>();
     private string errormsg = "";
     private int productId;
@@ -152,20 +191,20 @@
     private string _inStock;
     private string _price;
     private string _description;
-  
-  
+
+
     protected override async Task OnInitializedAsync()
     {
         try
         {
             products = await productService.GetProductsAsync();
-            
+
             AuthenticationState authState = await AuthState;
             ClaimsPrincipal user = authState.User;
             isLoggedIn = user.Identity != null;
-        
+
             if (!isLoggedIn) return;
-        
+
             userClaims = user.Claims;
             name = user.Identity!.Name!;
         }
@@ -188,12 +227,12 @@
             errormsg = e.Message;
         }
     }
-    
+
     private void onDisable()
     {
         this.isDisable = false;
     }
-    
+
     async Task onEditButtonClick()
     {
         this.isDisable = true;
@@ -213,7 +252,7 @@
             _description = productToFind.Description;
             onDisable();
         }
-        
+
         catch (Exception e)
         {
             Console.WriteLine(e);

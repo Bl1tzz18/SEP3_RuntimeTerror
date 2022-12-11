@@ -1,0 +1,62 @@
+﻿.col-md-12 {
+    font-family: 'Muli', sans-serif;
+}
+
+.nihuiasebe {
+    margin-bottom: 2px;
+    margin-top: 12px;
+}
+
+.col-md-12 input {
+    border: none;
+}
+
+#vLine {
+    position: absolute;
+    margin-left: 12px;
+    background-color: midnightblue;
+    height: 700px;
+    width: 5px;
+    z-index: 1;
+}
+
+input, textarea {
+    border: none;
+    background: #e8fbfd;
+}
+
+.circle {
+    /*position: absolute;*/
+    margin-right: 100px;
+    margin-top: 15px;
+    background-color: midnightblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.mid4 {
+    margin-top: 130px;
+}
+
+.last {
+    margin-top: 100px;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-left: 1px;
+}
+
+.container1 .row {
+    width: 20rem;
+    max-width: 20rem;
+    margin-left: 1rem;
+}
+
+button{
+    width: 85px;
+}
