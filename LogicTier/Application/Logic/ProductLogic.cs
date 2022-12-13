@@ -20,6 +20,11 @@ public class ProductLogic : IProductLogic
 
     public async Task<Product> RegisterProductAsync(ProductCreationDTO dto)
     {
+        var category = new Category
+        {
+            Name = dto.Category.Name.ToLower()
+        };
+
         Product product = new Product
         {
             Name = dto.Name,
@@ -27,7 +32,7 @@ public class ProductLogic : IProductLogic
             Price = dto.Price,
             Description = dto.Description,
             inStock = dto.InStock,
-            Category = dto.Category
+            Category = category
         };
 
         return await productDao.RegisterProductAsync(product);
@@ -37,20 +42,11 @@ public class ProductLogic : IProductLogic
     {
         var products = await productDao.GetProductsAsync();
 
-        //Need
-        
-        /*if (!products.Any())
-        {
-            throw new Exception("No products to display");
-        }*/
-
         return products;
     }
 
     public async Task<IEnumerable<Product>> GetProductsInCartByUserAsync(string username)
     {
-        //No Need
-        
         User user = await userDao.FindUserAsync(username);
 
         if (user == null)
@@ -59,14 +55,7 @@ public class ProductLogic : IProductLogic
         }
         
         var products = await productDao.GetProductsInCartByUserAsync(username);
-        
-        //Need
-        
-        /*if (!products.Any())
-        {
-            throw new Exception("No products to display");
-        }*/
-        
+
         return products;
     }
 
@@ -80,12 +69,10 @@ public class ProductLogic : IProductLogic
     public async Task<Product> FindProductByIdAsync(string productId)
     {
         var product = await productDao.FindProductByIdAsync(productId);
-        
-        //No need
-        
+
         if (product == null)
         {
-            throw new Exception("Product not exists");
+            throw new Exception("Product does not exist");
         }
 
         return product;
@@ -98,14 +85,12 @@ public class ProductLogic : IProductLogic
 
     public async Task UpdateProductAsync(Product product)
     {
-        //No need
-        
         string productId = product.Id.ToString();
 
         var checkProduct = await productDao.FindProductByIdAsync(productId);
 
         if (checkProduct == null)
-            throw new Exception("Product not exists");
+            throw new Exception("Product does not exist");
 
         var productToSend = new Product
         {
@@ -123,13 +108,6 @@ public class ProductLogic : IProductLogic
     public async Task<IEnumerable<Product>> GetProductsByNameAsync(string productName)
     {
         var products = await productDao.GetProductsByNameAsync(productName);
-
-        //Need
-        
-        /*if (!products.Any())
-        {
-            throw new Exception($"No result for ({productName})'");
-        }*/
         
         return products;
     }

@@ -25,8 +25,6 @@ public class CartDao : ICartDAO
 
     public async Task RegisterCartItemAsync(Shared.Models.CartItem cartItem)
     {
-        /*Cart cart = ConvertSharedCartToGrpcCart(dto);*/
-
         var registerCartItem = new CartItem
         {
             CartId = cartItem.CartId,
@@ -43,16 +41,23 @@ public class CartDao : ICartDAO
             Search = username
         };
 
-        Cart cart = await cartService.FindCartAsync(sf);
-
-        Shared.Models.Cart cartToFind = new Shared.Models.Cart
+        try
         {
-            Id = cart.Id,
-            UserName = cart.Username,
-            Total = cart.Total
-        };
+            Cart cart = await cartService.FindCartAsync(sf);
 
-        return cartToFind;
+            Shared.Models.Cart cartToFind = new Shared.Models.Cart
+            {
+                Id = cart.Id,
+                UserName = cart.Username,
+                Total = cart.Total
+            };
+
+            return cartToFind;
+        }
+        catch
+        {
+            return null;
+        }
     }
 
     public async Task<ICollection<Shared.Models.CartItem>> GetAllFromCartAsync(string username)

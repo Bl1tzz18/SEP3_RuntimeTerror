@@ -40,6 +40,8 @@ public class CartService extends CartServiceGrpc.CartServiceImplBase
 
         cart.setUser(user);
 
+        cart.setTotal(0);
+
         cartDAO.registerCart(cart);
 
         responseObserver.onNext(Void.newBuilder().build());

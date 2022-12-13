@@ -122,6 +122,8 @@
             cart = await cartService.FindCartAsync(name);
 
             total = cart.Total;
+            
+            products = await productService.GetProductsInCartByUserAsync(name);
         }
         catch (Exception e)
         {
@@ -138,6 +140,8 @@
             cart = await cartService.FindCartAsync(name);
 
             total = cart.Total;
+            
+            products = await productService.GetProductsInCartByUserAsync(name);
         }
         catch (Exception e)
         {
@@ -155,6 +159,8 @@
             cart = await cartService.FindCartAsync(name);
 
             total = cart.Total;
+            
+            products = await productService.GetProductsInCartByUserAsync(name);
         }
         catch (Exception e)
         {

@@ -6,6 +6,7 @@ import org.dataaccess.Shared.CartItem;
 import org.dataaccess.Shared.User;
 import org.dataaccess.repositories.CartItemsRepository;
 import org.dataaccess.repositories.CartRepository;
+import org.dataaccess.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -20,19 +21,24 @@ public class CartDAOImpl implements CartDAO
     @Autowired
     private CartItemsRepository cartItemsRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
     public CartDAOImpl() {
     }
 
     @Override
     public void registerCart(Cart cart) {
-        cart.setTotal(0);
-
         cartRepository.saveAndFlush(cart);
     }
 
     @Override
     public Cart getCartByUser(User username) {
-        return cartRepository.findByUser(username);
+        Cart cart = cartRepository.findByUser(username);
+        if (cart != null)
+            return cart;
+
+        return null;
     }
 
     @Override
@@ -57,7 +63,12 @@ public class CartDAOImpl implements CartDAO
 
     @Override
     public void updateCartTotal(String cartUser) {
-        cartRepository.updateCartTotal(cartUser);
+        User user = userRepository.findUser(cartUser);
+        Collection<CartItem> cartItems = cartItemsRepository.findAllByCart_User(user);
+        if (!cartItems.isEmpty())
+            cartRepository.updateCartTotal(cartUser);
+        else
+            cartRepository.updateCartTotalToZero(cartUser);
     }
 
     @Override

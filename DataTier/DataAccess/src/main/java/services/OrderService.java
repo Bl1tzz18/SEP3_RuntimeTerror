@@ -5,6 +5,7 @@ import org.dataaccess.DAOInterfaces.OrderDAO;
 import org.dataaccess.DAOInterfaces.UserDAO;
 import org.dataaccess.mappers.OrderItemMapper;
 import org.dataaccess.mappers.OrderMapper;
+import org.dataaccess.mappers.UserMapper;
 import org.dataaccess.protobuf.Void;
 import org.dataaccess.protobuf.*;
 import org.lognet.springboot.grpc.GRpcService;
@@ -29,13 +30,11 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
     @Override
     public void registerOrder(Order request, StreamObserver<Void> responseObserver)
     {
-        org.dataaccess.Shared.Order order = new org.dataaccess.Shared.Order();
-
-        org.dataaccess.Shared.User user = userDAO.findUser(request.getUser().getUsername());
-
-        order.setTotal(request.getTotal());
-        order.setStatus(request.getStatus());
-        order.setUser(user);
+        org.dataaccess.Shared.Order order = new org.dataaccess.Shared.Order(
+                UserMapper.mapToShared(request.getUser()),
+                request.getTotal(),
+                request.getStatus()
+        );
 
         orderDAO.registerOrder(order);
 
@@ -90,6 +89,11 @@ public class OrderService extends OrderServiceGrpc.OrderServiceImplBase
     public void getOrdersByUsername(SearchField request, StreamObserver<Orders> responseObserver)
     {
         Collection<org.dataaccess.Shared.Order> orders = orderDAO.findAllByUser_UsernameAndStatus(request.getSearch());
+
+        if (orders.isEmpty()) {
+            responseObserver.onError(new Exception("No orders found"));
+            return;
+        }
 
         Collection<Order> orderCollection = new ArrayList<>();
 

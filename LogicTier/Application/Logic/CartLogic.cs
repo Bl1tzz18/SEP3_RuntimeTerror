@@ -50,41 +50,46 @@ public class CartLogic : ICartLogic
         };
 
         await cartDao.RegisterCartItemAsync(cartItem);
+        
         await cartDao.UpdateCartTotalAsync(dto.UserName);
     }
 
     public async Task<Cart> FindCartAsync(string username)
     {
-        if (cartDao.FindCartAsync(username).Equals(null))
+        Cart cart = await cartDao.FindCartAsync(username);
+        
+        if (cart == null)
         {
             throw new Exception("The cart does not exists");
         }
+        
+        await cartDao.UpdateCartTotalAsync(username);
 
         return await cartDao.FindCartAsync(username);
     }
 
     public async Task<ICollection<CartItem>> GetAllFromCartAsync(string username)
     {
-        if (cartDao.FindCartAsync(username).Equals(null))
+        Cart cart = await cartDao.FindCartAsync(username);
+        
+        if (cart == null)
         {
             throw new Exception("The cart does not exists");
         }
-        
-        await cartDao.UpdateCartTotalAsync(username);
 
         return await cartDao.GetAllFromCartAsync(username);
     }
 
     public async Task DeleteAllFromCartAsync(string username)
     {
-        if (cartDao.FindCartAsync(username).Equals(null))
+        Cart cart = await cartDao.FindCartAsync(username);
+        
+        if (cart == null)
         {
             throw new Exception("The cart does not exists");
         }
 
         await cartDao.DeleteAllFromCartAsync(username);
-        
-        await cartDao.UpdateCartTotalAsync(username);
     }
 
     public async Task DeleteFromCartAsync(CartItemCreationDTO dto)
@@ -110,7 +115,5 @@ public class CartLogic : ICartLogic
         };
 
         await cartDao.DeleteFromCartAsync(cartItem);
-        
-        await cartDao.UpdateCartTotalAsync(dto.UserName);
     }
 }

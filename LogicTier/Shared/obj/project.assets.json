@@ -285,23 +285,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diana\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Robchik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
-      "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Shared\\obj\\",
+      "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\Shared.csproj",
+      "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
+      "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Shared\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

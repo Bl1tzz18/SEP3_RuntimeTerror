@@ -284,6 +284,8 @@
             _price = "";
             _inStock = "";
             _description = "";
+            
+            products = await productService.GetProductsAsync();
         }
         catch (Exception e)
         {

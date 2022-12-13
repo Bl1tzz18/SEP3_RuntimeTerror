@@ -4226,3 +4226,4 @@ C:\Users\diana\SEP3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6
 C:\Users\diana\SEP3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 C:\Users\diana\SEP3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\Users\diana\SEP3\SEP3_RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\VIA_SEP\SEP3\New SEP project\SEP3-RuntimeTerror\PresentationTier\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\AddProductPage.razor.rz.scp.css

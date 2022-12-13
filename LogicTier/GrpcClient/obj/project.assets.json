@@ -479,23 +479,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diana\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Robchik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
+      "projectUniqueName": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
       "projectName": "GrpcClient",
-      "projectPath": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
-      "packagesPath": "C:\\Users\\diana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\GrpcClient\\obj\\",
+      "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\GrpcClient.csproj",
+      "packagesPath": "C:\\Users\\Robchik\\.nuget\\packages\\",
+      "outputPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\GrpcClient\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Robchik\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -507,8 +503,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\diana\\SEP3\\SEP3_RuntimeTerror\\LogicTier\\Application\\Application.csproj"
+            "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Application\\Application.csproj": {
+              "projectPath": "C:\\VIA_SEP\\SEP3\\New SEP project\\SEP3-RuntimeTerror\\LogicTier\\Application\\Application.csproj"
             }
           }
         }

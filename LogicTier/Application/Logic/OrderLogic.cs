@@ -47,8 +47,8 @@ public class OrderLogic : IOrderLogic
 
         Order order = await orderDao.FindOrderAsync(username);
         
-        if (order.status.Equals("New"))
-        {
+        /*if (order.status.Equals("New"))
+        {*/
             List<OrderItem> orderItems = new List<OrderItem>();
 
             foreach (var cartItem in cartItems)
@@ -74,12 +74,12 @@ public class OrderLogic : IOrderLogic
             await orderDao.RegisterOrderItemsAsync(orderItems);
 
             await cartDao.DeleteAllFromCartAsync(username);
-        }
+        /*}
         else
         {
             await orderDao.UpdateOrderStatus(username, "Failed");
             throw new Exception("Order canceled");
-        }
+        }*/
         
     }
 

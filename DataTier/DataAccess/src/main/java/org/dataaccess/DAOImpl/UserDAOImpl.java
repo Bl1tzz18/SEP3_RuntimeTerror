@@ -33,19 +33,15 @@ public class UserDAOImpl implements UserDAO
     @Override
     public User loginUser(User user)
     {
-        User checkUser = userRepository.findUser(user.getUsername());
-        if (checkUser != null)
-            return userRepository.findUser(user.getUsername());
-
-        return null;
+        return userRepository.findUser(user.getUsername());
     }
 
     @Override
     public User findUser(String username)
     {
-        User checkUser = userRepository.findUser(username);
-        if (checkUser!= null)
-            return userRepository.findUser(username);
+        User user = userRepository.findUser(username);
+        if (user!= null)
+            return user;
 
         return null;
     }
@@ -54,15 +50,15 @@ public class UserDAOImpl implements UserDAO
     public void addCredits(int credits, String userName)
     {
         User findUser = userRepository.findUser(userName);
-        if (findUser!= null)
-            userRepository.changeCredits(findUser.getCredits()+credits, findUser.getUsername());
+
+        userRepository.changeCredits(findUser.getCredits()+credits, findUser.getUsername());
     }
 
     @Override
     public void removeCredits(int credits, String userName) {
         User findUser = userRepository.findUser(userName);
-        if (findUser!= null)
-            userRepository.changeCredits(findUser.getCredits()-credits, findUser.getUsername());
+
+        userRepository.changeCredits(findUser.getCredits()-credits, findUser.getUsername());
     }
 
     @Override

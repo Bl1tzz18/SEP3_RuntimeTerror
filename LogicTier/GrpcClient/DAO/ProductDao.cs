@@ -63,7 +63,7 @@ public class ProductDao : IProductDAO
 
         foreach (var product in productsProto.Product)
         {
-            if (product == null)
+            if (product is null)
             {
                 continue;
             }
@@ -76,32 +76,6 @@ public class ProductDao : IProductDAO
         return list;
     }
 
-    // public async Task<IEnumerable<Shared.Models.Product>> GetProductOrderHistoryAsync(string username)
-    // {
-    //     SearchField sf = new SearchField
-    //     {
-    //         Search = username
-    //     };
-    //     
-    //     var list = new List<Shared.Models.Product>();
-    //
-    //     ProductItems productsProto = await productService.GetProductOrderHistoryAsync(sf);
-    //
-    //     foreach (var product in productsProto.Product)
-    //     {
-    //         if (product == null)
-    //         {
-    //             continue;
-    //         }
-    //         
-    //         Shared.Models.Product productGrpcToShared = ConvertGrpcProductToSharedProduct(product);
-    //         
-    //         list.Add(productGrpcToShared);
-    //     }
-    //
-    //     return list;
-    // }
-    
     public async Task<IEnumerable<Shared.Models.Product>> GetProductsByOrderIdAsync(string orderId)
     {
         SearchField sf = new SearchField
@@ -115,7 +89,7 @@ public class ProductDao : IProductDAO
     
         foreach (var product in productsProto.Product)
         {
-            if (product == null)
+            if (product is null)
             {
                 continue;
             }
@@ -134,21 +108,27 @@ public class ProductDao : IProductDAO
         {
             Search = productId
         };
-
-        Product product = await productService.FindProductAsync(id);
-
-        Shared.Models.Product productToFind = new Shared.Models.Product
+        try
         {
-            Id = product.Id,
-            Name = product.Name,
-            ImagePath = product.ImgPath,
-            Price = product.Price,
-            Description = product.Description,
-            inStock = product.InStock,
-            Category = ConvertGrpcCategoryToSharedCategory(product.Category)
-        };
+            Product product = await productService.FindProductAsync(id);
 
-        return productToFind;
+            Shared.Models.Product productToFind = new Shared.Models.Product
+            {
+                Id = product.Id,
+                Name = product.Name,
+                ImagePath = product.ImgPath,
+                Price = product.Price,
+                Description = product.Description,
+                inStock = product.InStock,
+                Category = ConvertGrpcCategoryToSharedCategory(product.Category)
+            };
+
+            return productToFind;
+        }
+        catch
+        {
+            return null;
+        }
     }
 
     public async Task DeleteProductAsync(string id)
@@ -189,7 +169,7 @@ public class ProductDao : IProductDAO
     
         foreach (var product in productsProto.Product)
         {
-            if (product == null)
+            if (product is null)
             {
                 continue;
             }
@@ -215,7 +195,7 @@ public class ProductDao : IProductDAO
     
         foreach (var product in productsProto.Product)
         {
-            if (product == null)
+            if (product is null)
             {
                 continue;
             }

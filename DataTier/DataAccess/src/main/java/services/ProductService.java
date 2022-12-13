@@ -153,11 +153,6 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
     {
         Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductsByName(request.getSearch());
 
-        if (products.isEmpty()) {
-            responseObserver.onError(new Exception("No products"));
-            return;
-        }
-
         Collection<Product> productCollection = new ArrayList<>();
 
         for (var product : products)
@@ -175,11 +170,6 @@ public class ProductService extends ProductServiceGrpc.ProductServiceImplBase
     public void getProductsByCategoryName(SearchField request, StreamObserver<ProductItems> responseObserver)
     {
         Collection<org.dataaccess.Shared.Product> products = productDAO.getAllProductsByCategoryName(request.getSearch());
-
-        if (products.isEmpty()) {
-            responseObserver.onError(new Exception("No products"));
-            return;
-        }
 
         Collection<Product> productCollection = new ArrayList<>();
 

@@ -12,7 +12,7 @@
     
     <div class="col-md-1">
         
-        Category: <select @bind="category">
+        Category: <select @bind="@category">
             <option value="All">All</option>
             @foreach (var category in categories2)
             {
@@ -109,7 +109,7 @@
 
     private List<string> categories = new List<string>();
     private List<string> categories2 = new List<string>();
-    private string category;
+    private string category = "All";
 
 
     protected override async Task OnInitializedAsync()

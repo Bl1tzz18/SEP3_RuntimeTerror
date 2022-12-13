@@ -30,6 +30,12 @@ public class Order implements Serializable
         this.status = status;
     }
 
+    public Order(User user, int total, String status) {
+        this.user = user;
+        this.total = total;
+        this.status = status;
+    }
+
     public int getId() {
         return id;
     }
