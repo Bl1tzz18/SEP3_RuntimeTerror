@@ -80,6 +80,7 @@
                             <br>
                             <button class="btn btn-primary" @onclick="() => clearInputs()">Clear</button>
                         </div>
+                        <span style="color: red">@errormsg</span>
                     </div>
                 </div>
             </div>
@@ -128,6 +129,7 @@
             };
 
             await _productService.CreateProductAsync(productToCreate);
+            errormsg = "";
         }
         catch (Exception e)
         {
@@ -144,6 +146,7 @@
         _description = "";
         _category = "";
         _productImagePath = "";
+        errormsg = "";
     }
 
 }

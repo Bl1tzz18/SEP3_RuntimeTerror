@@ -50,8 +50,9 @@
                     </div>
                     <hr>
                     <button class="btn btn-primary marginBetweenButton" @onclick="onPurchase">Purchase</button>
-                    <button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync">Remove all from cart</button>
+                    <button class="btn btn-primary" @onclick="RemoveItemsFromCartAsync"><a href="/Products" style="text-decoration: inherit; color: inherit">Remove all from cart</a></button>
                     <p>Total price: @total</p>
+                    <span style="color: red">@errormsg</span>
                 </div>
             </div>
         }
@@ -124,11 +125,12 @@
             total = cart.Total;
             
             products = await productService.GetProductsInCartByUserAsync(name);
+            errormsg = "";
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            errormsg = e.Message;
+            throw new Exception(e.Message);
         }
     }
     
@@ -140,13 +142,11 @@
             cart = await cartService.FindCartAsync(name);
 
             total = cart.Total;
-            
-            products = await productService.GetProductsInCartByUserAsync(name);
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            errormsg = e.Message;
+            throw new Exception(e.Message);
         }
     }
 
@@ -160,7 +160,7 @@
 
             total = cart.Total;
             
-            products = await productService.GetProductsInCartByUserAsync(name);
+            errormsg = "";
         }
         catch (Exception e)
         {

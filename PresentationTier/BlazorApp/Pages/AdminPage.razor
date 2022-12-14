@@ -64,6 +64,7 @@
                             <br>
                             <button class="btn btn-primary" disabled="@isDisable" @onclick="() => onSaveButton()">Save</button>
                         </div>
+                        <span style="color: red">@errormsg</span>
                     </div>
                 </div>
                 @if (products == null)
@@ -220,6 +221,7 @@
         try
         {
             await productService.DeleteProductAsync(id.ToString());
+            errormsg = "";
         }
         catch (Exception e)
         {
@@ -251,12 +253,13 @@
             _price = productToFind.Price.ToString();
             _description = productToFind.Description;
             onDisable();
+            errormsg = "";
         }
 
         catch (Exception e)
         {
             Console.WriteLine(e);
-            throw;
+            errormsg = e.Message;
         }
     }
 
@@ -286,6 +289,7 @@
             _description = "";
             
             products = await productService.GetProductsAsync();
+            errormsg = "";
         }
         catch (Exception e)
         {

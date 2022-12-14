@@ -27,6 +27,7 @@
     <div class="col-md-2">
         <button class="btn btn-primary" @onclick="() => searchProduct(searchField)">Search</button>
     </div>
+    <span style="color: red">@errormsg</span>
 </div>
 
 
@@ -153,6 +154,7 @@
             };
 
             await cartService.AddToCartAsync(dto);
+            errormsg = "";
         }
         catch (Exception e)
         {
@@ -197,7 +199,7 @@
                 products = await productService.GetProductsByNameAsync(searchString);
                 searchField = "";    
             }
-
+            errormsg = "";
         }
         catch (Exception e)
         {

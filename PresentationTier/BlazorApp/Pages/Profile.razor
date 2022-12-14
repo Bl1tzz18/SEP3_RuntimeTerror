@@ -147,6 +147,7 @@
               <input type="text" id="card-ccv" maxlength="3"/>
             </fieldset>
             <button type="button" class="btn" @onclick="() => AddCreditsAsync(creditsToAdd)" > submit</button>
+            <span style="color: red">@errormsg</span>
           </form>
         </div>
         
@@ -258,6 +259,8 @@
   private String zip;
   private String street;
 
+  private string errormsg = "";
+
   
   private int creditsToAdd;
 
@@ -309,11 +312,12 @@
       };
 
       await AuthService.EditProfileData(dto);
+      errormsg = "";
     }
     catch (Exception e)
     {
       Console.WriteLine(e);
-      throw;
+      errormsg = e.Message;
     }
   }
 
@@ -336,11 +340,12 @@
     try
     {
       await AuthService.AddCreditsAsync(creditsToAdd, name);
+      errormsg = "";
     }
     catch (Exception e)
     {
       Console.WriteLine(e);
-      throw;
+      errormsg = e.Message;
     }
   }
   
