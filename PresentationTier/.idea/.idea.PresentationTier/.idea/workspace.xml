@@ -6,51 +6,209 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc8e711b-d5a5-453e-afdc-088fa1e7375f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/GrpcClient/obj/Debug/net6.0/GrpcClient.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LogicTier/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_12_27_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_12_27_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTier/DataAccess/target/DataAccess-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Application3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/BlazorApp4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/CVPG4y12.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/F+O94vIZ.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/GrpcClient2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/HttpClients5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared5.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared7.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/Shared7.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/WebAPI1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/fNMe5xli.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/hjxpJRoX.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/project.nuget5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_11_09_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_4_16_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_4_16_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_9_47_PM_[Changes]/DataAccess-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_9_47_PM_[Changes]/DataAccess-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_9_47_PM_[Changes]/Protobuf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_9_47_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2022_9_47_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Application3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/BlazorApp4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/CVPG4y12.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/F+O94vIZ.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/GrpcClient2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/HttpClients5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.dll.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared5.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared7.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/Shared7.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/WebAPI1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/fNMe5xli.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/hjxpJRoX.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/project.nuget5.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/shelf/Uncommitted_changes_before_Update_at_12_8_2022_12_52_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PresentationTier/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/AddProductPage.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/AddProductPage.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/AdminPage.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/AdminPage.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/Cart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/Cart.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/Login.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/Login.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/Products.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/Products.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Pages/Profile.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Pages/Profile.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/BlazorApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/HttpClients.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.dll.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/BlazorApp.pdb.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.dll.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/HttpClients.pdb.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/BlazorApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/CdDW+srl.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/CdDW+srl.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/RntvwtK0.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/RntvwtK0.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/URNApk2+.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/URNApk2+.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/ld+ZPf8y.gz" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/build-gz/ld+ZPf8y.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/ref/BlazorApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/Debug/net6.0/refint/BlazorApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/ClientImpl/UserHttpClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/bin/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/bin/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/bin/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/bin/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/ref/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/ref/HttpClients.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/refint/HttpClients.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/refint/HttpClients.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/obj/Debug/net6.0/HttpClients.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +322,9 @@
       <workItem from="1670730085964" duration="6481000" />
       <workItem from="1670882697066" duration="1528000" />
       <workItem from="1670885048148" duration="15486000" />
-      <workItem from="1670992642123" duration="7241000" />
+      <workItem from="1670992642123" duration="7299000" />
+      <workItem from="1671073179116" duration="4937000" />
+      <workItem from="1671147036571" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1670113194469</created>

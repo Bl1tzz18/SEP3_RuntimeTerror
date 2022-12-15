@@ -104,15 +104,21 @@
     private string errormsg = "";
 
     private int _productId;
-    private string _productImagePath;
-    private string _name;
-    private string _category;
-    private string _inStock;
-    private string _price;
-    private string _description;
+    private string _productImagePath= "";
+    private string _name= "";
+    private string _category= "";
+    private string _inStock= "";
+    private string _price= "";
+    private string _description= "";
 
     async Task onAddProductButton()
     {
+        if (_name == "" || _price == "" || _inStock == "" || _description == "" || _category == "" || _productImagePath == "")
+        {
+            errormsg = "All fields are required";
+            return;
+        }
+        
         try
         {
             ProductCreationDTO productToCreate = new ProductCreationDTO
